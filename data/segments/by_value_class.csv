@@ -1,0 +1,5 @@
+Customer_Value_Class,Customers,Attrited,Attrition_Rate,Avg_Credit_Limit,Avg_Utilisation,Avg_Trans_Amt,Avg_Trans_Ct,Avg_Products
+Bronze,1718,684,0.3981,2797.17,0.37,2339.06,46.95,3.05
+Silver,5404,668,0.1236,6919.94,0.31,4010.07,63.56,3.76
+Gold,2302,185,0.0804,14752.81,0.16,6353.41,77.39,3.97
+Platinum,703,90,0.128,16008.45,0.11,6096.28,77.54,5.51

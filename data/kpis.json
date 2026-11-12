@@ -1,0 +1,261 @@
+{
+  "kpis": {
+    "attrition_rate": 0.1606596227905599,
+    "attrited_customers": 1627,
+    "total_customers": 10127,
+    "engaged_customer_ratio": 0.49412461735953395,
+    "card_dormancy_rate": 0.24390243902439024,
+    "avg_credit_limit": 8631.953698034955,
+    "median_credit_limit": 4549.0,
+    "avg_utilisation_ratio": 0.27489355189098447,
+    "total_trans_amount_portfolio": 44600182.0,
+    "avg_trans_amount_per_customer": 4404.086303939963,
+    "avg_trans_ct_per_customer": 64.85869457884863,
+    "avg_products_per_customer": 3.8125802310654686,
+    "avg_revolving_balance": 1162.8140614199665,
+    "high_risk_share": 0.12688851584872124,
+    "high_risk_customers": 1285
+  },
+  "attrited_vs_existing": [
+    {
+      "Attrition_Flag": "Attrited Customer",
+      "n": 1627,
+      "avg_credit_limit": 8136.039,
+      "avg_utilisation": 0.162,
+      "avg_trans_amt": 3095.026,
+      "avg_trans_ct": 44.934,
+      "avg_products": 3.28,
+      "avg_revolving_bal": 672.823,
+      "avg_months_inactive": 2.693,
+      "avg_contacts": 2.972,
+      "avg_ct_chg_q4q1": 0.554,
+      "avg_amt_chg_q4q1": 0.694
+    },
+    {
+      "Attrition_Flag": "Existing Customer",
+      "n": 8500,
+      "avg_credit_limit": 8726.878,
+      "avg_utilisation": 0.296,
+      "avg_trans_amt": 4654.656,
+      "avg_trans_ct": 68.673,
+      "avg_products": 3.915,
+      "avg_revolving_bal": 1256.604,
+      "avg_months_inactive": 2.274,
+      "avg_contacts": 2.356,
+      "avg_ct_chg_q4q1": 0.742,
+      "avg_amt_chg_q4q1": 0.773
+    }
+  ],
+  "welch_tests": {
+    "Credit_Limit": {
+      "attrited_mean": 8136.039,
+      "existing_mean": 8726.878,
+      "difference": -590.838,
+      "welch_t": -2.4,
+      "p_value": 0.01642962859130224
+    },
+    "Avg_Utilization_Ratio": {
+      "attrited_mean": 0.162,
+      "existing_mean": 0.296,
+      "difference": -0.134,
+      "welch_t": -18.62,
+      "p_value": 2.7820744076113424e-72
+    },
+    "Total_Trans_Amt": {
+      "attrited_mean": 3095.026,
+      "existing_mean": 4654.656,
+      "difference": -1559.63,
+      "welch_t": -22.69,
+      "p_value": 6.349082122481735e-106
+    },
+    "Total_Trans_Ct": {
+      "attrited_mean": 44.934,
+      "existing_mean": 68.673,
+      "difference": -23.739,
+      "welch_t": -54.14,
+      "p_value": 0.0
+    },
+    "Total_Relationship_Count": {
+      "attrited_mean": 3.28,
+      "existing_mean": 3.915,
+      "difference": -0.635,
+      "welch_t": -14.94,
+      "p_value": 3.225023329499357e-48
+    },
+    "Total_Revolving_Bal": {
+      "attrited_mean": 672.823,
+      "existing_mean": 1256.604,
+      "difference": -583.781,
+      "welch_t": -24.05,
+      "p_value": 7.089719115628567e-113
+    },
+    "Months_Inactive_12_mon": {
+      "attrited_mean": 2.693,
+      "existing_mean": 2.274,
+      "difference": 0.42,
+      "welch_t": 16.86,
+      "p_value": 1.717552899128953e-60
+    },
+    "Contacts_Count_12_mon": {
+      "attrited_mean": 2.972,
+      "existing_mean": 2.356,
+      "difference": 0.616,
+      "welch_t": 20.9,
+      "p_value": 6.68731202643134e-89
+    },
+    "Total_Ct_Chng_Q4_Q1": {
+      "attrited_mean": 0.554,
+      "existing_mean": 0.742,
+      "difference": -0.188,
+      "welch_t": -30.61,
+      "p_value": 7.156055800934388e-173
+    },
+    "Customer_Age": {
+      "attrited_mean": 46.659,
+      "existing_mean": 46.262,
+      "difference": 0.397,
+      "welch_t": 1.9,
+      "p_value": 0.05771863257633864
+    },
+    "Months_on_book": {
+      "attrited_mean": 36.178,
+      "existing_mean": 35.881,
+      "difference": 0.298,
+      "welch_t": 1.4,
+      "p_value": 0.16038505264259173
+    }
+  },
+  "chi_square": {
+    "Card_Category": {
+      "chi2": 2.23,
+      "p_value": 0.5252382797994759,
+      "dof": 3
+    },
+    "Income_Category": {
+      "chi2": 12.83,
+      "p_value": 0.025002425704390645,
+      "dof": 5
+    },
+    "Education_Level": {
+      "chi2": 12.51,
+      "p_value": 0.05148913147336633,
+      "dof": 6
+    },
+    "Marital_Status": {
+      "chi2": 6.06,
+      "p_value": 0.1089126339484023,
+      "dof": 3
+    },
+    "Gender": {
+      "chi2": 13.87,
+      "p_value": 0.00019635846717310307,
+      "dof": 1
+    }
+  },
+  "risk_bands": [
+    {
+      "Churn_Risk_Band": "Low",
+      "Customers": 3286,
+      "Attrited": 53,
+      "Attrition_Rate": 0.0161,
+      "Avg_Credit_Limit": 6289.3003,
+      "Avg_Utilisation": 0.4034,
+      "Avg_Trans_Ct": 73.2395,
+      "Avg_Products": 4.3886,
+      "Share_of_Base": 0.3245
+    },
+    {
+      "Churn_Risk_Band": "Medium",
+      "Customers": 5556,
+      "Attrited": 684,
+      "Attrition_Rate": 0.1231,
+      "Avg_Credit_Limit": 9895.5919,
+      "Avg_Utilisation": 0.248,
+      "Avg_Trans_Ct": 64.5713,
+      "Avg_Products": 3.6712,
+      "Share_of_Base": 0.5486
+    },
+    {
+      "Churn_Risk_Band": "High",
+      "Customers": 1285,
+      "Attrited": 890,
+      "Attrition_Rate": 0.6926,
+      "Avg_Credit_Limit": 9158.9461,
+      "Avg_Utilisation": 0.0626,
+      "Avg_Trans_Ct": 44.67,
+      "Avg_Products": 2.951,
+      "Share_of_Base": 0.1269
+    }
+  ],
+  "risk_score_weights": {
+    "utilisation_zero_or_le010": [
+      2,
+      1
+    ],
+    "months_inactive_ge4_or_2to3": [
+      2,
+      1
+    ],
+    "trans_ct_lt45_or_le67": [
+      2,
+      1
+    ],
+    "ct_chg_q4q1_lt075_or_le10": [
+      2,
+      1
+    ],
+    "products_le2_or_eq3": [
+      2,
+      1
+    ],
+    "contacts_ge4_or_2to3": [
+      2,
+      1
+    ],
+    "max_score": 12,
+    "bands": "Low<=4, Medium 5-7, High>=8"
+  },
+  "model": {
+    "features": [
+      "Total_Relationship_Count",
+      "Months_Inactive_12_mon",
+      "Contacts_Count_12_mon",
+      "Credit_Limit",
+      "Total_Revolving_Bal",
+      "Avg_Utilization_Ratio",
+      "Total_Trans_Amt",
+      "Total_Trans_Ct",
+      "Total_Ct_Chng_Q4_Q1",
+      "Total_Amt_Chng_Q4_Q1"
+    ],
+    "auc": 0.912,
+    "accuracy": 0.896,
+    "coefficients": {
+      "Total_Relationship_Count": -0.764,
+      "Months_Inactive_12_mon": 0.505,
+      "Contacts_Count_12_mon": 0.521,
+      "Credit_Limit": -0.084,
+      "Total_Revolving_Bal": -0.783,
+      "Avg_Utilization_Ratio": -0.019,
+      "Total_Trans_Amt": 1.42,
+      "Total_Trans_Ct": -2.519,
+      "Total_Ct_Chng_Q4_Q1": -0.662,
+      "Total_Amt_Chng_Q4_Q1": -0.087
+    },
+    "odds_ratios": {
+      "Total_Relationship_Count": 0.47,
+      "Months_Inactive_12_mon": 1.66,
+      "Contacts_Count_12_mon": 1.68,
+      "Credit_Limit": 0.92,
+      "Total_Revolving_Bal": 0.46,
+      "Avg_Utilization_Ratio": 0.98,
+      "Total_Trans_Amt": 4.14,
+      "Total_Trans_Ct": 0.08,
+      "Total_Ct_Chng_Q4_Q1": 0.52,
+      "Total_Amt_Chng_Q4_Q1": 0.92
+    },
+    "train_n": 7088,
+    "test_n": 3039,
+    "random_state": 42
+  }
+}

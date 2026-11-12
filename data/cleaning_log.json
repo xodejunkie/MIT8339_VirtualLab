@@ -1,0 +1,113 @@
+{
+  "dataset": "Credit Card Customers (BankChurners) - Kaggle sakshigoyal7/credit-card-customers",
+  "mirror_source": "https://raw.githubusercontent.com/EfemenaIK/Bank-Customer-Churn/main/BankChurners.csv",
+  "before": {
+    "rows": 10127,
+    "cols": 23,
+    "duplicate_clientnum": 0,
+    "full_duplicate_rows": 0,
+    "missing_cells_total": 0,
+    "missing_by_col": {},
+    "dtypes": {
+      "CLIENTNUM": "int64",
+      "Attrition_Flag": "str",
+      "Customer_Age": "int64",
+      "Gender": "str",
+      "Dependent_count": "int64",
+      "Education_Level": "str",
+      "Marital_Status": "str",
+      "Income_Category": "str",
+      "Card_Category": "str",
+      "Months_on_book": "int64",
+      "Total_Relationship_Count": "int64",
+      "Months_Inactive_12_mon": "int64",
+      "Contacts_Count_12_mon": "int64",
+      "Credit_Limit": "float64",
+      "Total_Revolving_Bal": "int64",
+      "Avg_Open_To_Buy": "float64",
+      "Total_Amt_Chng_Q4_Q1": "float64",
+      "Total_Trans_Amt": "int64",
+      "Total_Trans_Ct": "int64",
+      "Total_Ct_Chng_Q4_Q1": "float64",
+      "Avg_Utilization_Ratio": "float64",
+      "Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1": "float64",
+      "Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2": "float64"
+    }
+  },
+  "unknown_labels": {
+    "Education_Level": 1519,
+    "Marital_Status": 749,
+    "Income_Category": 1112
+  },
+  "outliers_iqr": {
+    "Credit_Limit": {
+      "count": 984,
+      "low": -10213.75,
+      "high": 23836.25
+    },
+    "Total_Revolving_Bal": {
+      "count": 0,
+      "low": -1778.5,
+      "high": 3921.5
+    },
+    "Total_Trans_Amt": {
+      "count": 896,
+      "low": -1722.75,
+      "high": 8619.25
+    },
+    "Total_Trans_Ct": {
+      "count": 2,
+      "low": -9.0,
+      "high": 135.0
+    },
+    "Avg_Utilization_Ratio": {
+      "count": 0,
+      "low": -0.697,
+      "high": 1.2229999999999999
+    },
+    "Customer_Age": {
+      "count": 2,
+      "low": 24.5,
+      "high": 68.5
+    },
+    "Months_on_book": {
+      "count": 386,
+      "low": 17.5,
+      "high": 53.5
+    },
+    "Total_Amt_Chng_Q4_Q1": {
+      "count": 396,
+      "low": 0.28900000000000003,
+      "high": 1.201
+    },
+    "Total_Ct_Chng_Q4_Q1": {
+      "count": 394,
+      "low": 0.22799999999999998,
+      "high": 1.172
+    }
+  },
+  "columns_dropped": [
+    "Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_1",
+    "Naive_Bayes_Classifier_Attrition_Flag_Card_Category_Contacts_Count_12_mon_Dependent_count_Education_Level_Months_Inactive_12_mon_2"
+  ],
+  "columns_added": [
+    "Is_Attrited",
+    "Age_Band",
+    "Income_Segment",
+    "Utilisation_Band",
+    "Transaction_Frequency",
+    "Customer_Value_Class"
+  ],
+  "transaction_quartiles": {
+    "Q1": 45.0,
+    "Q2": 67.0,
+    "Q3": 81.0
+  },
+  "after": {
+    "rows": 10127,
+    "cols": 27,
+    "missing_cells_total": 0,
+    "duplicate_clientnum": 0
+  },
+  "attrition_rate_overall": 0.1606596227905599
+}

@@ -1,0 +1,7 @@
+Income_Segment,Blue,Gold,Platinum,Silver
+High (>$120K),0.175,0.111,0.0,0.183
+Low (<$40K),0.172,0.167,0.5,0.154
+Lower-Middle ($40-60K),0.153,0.133,1.0,0.111
+Middle ($60-80K),0.135,0.207,0.0,0.115
+Not Declared,0.168,0.222,0.4,0.132
+Upper-Middle ($80-120K),0.154,0.238,0.0,0.188

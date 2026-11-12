@@ -1,0 +1,17 @@
+Stage,Issue / check,Evidence (before),Decision,After / outcome,Justification
+1. Acquisition,Dataset selection,Kaggle BankChurners (23 cols; 10,127 rows),Use primary recommended dataset via public mirror,Identical schema loaded locally,Matches banking attrition scenario; Maven alternative lacks utilisation/transaction fields
+2. Profiling,Missing values (NaN),0 missing cells,No imputation,0 missing cells,No true missingness to treat
+2. Profiling,Duplicate keys,0 duplicate CLIENTNUM; 0 full-row duplicates,No de-duplication,0 duplicates,Keys already unique
+2. Profiling,"Masked 'Unknown' labels (Education 1,519; Income 1,112; Marital 749)",Structurally missing categoricals,Retain as explicit categories; map Income Unknown → Not Declared,Counts unchanged; Income_Segment = Not Declared for 1,112,Imputation would fabricate socioeconomic attributes and bias income segmentation
+2. Profiling,Leaked model features,2 Naive_Bayes_Classifier_* columns present,Drop both columns,21 base fields remain before derived adds,Pre-fitted classifier outputs leak prediction into BI features
+2. Profiling,IQR outliers – Credit_Limit,984 above/below 1.5×IQR fences,Retain,984 retained,Genuine premium-card customers; capping would distort average credit-limit KPI
+2. Profiling,IQR outliers – Total_Trans_Amt,896 flagged,Retain,896 retained,Genuine heavy transactors; capping would distort spend KPIs
+2. Profiling,IQR outliers – Avg_Utilization_Ratio,0 flagged,Retain (no capping rule),Key dormancy signal preserved,Utilisation is a primary risk driver; must not be winsorised
+2. Profiling,Customer_Age range,26–73,No correction,26–73,Plausible adult cardholder range
+3. Standardisation,Header / label hygiene,Mixed whitespace in categoricals,Strip headers and categorical strings,Standardised labels,Prevents false segment splits from trailing spaces
+3. Encoding,Target for analysis,Attrition_Flag string,Create Is_Attrited (0/1),Binary target added,Enables rates; t-tests; risk scoring; dashboard formulas
+4. Feature engineering,Demographics for filters,Raw age / income category,Create Age_Band; Income_Segment,Filter-ready segments,Supports dashboard slicers and demographic comparison
+4. Feature engineering,Behaviour bands,Raw utilisation / transaction count,Create Utilisation_Band; Transaction_Frequency (quartiles Q1=45; Q2=67; Q3=81),Four activity bands; five utilisation bands,Operationalises engagement cliff and dormancy patterns
+4. Feature engineering,Value segmentation,"Spend + credit limit + products",Composite tercile → Customer_Value_Class (Bronze–Platinum),Four value classes,Links engagement depth to attrition (Bronze 39.8%)
+4. Feature engineering,Retention risk,Six behavioural rules (0–2 pts each),Create Risk_Score (0–12) and Churn_Risk_Band (Low/Med/High),High band = 12.7% of base; 54.7% of churn,Transparent; explainable targeting list for management
+5. Export / evidence,Reproducibility artefacts,In-memory frames only,"Export cleaned CSV; scored CSV; quality_checks.csv; cleaning_log.json; dashboard Cleaning_Log sheet",Artefacts in data/ and outputs/,Satisfies cleaned-dataset + before/after evidence deliverables

@@ -1,0 +1,4 @@
+Churn_Risk_Band,Customers,Attrited,Attrition_Rate,Avg_Credit_Limit,Avg_Utilisation,Avg_Trans_Ct,Avg_Products,Share_of_Base
+Low,3286,53,0.0161,6289.3003,0.4034,73.2395,4.3886,0.3245
+Medium,5556,684,0.1231,9895.5919,0.248,64.5713,3.6712,0.5486
+High,1285,890,0.6926,9158.9461,0.0626,44.67,2.951,0.1269

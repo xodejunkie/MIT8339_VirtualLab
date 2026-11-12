@@ -1,0 +1,6 @@
+Utilisation_Band,Customers,Attrited,Attrition_Rate,Avg_Credit_Limit,Avg_Utilisation,Avg_Trans_Amt,Avg_Trans_Ct,Avg_Products
+0% (Non-revolver),2470,893,0.3615,8039.11,0.0,4000.15,61.43,3.73
+0-10% (Low),1583,176,0.1112,23328.57,0.06,5345.4,68.12,3.68
+10-30% (Moderate),2200,209,0.095,8631.83,0.19,4778.97,65.96,3.78
+30-50% (Elevated),1329,121,0.091,3826.18,0.4,4452.83,66.18,3.85
+>50% (High),2545,228,0.0896,2575.65,0.68,3861.09,64.52,3.98

@@ -1,0 +1,7 @@
+Income_Segment,Blue,Gold,Platinum,Silver
+High (>$120K),645,18,4,60
+Low (<$40K),3403,24,4,130
+Lower-Middle ($40-60K),1675,15,1,99
+Middle ($60-80K),1273,29,4,96
+Not Declared,1045,9,5,53
+Upper-Middle ($80-120K),1395,21,2,117

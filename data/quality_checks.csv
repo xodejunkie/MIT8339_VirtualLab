@@ -1,0 +1,12 @@
+Check,Before,After,Treatment / Justification
+Rows,10127,10127,No rows removed - duplicates absent
+Columns,23,27,Dropped 2 leaked Naive Bayes columns; added 6 analytical fields
+Missing cells (NaN),0,0,None at both stages; 'Unknown' labels treated as explicit category
+Duplicate CLIENTNUM,0,0,None at both stages
+Education_Level 'Unknown',1519,1519,Retained as explicit 'Not Declared' style category - imputation would fabricate data
+Marital_Status 'Unknown',749,749,Retained as explicit category
+Income_Category 'Unknown',1112,1112,Retained and mapped to 'Not Declared' income segment
+Credit_Limit IQR outliers,984,984,Retained - genuine premium-card customers
+Total_Trans_Amt IQR outliers,896,896,Retained - genuine heavy transactors
+Avg_Utilization_Ratio IQR outliers,0,0,"Retained - key risk signal, do not cap"
+Customer_Age range,26-73,26-73,"Plausible range, no correction needed"

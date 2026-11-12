@@ -1,0 +1,5 @@
+Transaction_Frequency,Customers,Attrited,Attrition_Rate,Avg_Credit_Limit,Avg_Utilisation,Avg_Trans_Amt,Avg_Trans_Ct,Avg_Products
+Low,2611,968,0.3707,8221.34,0.26,1716.49,34.67,4.04
+Moderate,2512,514,0.2046,8925.69,0.26,3338.78,57.81,4.12
+High,2662,119,0.0447,7605.17,0.31,4503.88,74.54,3.99
+Very High,2342,26,0.0111,9941.75,0.27,8429.58,95.07,3.02

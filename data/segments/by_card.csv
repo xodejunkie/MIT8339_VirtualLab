@@ -1,0 +1,5 @@
+Card_Category,Customers,Attrited,Attrition_Rate,Avg_Credit_Limit,Avg_Utilisation,Avg_Trans_Amt,Avg_Trans_Ct,Avg_Products
+Blue,9436,1519,0.161,7363.78,0.29,4225.41,64.03,3.85
+Silver,555,82,0.1477,25277.84,0.06,6590.48,74.7,3.42
+Gold,116,21,0.181,28416.37,0.06,7685.61,81.52,3.01
+Platinum,20,5,0.25,30283.45,0.04,8999.75,86.95,2.3
