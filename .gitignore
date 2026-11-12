@@ -6,3 +6,8 @@ __pycache__/
 venv/
 *.egg-info/
 data/figs/orig_fig_candidate*.png
+
+# Word report and its build script are kept local, not in the repo
+*.docx
+~$*.docx
+scripts/05_build_report_docx.py
