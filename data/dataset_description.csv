@@ -4,13 +4,14 @@ Primary source,"Goyal, S. (2021). Kaggle – sakshigoyal7/credit-card-customers"
 Acquisition method,Downloaded via public mirror of the identical Kaggle file (GitHub raw CSV)
 Records (rows),10127
 Raw columns,23
-Cleaned columns,27 (2 leaked Naive Bayes columns dropped; 6 analytical fields added)
+Cleaned columns (Task 2 export),27 (2 leaked Naive Bayes columns dropped; 6 analytical fields added)
+Scored columns (after risk scoring),30 (adds Risk_Score; Risk_Score_Pct; Churn_Risk_Band)
 Target variable,"Attrition_Flag (Attrited Customer = 1,627; Existing Customer = 8,500)"
 Domain coverage,"Demographics, product holding, credit utilisation, 12-month transaction behaviour, inactivity, service contacts"
-Business scenario fit,Supports retail-card attrition analysis; retention segmentation; KPI development; risk scoring; dashboard design
+Currency / geography note,"Dollar-denominated fields; dataset is a public proxy benchmark — not verified Nigerian bank operational data"
+Business scenario fit,Used to demonstrate the BI/DSS workflow for a Nigerian retail-card retention scenario
 Alternative considered,"Maven Analytics Bank Customer Churn – rejected (lacks transaction count/amount and utilisation fields required by the scenario)"
 Unit of analysis,Individual credit-card customer (CLIENTNUM)
 Time window,Cross-sectional snapshot with 12-month behavioural aggregates (incl. Q4/Q1 momentum ratios)
-Geographic framing,Applied to a Nigerian commercial-bank retail-card retention scenario (lab assignment)
 Licence / citation,Public Kaggle dataset; cited APA 7th in the analytical report
-Pipeline outputs,"cleaned_dataset.csv; cleaned_dataset_scored.csv; quality_checks.csv; Excel dashboard; segment tables"
+Pipeline outputs,"cleaned_dataset.csv (27 cols); cleaned_dataset_scored.csv (30 cols); quality_checks.csv; Excel dashboard; segment tables"

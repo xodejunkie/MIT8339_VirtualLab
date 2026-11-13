@@ -288,7 +288,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 720272958,Attrited Customer,48,M,2,High School,Married,$120K +,Blue,36,3,3,3,27126.0,0,27126.0,0.953,1000,25,0.786,0.0,1,45-54,High (>$120K),0% (Non-revolver),Low,Silver
 708421833,Existing Customer,45,F,4,Graduate,Single,Less than $40K,Blue,36,6,3,2,3342.0,2517,825.0,0.771,1139,30,0.765,0.753,0,45-54,Low (<$40K),>50% (High),Low,Silver
 709173108,Attrited Customer,54,F,4,Graduate,Married,Unknown,Blue,40,6,2,2,2532.0,2221,311.0,0.491,799,21,0.235,0.877,1,45-54,Not Declared,>50% (High),Low,Silver
-709879458,Existing Customer,54,F,3,Doctorate,Married,Unknown,Blue,46,2,2,3,1900.0,1376,524.0,0.89,1881,45,0.607,0.724,0,45-54,Not Declared,>50% (High),Low,Bronze
+709879458,Existing Customer,54,F,3,Doctorate,Married,Unknown,Blue,46,2,2,3,1900.0,1376,524.0,0.89,1881,45,0.607,0.724,0,45-54,Not Declared,>50% (High),Moderate,Bronze
 715120608,Existing Customer,44,M,3,Graduate,Single,$60K - $80K,Blue,37,2,3,2,14546.0,1703,12843.0,0.955,1273,27,0.588,0.117,0,35-44,Middle ($60-80K),10-30% (Moderate),Low,Silver
 770632758,Existing Customer,50,F,4,Doctorate,Single,Unknown,Blue,36,2,3,2,2521.0,1608,913.0,0.587,1328,33,0.571,0.638,0,45-54,Not Declared,>50% (High),Low,Bronze
 779078733,Existing Customer,55,M,2,Doctorate,Married,$60K - $80K,Blue,36,3,4,3,16427.0,1682,14745.0,0.631,1579,36,1.118,0.102,0,55-64,Middle ($60-80K),10-30% (Moderate),Low,Silver
@@ -440,7 +440,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 721333233,Existing Customer,40,M,4,Doctorate,Divorced,$60K - $80K,Blue,34,4,2,3,23138.0,1727,21411.0,0.693,1612,39,1.438,0.075,0,35-44,Middle ($60-80K),0-10% (Low),Low,Silver
 794496033,Existing Customer,57,M,2,Unknown,Single,$80K - $120K,Blue,38,6,1,3,23008.0,2280,20728.0,0.674,1302,36,0.636,0.099,0,55-64,Upper-Middle ($80-120K),0-10% (Low),Low,Gold
 710519433,Existing Customer,48,M,1,Unknown,Divorced,$80K - $120K,Blue,36,3,1,0,3131.0,2517,614.0,0.602,1439,40,0.481,0.804,0,45-54,Upper-Middle ($80-120K),>50% (High),Low,Bronze
-814995933,Existing Customer,58,F,3,Graduate,Married,Less than $40K,Blue,53,5,3,2,5798.0,1794,4004.0,0.564,1724,45,0.452,0.309,0,55-64,Low (<$40K),30-50% (Elevated),Low,Silver
+814995933,Existing Customer,58,F,3,Graduate,Married,Less than $40K,Blue,53,5,3,2,5798.0,1794,4004.0,0.564,1724,45,0.452,0.309,0,55-64,Low (<$40K),30-50% (Elevated),Moderate,Silver
 721469433,Existing Customer,48,M,3,Graduate,Single,$40K - $60K,Blue,36,5,2,3,6880.0,1390,5490.0,1.205,1784,35,0.944,0.202,0,45-54,Lower-Middle ($40-60K),10-30% (Moderate),Low,Silver
 788386908,Existing Customer,48,M,3,Graduate,Unknown,$80K - $120K,Platinum,41,3,2,2,34516.0,1531,32985.0,0.862,1156,29,1.071,0.044,0,45-54,Upper-Middle ($80-120K),0-10% (Low),Low,Silver
 717198633,Existing Customer,53,F,2,College,Married,$40K - $60K,Blue,34,6,2,1,2075.0,1469,606.0,1.322,2556,49,1.13,0.708,0,45-54,Lower-Middle ($40-60K),>50% (High),Moderate,Silver
@@ -515,7 +515,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 768600558,Existing Customer,41,F,4,Graduate,Single,$40K - $60K,Blue,31,4,2,3,2375.0,1658,717.0,0.638,1071,28,1.0,0.698,0,35-44,Lower-Middle ($40-60K),>50% (High),Low,Bronze
 710202783,Existing Customer,33,M,2,Graduate,Married,$60K - $80K,Blue,13,3,3,3,1963.0,1721,242.0,0.68,1378,37,0.762,0.877,0,26-34,Middle ($60-80K),>50% (High),Low,Bronze
 712899333,Existing Customer,47,F,4,College,Single,Less than $40K,Blue,37,6,2,2,4256.0,1084,3172.0,0.63,1100,29,0.381,0.255,0,45-54,Low (<$40K),10-30% (Moderate),Low,Silver
-767036433,Existing Customer,56,F,1,Graduate,Married,Less than $40K,Blue,49,5,1,0,5097.0,1152,3945.0,0.94,2052,45,0.607,0.226,0,55-64,Low (<$40K),10-30% (Moderate),Low,Silver
+767036433,Existing Customer,56,F,1,Graduate,Married,Less than $40K,Blue,49,5,1,0,5097.0,1152,3945.0,0.94,2052,45,0.607,0.226,0,55-64,Low (<$40K),10-30% (Moderate),Moderate,Silver
 793473033,Existing Customer,51,M,1,Graduate,Single,$60K - $80K,Blue,45,3,2,3,3228.0,2517,711.0,0.949,1349,33,1.357,0.78,0,45-54,Middle ($60-80K),>50% (High),Low,Bronze
 721232058,Existing Customer,49,M,1,Graduate,Unknown,$40K - $60K,Silver,41,6,1,3,20231.0,977,19254.0,0.893,1215,36,0.714,0.048,0,45-54,Lower-Middle ($40-60K),0-10% (Low),Low,Gold
 719443683,Attrited Customer,50,M,1,Unknown,Single,$120K +,Blue,39,3,2,3,27512.0,2137,25375.0,1.048,1149,25,0.562,0.078,1,45-54,High (>$120K),0-10% (Low),Low,Silver
@@ -568,7 +568,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 709446783,Existing Customer,46,M,4,Graduate,Single,$60K - $80K,Blue,38,3,3,2,4335.0,2480,1855.0,0.543,1373,36,1.118,0.572,0,45-54,Middle ($60-80K),>50% (High),Low,Bronze
 789115833,Existing Customer,44,M,4,High School,Single,$60K - $80K,Blue,32,5,3,2,3233.0,1034,2199.0,0.759,1256,29,0.706,0.32,0,35-44,Middle ($60-80K),30-50% (Elevated),Low,Silver
 711242058,Attrited Customer,48,M,4,Unknown,Single,$80K - $120K,Blue,36,1,3,1,11862.0,2517,9345.0,0.766,643,16,0.231,0.212,1,45-54,Upper-Middle ($80-120K),10-30% (Moderate),Low,Silver
-787623858,Existing Customer,43,M,2,Uneducated,Divorced,$120K +,Silver,24,4,2,0,34516.0,1938,32578.0,0.426,1215,45,0.406,0.056,0,35-44,High (>$120K),0-10% (Low),Low,Silver
+787623858,Existing Customer,43,M,2,Uneducated,Divorced,$120K +,Silver,24,4,2,0,34516.0,1938,32578.0,0.426,1215,45,0.406,0.056,0,35-44,High (>$120K),0-10% (Low),Moderate,Silver
 709040508,Existing Customer,57,M,4,Uneducated,Married,$120K +,Blue,38,6,6,2,19802.0,1961,17841.0,1.125,2244,58,0.706,0.099,0,55-64,High (>$120K),0-10% (Low),Moderate,Gold
 708864708,Existing Customer,46,M,3,College,Unknown,$80K - $120K,Blue,36,4,2,2,24869.0,1729,23140.0,0.408,1409,36,0.5,0.07,0,45-54,Upper-Middle ($80-120K),0-10% (Low),Low,Silver
 717758583,Existing Customer,40,M,3,High School,Unknown,$60K - $80K,Blue,36,4,2,1,3624.0,1975,1649.0,0.708,1469,23,1.091,0.545,0,35-44,Middle ($60-80K),>50% (High),Low,Silver
@@ -581,7 +581,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 712275108,Existing Customer,53,F,3,College,Married,$40K - $60K,Blue,33,4,3,3,5146.0,1618,3528.0,1.073,1955,44,0.76,0.314,0,45-54,Lower-Middle ($40-60K),30-50% (Elevated),Low,Silver
 718121658,Attrited Customer,56,M,1,College,Married,$60K - $80K,Blue,44,5,3,3,1704.0,0,1704.0,0.701,660,17,0.308,0.0,1,55-64,Middle ($60-80K),0% (Non-revolver),Low,Bronze
 711593808,Attrited Customer,55,M,1,High School,Married,$60K - $80K,Blue,46,2,2,3,1438.3,0,1438.3,1.037,888,18,1.25,0.0,1,55-64,Middle ($60-80K),0% (Non-revolver),Low,Bronze
-716222808,Existing Customer,53,F,4,High School,Married,Less than $40K,Blue,36,6,1,3,2974.0,1170,1804.0,1.297,1785,45,1.143,0.393,0,45-54,Low (<$40K),30-50% (Elevated),Low,Silver
+716222808,Existing Customer,53,F,4,High School,Married,Less than $40K,Blue,36,6,1,3,2974.0,1170,1804.0,1.297,1785,45,1.143,0.393,0,45-54,Low (<$40K),30-50% (Elevated),Moderate,Silver
 718731183,Attrited Customer,61,M,1,Unknown,Married,$40K - $60K,Blue,49,1,2,2,5472.0,788,4684.0,0.526,705,14,0.273,0.144,1,55-64,Lower-Middle ($40-60K),10-30% (Moderate),Low,Bronze
 788779008,Existing Customer,57,M,2,High School,Married,$60K - $80K,Blue,38,3,1,2,2736.0,1822,914.0,0.593,1211,25,0.923,0.666,0,55-64,Middle ($60-80K),>50% (High),Low,Bronze
 710404533,Existing Customer,50,M,2,Graduate,Married,$80K - $120K,Blue,37,6,2,1,1438.3,862,576.3,0.65,1391,40,0.212,0.599,0,45-54,Upper-Middle ($80-120K),>50% (High),Low,Silver
@@ -589,7 +589,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 715383108,Existing Customer,52,M,2,Graduate,Single,$120K +,Blue,44,5,1,1,34516.0,2174,32342.0,0.426,1616,50,0.515,0.063,0,45-54,High (>$120K),0-10% (Low),Moderate,Silver
 711697158,Existing Customer,60,M,0,Graduate,Married,Less than $40K,Blue,36,6,2,2,1976.0,1311,665.0,0.995,1498,43,0.536,0.663,0,55-64,Low (<$40K),>50% (High),Low,Silver
 709186983,Existing Customer,49,M,4,Uneducated,Married,$80K - $120K,Blue,40,3,1,1,8714.0,2252,6462.0,0.831,1536,38,0.652,0.258,0,45-54,Upper-Middle ($80-120K),10-30% (Moderate),Low,Silver
-808964433,Existing Customer,46,F,4,Doctorate,Divorced,Less than $40K,Blue,41,4,1,1,8693.0,1378,7315.0,0.799,1594,45,0.452,0.159,0,45-54,Low (<$40K),10-30% (Moderate),Low,Silver
+808964433,Existing Customer,46,F,4,Doctorate,Divorced,Less than $40K,Blue,41,4,1,1,8693.0,1378,7315.0,0.799,1594,45,0.452,0.159,0,45-54,Low (<$40K),10-30% (Moderate),Moderate,Silver
 711948333,Existing Customer,42,M,1,Uneducated,Married,$80K - $120K,Blue,36,6,1,2,9247.0,710,8537.0,0.735,1190,30,0.5,0.077,0,35-44,Upper-Middle ($80-120K),0-10% (Low),Low,Gold
 710541858,Existing Customer,45,M,3,High School,Married,Less than $40K,Blue,33,6,5,0,7717.0,1430,6287.0,0.822,1248,37,0.85,0.185,0,45-54,Low (<$40K),10-30% (Moderate),Low,Silver
 713865333,Attrited Customer,45,F,4,Uneducated,Married,Less than $40K,Blue,38,3,4,3,4908.0,0,4908.0,0.993,827,21,0.75,0.0,1,45-54,Low (<$40K),0% (Non-revolver),Low,Bronze
@@ -600,8 +600,8 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 718675158,Attrited Customer,55,F,1,Unknown,Married,Less than $40K,Blue,36,4,1,3,1438.3,361,1077.3,0.963,850,22,0.692,0.251,1,55-64,Low (<$40K),10-30% (Moderate),Low,Bronze
 710784333,Existing Customer,57,M,2,Unknown,Married,$120K +,Blue,36,3,2,2,23700.0,1314,22386.0,1.487,1644,28,0.647,0.055,0,55-64,High (>$120K),0-10% (Low),Low,Silver
 816596583,Existing Customer,45,M,2,Doctorate,Married,$80K - $120K,Blue,40,6,3,1,11710.0,693,11017.0,0.914,1749,50,0.429,0.059,0,45-54,Upper-Middle ($80-120K),0-10% (Low),Moderate,Gold
-717517758,Existing Customer,57,F,0,High School,Married,$40K - $60K,Blue,45,3,2,2,2278.0,845,1433.0,1.328,2307,45,0.8,0.371,0,55-64,Lower-Middle ($40-60K),30-50% (Elevated),Low,Bronze
-712880283,Existing Customer,31,M,0,Uneducated,Married,$40K - $60K,Blue,22,3,3,0,4048.0,1113,2935.0,0.717,1757,45,0.607,0.275,0,26-34,Lower-Middle ($40-60K),10-30% (Moderate),Low,Bronze
+717517758,Existing Customer,57,F,0,High School,Married,$40K - $60K,Blue,45,3,2,2,2278.0,845,1433.0,1.328,2307,45,0.8,0.371,0,55-64,Lower-Middle ($40-60K),30-50% (Elevated),Moderate,Bronze
+712880283,Existing Customer,31,M,0,Uneducated,Married,$40K - $60K,Blue,22,3,3,0,4048.0,1113,2935.0,0.717,1757,45,0.607,0.275,0,26-34,Lower-Middle ($40-60K),10-30% (Moderate),Moderate,Bronze
 753226158,Existing Customer,34,F,2,Graduate,Married,Less than $40K,Blue,24,6,2,2,3663.0,1853,1810.0,0.963,1826,35,1.059,0.506,0,26-34,Low (<$40K),>50% (High),Low,Silver
 720605808,Attrited Customer,53,F,1,Graduate,Single,Less than $40K,Blue,36,2,2,3,1438.3,0,1438.3,0.672,799,17,0.214,0.0,1,45-54,Low (<$40K),0% (Non-revolver),Low,Bronze
 758317233,Existing Customer,35,F,1,College,Single,Unknown,Blue,28,4,5,2,3518.0,1575,1943.0,0.625,2121,60,0.579,0.448,0,35-44,Not Declared,30-50% (Elevated),Moderate,Silver
@@ -621,7 +621,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 711231558,Existing Customer,58,M,3,High School,Married,$60K - $80K,Blue,40,6,1,3,8308.0,2517,5791.0,1.455,1915,37,1.056,0.303,0,55-64,Middle ($60-80K),30-50% (Elevated),Low,Gold
 716829483,Existing Customer,39,F,3,Post-Graduate,Married,$40K - $60K,Blue,28,4,2,2,3249.0,2217,1032.0,1.06,1988,36,0.895,0.682,0,35-44,Lower-Middle ($40-60K),>50% (High),Low,Silver
 779713608,Existing Customer,52,M,2,High School,Married,$120K +,Blue,36,5,1,2,2981.0,1358,1623.0,1.242,1648,30,1.5,0.456,0,45-54,High (>$120K),30-50% (Elevated),Low,Silver
-711628458,Existing Customer,45,F,3,Graduate,Married,Less than $40K,Blue,31,4,1,0,8829.0,901,7928.0,0.825,1902,45,0.667,0.102,0,45-54,Low (<$40K),10-30% (Moderate),Low,Silver
+711628458,Existing Customer,45,F,3,Graduate,Married,Less than $40K,Blue,31,4,1,0,8829.0,901,7928.0,0.825,1902,45,0.667,0.102,0,45-54,Low (<$40K),10-30% (Moderate),Moderate,Silver
 718943508,Existing Customer,42,M,3,Unknown,Single,$80K - $120K,Blue,33,3,3,2,3714.0,2170,1544.0,0.524,1454,35,0.522,0.584,0,35-44,Upper-Middle ($80-120K),>50% (High),Low,Bronze
 770724558,Attrited Customer,42,M,2,College,Married,$60K - $80K,Blue,28,6,1,3,7340.0,0,7340.0,0.65,838,24,0.412,0.0,1,35-44,Middle ($60-80K),0% (Non-revolver),Low,Silver
 783561558,Existing Customer,57,M,4,Post-Graduate,Married,$120K +,Blue,51,4,2,3,16952.0,0,16952.0,0.709,1918,61,0.649,0.0,0,55-64,High (>$120K),0% (Non-revolver),Moderate,Silver
@@ -636,7 +636,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 812019933,Existing Customer,65,M,1,Uneducated,Married,$40K - $60K,Blue,56,3,3,2,2468.0,2021,447.0,0.906,1797,46,0.586,0.819,0,65+,Lower-Middle ($40-60K),>50% (High),Moderate,Bronze
 708557358,Existing Customer,43,M,2,College,Married,$60K - $80K,Blue,28,4,2,3,22157.0,1355,20802.0,0.69,1911,55,0.571,0.061,0,35-44,Middle ($60-80K),0-10% (Low),Moderate,Silver
 713580633,Existing Customer,46,M,3,Graduate,Married,$40K - $60K,Blue,32,6,2,3,11477.0,0,11477.0,0.767,1260,27,0.688,0.0,0,45-54,Lower-Middle ($40-60K),0% (Non-revolver),Low,Gold
-711466533,Existing Customer,43,F,2,Graduate,Married,Less than $40K,Blue,33,5,2,2,3933.0,852,3081.0,0.433,1489,45,0.324,0.217,0,35-44,Low (<$40K),10-30% (Moderate),Low,Silver
+711466533,Existing Customer,43,F,2,Graduate,Married,Less than $40K,Blue,33,5,2,2,3933.0,852,3081.0,0.433,1489,45,0.324,0.217,0,35-44,Low (<$40K),10-30% (Moderate),Moderate,Silver
 802276683,Existing Customer,56,M,3,Graduate,Married,$80K - $120K,Blue,50,3,3,3,8022.0,1372,6650.0,0.896,1794,31,1.385,0.171,0,55-64,Upper-Middle ($80-120K),10-30% (Moderate),Low,Bronze
 780913308,Existing Customer,43,M,3,Unknown,Single,$60K - $80K,Blue,34,6,2,0,13771.0,2517,11254.0,0.501,1510,42,0.75,0.183,0,35-44,Middle ($60-80K),10-30% (Moderate),Low,Gold
 808897683,Attrited Customer,53,M,1,Graduate,Single,$80K - $120K,Blue,48,3,3,3,30271.0,1406,28865.0,1.336,3231,47,0.306,0.046,1,45-54,Upper-Middle ($80-120K),0-10% (Low),Moderate,Silver
@@ -646,7 +646,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 787621158,Existing Customer,33,M,2,Unknown,Married,$60K - $80K,Blue,25,6,3,3,6242.0,491,5751.0,1.054,2187,59,0.405,0.079,0,26-34,Middle ($60-80K),0-10% (Low),Moderate,Silver
 716924058,Existing Customer,58,F,2,Uneducated,Married,$40K - $60K,Blue,49,3,1,3,6175.0,1166,5009.0,0.803,1417,25,0.25,0.189,0,55-64,Lower-Middle ($40-60K),10-30% (Moderate),Low,Bronze
 720916683,Existing Customer,41,M,3,Graduate,Single,$80K - $120K,Blue,26,4,3,2,11806.0,1811,9995.0,0.754,1465,31,0.476,0.153,0,35-44,Upper-Middle ($80-120K),10-30% (Moderate),Low,Silver
-720923658,Existing Customer,48,M,3,Post-Graduate,Single,$60K - $80K,Blue,39,5,2,2,4734.0,954,3780.0,0.6,1570,45,0.452,0.202,0,45-54,Middle ($60-80K),10-30% (Moderate),Low,Silver
+720923658,Existing Customer,48,M,3,Post-Graduate,Single,$60K - $80K,Blue,39,5,2,2,4734.0,954,3780.0,0.6,1570,45,0.452,0.202,0,45-54,Middle ($60-80K),10-30% (Moderate),Moderate,Silver
 712710708,Existing Customer,55,M,2,High School,Single,$40K - $60K,Blue,36,5,2,0,6244.0,2517,3727.0,0.607,1445,40,0.29,0.403,0,55-64,Lower-Middle ($40-60K),30-50% (Elevated),Low,Silver
 718939083,Attrited Customer,54,F,2,Graduate,Married,Less than $40K,Blue,45,3,1,3,1438.3,306,1132.3,1.035,694,15,0.364,0.213,1,45-54,Low (<$40K),10-30% (Moderate),Low,Bronze
 779519058,Existing Customer,51,F,3,Post-Graduate,Divorced,Unknown,Platinum,34,3,1,2,34516.0,1578,32938.0,0.725,1929,40,0.481,0.046,0,45-54,Not Declared,0-10% (Low),Low,Silver
@@ -715,7 +715,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 787480158,Existing Customer,57,F,2,Unknown,Married,Less than $40K,Blue,45,4,2,0,2494.0,1639,855.0,0.858,1555,39,0.625,0.657,0,55-64,Low (<$40K),>50% (High),Low,Bronze
 778461408,Existing Customer,38,M,1,High School,Married,$80K - $120K,Blue,23,4,3,2,22149.0,987,21162.0,1.633,2409,36,0.8,0.045,0,35-44,Upper-Middle ($80-120K),0-10% (Low),Low,Silver
 713861733,Existing Customer,50,M,3,Graduate,Divorced,$80K - $120K,Blue,36,4,3,1,34516.0,1542,32974.0,0.869,1770,65,0.585,0.045,0,45-54,Upper-Middle ($80-120K),0-10% (Low),Moderate,Silver
-789291633,Existing Customer,62,M,0,Graduate,Married,$60K - $80K,Blue,51,3,2,0,5450.0,967,4483.0,0.701,1526,45,0.8,0.177,0,55-64,Middle ($60-80K),10-30% (Moderate),Low,Bronze
+789291633,Existing Customer,62,M,0,Graduate,Married,$60K - $80K,Blue,51,3,2,0,5450.0,967,4483.0,0.701,1526,45,0.8,0.177,0,55-64,Middle ($60-80K),10-30% (Moderate),Moderate,Bronze
 789513858,Attrited Customer,43,M,3,Unknown,Married,$40K - $60K,Blue,35,2,2,3,1438.3,0,1438.3,0.694,891,28,0.4,0.0,1,35-44,Lower-Middle ($40-60K),0% (Non-revolver),Low,Bronze
 778357458,Existing Customer,44,F,5,Unknown,Single,Less than $40K,Blue,24,4,3,3,2003.0,1224,779.0,0.646,1756,42,0.355,0.611,0,35-44,Low (<$40K),>50% (High),Low,Bronze
 718325883,Existing Customer,39,M,2,Uneducated,Single,$40K - $60K,Blue,32,6,3,2,7723.0,1902,5821.0,1.181,1241,22,1.0,0.246,0,35-44,Lower-Middle ($40-60K),10-30% (Moderate),Low,Silver
@@ -745,7 +745,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 709117533,Existing Customer,42,M,3,High School,Single,$80K - $120K,Blue,36,4,3,1,21134.0,1508,19626.0,0.505,1556,35,0.842,0.071,0,35-44,Upper-Middle ($80-120K),0-10% (Low),Low,Silver
 816594183,Existing Customer,58,F,2,Uneducated,Married,$40K - $60K,Blue,53,6,2,3,2019.0,1380,639.0,1.158,2005,62,0.59,0.684,0,55-64,Lower-Middle ($40-60K),>50% (High),Moderate,Silver
 789485433,Existing Customer,42,M,4,College,Married,$80K - $120K,Blue,34,3,2,3,34516.0,668,33848.0,0.678,1698,67,0.763,0.019,0,35-44,Upper-Middle ($80-120K),0-10% (Low),Moderate,Silver
-712881483,Existing Customer,55,M,1,Post-Graduate,Married,$80K - $120K,Blue,45,5,3,3,9959.0,1890,8069.0,1.043,2041,45,0.875,0.19,0,55-64,Upper-Middle ($80-120K),10-30% (Moderate),Low,Silver
+712881483,Existing Customer,55,M,1,Post-Graduate,Married,$80K - $120K,Blue,45,5,3,3,9959.0,1890,8069.0,1.043,2041,45,0.875,0.19,0,55-64,Upper-Middle ($80-120K),10-30% (Moderate),Moderate,Silver
 712689333,Existing Customer,38,M,2,Unknown,Single,$80K - $120K,Blue,28,4,3,2,20241.0,1203,19038.0,0.66,1102,31,0.632,0.059,0,35-44,Upper-Middle ($80-120K),0-10% (Low),Low,Silver
 771492408,Existing Customer,40,F,2,Graduate,Married,Less than $40K,Blue,28,3,1,2,2421.0,1747,674.0,0.691,1346,30,1.308,0.722,0,35-44,Low (<$40K),>50% (High),Low,Bronze
 711668283,Existing Customer,48,M,4,Uneducated,Married,$80K - $120K,Blue,37,5,6,3,30948.0,2404,28544.0,0.609,1511,35,0.207,0.078,0,45-54,Upper-Middle ($80-120K),0-10% (Low),Low,Silver
@@ -798,11 +798,11 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 778799583,Existing Customer,35,F,0,Unknown,Married,Less than $40K,Blue,24,6,1,1,2592.0,2227,365.0,0.633,1695,48,0.548,0.859,0,35-44,Low (<$40K),>50% (High),Moderate,Silver
 808796208,Existing Customer,54,F,2,Unknown,Divorced,$40K - $60K,Blue,49,5,3,2,5476.0,2517,2959.0,0.967,1532,44,0.692,0.46,0,45-54,Lower-Middle ($40-60K),30-50% (Elevated),Low,Silver
 708313608,Existing Customer,53,M,3,Unknown,Married,$80K - $120K,Blue,43,5,3,0,2464.0,2116,348.0,0.744,2110,43,1.048,0.859,0,45-54,Upper-Middle ($80-120K),>50% (High),Low,Bronze
-779330208,Existing Customer,62,F,1,College,Married,Less than $40K,Blue,44,3,2,3,2378.0,1610,768.0,0.448,1807,45,0.607,0.677,0,55-64,Low (<$40K),>50% (High),Low,Bronze
+779330208,Existing Customer,62,F,1,College,Married,Less than $40K,Blue,44,3,2,3,2378.0,1610,768.0,0.448,1807,45,0.607,0.677,0,55-64,Low (<$40K),>50% (High),Moderate,Bronze
 794498733,Existing Customer,40,M,2,Unknown,Single,$120K +,Blue,21,6,4,3,20056.0,1602,18454.0,0.466,1687,46,0.533,0.08,0,35-44,High (>$120K),0-10% (Low),Moderate,Gold
-807964908,Existing Customer,41,M,4,High School,Married,$60K - $80K,Blue,36,4,2,2,8013.0,2025,5988.0,0.789,1481,45,0.452,0.253,0,35-44,Middle ($60-80K),10-30% (Moderate),Low,Silver
+807964908,Existing Customer,41,M,4,High School,Married,$60K - $80K,Blue,36,4,2,2,8013.0,2025,5988.0,0.789,1481,45,0.452,0.253,0,35-44,Middle ($60-80K),10-30% (Moderate),Moderate,Silver
 823845783,Existing Customer,53,M,2,Unknown,Married,$120K +,Blue,49,6,2,3,3386.0,1984,1402.0,0.573,1318,37,0.194,0.586,0,45-54,High (>$120K),>50% (High),Low,Silver
-711748983,Existing Customer,30,M,1,High School,Married,$60K - $80K,Blue,17,3,3,2,7906.0,1631,6275.0,0.889,1946,45,0.552,0.206,0,26-34,Middle ($60-80K),10-30% (Moderate),Low,Bronze
+711748983,Existing Customer,30,M,1,High School,Married,$60K - $80K,Blue,17,3,3,2,7906.0,1631,6275.0,0.889,1946,45,0.552,0.206,0,26-34,Middle ($60-80K),10-30% (Moderate),Moderate,Bronze
 718064283,Existing Customer,46,M,3,Uneducated,Divorced,$60K - $80K,Blue,34,4,3,0,11501.0,713,10788.0,0.84,1481,41,0.519,0.062,0,45-54,Middle ($60-80K),0-10% (Low),Low,Silver
 710492733,Existing Customer,29,M,0,Post-Graduate,Single,$40K - $60K,Blue,19,4,1,2,13632.0,1482,12150.0,0.893,2168,42,2.5,0.109,0,26-34,Lower-Middle ($40-60K),10-30% (Moderate),Low,Silver
 779016408,Existing Customer,37,F,3,Uneducated,Married,Less than $40K,Blue,27,6,1,3,2229.0,1791,438.0,1.139,1583,32,0.6,0.803,0,35-44,Low (<$40K),>50% (High),Low,Silver
@@ -814,7 +814,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 709207458,Existing Customer,44,M,3,Graduate,Married,$40K - $60K,Blue,27,4,2,3,10747.0,1603,9144.0,0.471,1340,25,0.923,0.149,0,35-44,Lower-Middle ($40-60K),10-30% (Moderate),Low,Silver
 763895958,Attrited Customer,53,M,2,High School,Married,$120K +,Blue,46,4,3,1,7474.0,0,7474.0,0.858,732,21,0.615,0.0,1,45-54,High (>$120K),0% (Non-revolver),Low,Silver
 715942683,Existing Customer,32,F,3,Graduate,Single,Less than $40K,Blue,36,3,1,3,3555.0,0,3555.0,0.813,2346,71,0.651,0.0,0,26-34,Low (<$40K),0% (Non-revolver),High,Bronze
-721301733,Existing Customer,53,M,1,Graduate,Married,$80K - $120K,Blue,38,6,3,2,22140.0,733,21407.0,0.987,1580,45,0.667,0.033,0,45-54,Upper-Middle ($80-120K),0-10% (Low),Low,Gold
+721301733,Existing Customer,53,M,1,Graduate,Married,$80K - $120K,Blue,38,6,3,2,22140.0,733,21407.0,0.987,1580,45,0.667,0.033,0,45-54,Upper-Middle ($80-120K),0-10% (Low),Moderate,Gold
 711927108,Attrited Customer,54,M,3,High School,Married,$80K - $120K,Blue,36,2,3,4,9457.0,350,9107.0,1.024,1196,28,0.333,0.037,1,45-54,Upper-Middle ($80-120K),0-10% (Low),Low,Silver
 718083483,Existing Customer,42,M,3,Uneducated,Unknown,Less than $40K,Blue,35,4,5,0,6218.0,2134,4084.0,1.25,2086,50,0.786,0.343,0,35-44,Low (<$40K),30-50% (Elevated),Moderate,Silver
 717548358,Existing Customer,38,F,1,College,Married,Less than $40K,Blue,25,3,3,1,2580.0,2265,315.0,0.824,1665,57,0.629,0.878,0,35-44,Low (<$40K),>50% (High),Moderate,Bronze
@@ -940,7 +940,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 714886533,Existing Customer,60,F,2,High School,Married,Less than $40K,Blue,36,4,3,2,3460.0,2517,943.0,1.144,1752,34,1.125,0.727,0,55-64,Low (<$40K),>50% (High),Low,Silver
 772375533,Existing Customer,30,M,1,Graduate,Married,$80K - $120K,Blue,19,5,3,2,9959.0,2377,7582.0,1.1,1560,39,0.696,0.239,0,26-34,Upper-Middle ($80-120K),10-30% (Moderate),Low,Silver
 826775058,Existing Customer,43,F,3,Uneducated,Married,Less than $40K,Blue,39,4,1,2,4175.0,2517,1658.0,0.551,1520,36,0.44,0.603,0,35-44,Low (<$40K),>50% (High),Low,Silver
-711878733,Existing Customer,60,M,1,Uneducated,Married,$60K - $80K,Blue,48,3,1,3,10264.0,2073,8191.0,0.62,1685,45,0.364,0.202,0,55-64,Middle ($60-80K),10-30% (Moderate),Low,Silver
+711878733,Existing Customer,60,M,1,Uneducated,Married,$60K - $80K,Blue,48,3,1,3,10264.0,2073,8191.0,0.62,1685,45,0.364,0.202,0,55-64,Middle ($60-80K),10-30% (Moderate),Moderate,Silver
 714550383,Existing Customer,46,M,2,High School,Single,$40K - $60K,Blue,36,4,3,3,4129.0,0,4129.0,0.96,1678,40,1.0,0.0,0,45-54,Lower-Middle ($40-60K),0% (Non-revolver),Low,Silver
 712636308,Existing Customer,65,F,2,High School,Married,$40K - $60K,Blue,45,6,2,2,2658.0,1514,1144.0,1.193,1627,26,1.0,0.57,0,65+,Lower-Middle ($40-60K),>50% (High),Low,Silver
 772139433,Existing Customer,44,F,2,College,Single,$40K - $60K,Blue,33,4,2,3,4589.0,1240,3349.0,0.856,1637,61,0.906,0.27,0,35-44,Lower-Middle ($40-60K),10-30% (Moderate),Moderate,Silver
@@ -955,7 +955,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 709942383,Existing Customer,34,M,1,Graduate,Married,$80K - $120K,Blue,36,5,3,2,6313.0,782,5531.0,0.931,1703,34,0.889,0.124,0,26-34,Upper-Middle ($80-120K),10-30% (Moderate),Low,Silver
 803957508,Existing Customer,52,M,2,Unknown,Single,$80K - $120K,Blue,47,6,1,3,15904.0,1024,14880.0,0.369,1433,33,0.5,0.064,0,45-54,Upper-Middle ($80-120K),0-10% (Low),Low,Gold
 713378133,Existing Customer,54,F,0,Post-Graduate,Single,Less than $40K,Silver,39,6,2,3,11696.0,2288,9408.0,0.973,2445,60,0.765,0.196,0,45-54,Low (<$40K),10-30% (Moderate),Moderate,Gold
-709217358,Existing Customer,40,M,3,Post-Graduate,Married,$80K - $120K,Blue,36,5,3,2,20371.0,1832,18539.0,0.907,1665,45,0.8,0.09,0,35-44,Upper-Middle ($80-120K),0-10% (Low),Low,Silver
+709217358,Existing Customer,40,M,3,Post-Graduate,Married,$80K - $120K,Blue,36,5,3,2,20371.0,1832,18539.0,0.907,1665,45,0.8,0.09,0,35-44,Upper-Middle ($80-120K),0-10% (Low),Moderate,Silver
 720998358,Existing Customer,52,M,0,High School,Married,$120K +,Silver,41,3,3,1,34516.0,1043,33473.0,0.562,1489,38,0.357,0.03,0,45-54,High (>$120K),0-10% (Low),Low,Silver
 721051908,Existing Customer,45,M,3,Graduate,Single,$60K - $80K,Blue,33,3,1,3,7552.0,0,7552.0,0.463,1393,32,0.455,0.0,0,45-54,Middle ($60-80K),0% (Non-revolver),Low,Bronze
 715232058,Existing Customer,61,M,0,Post-Graduate,Married,$40K - $60K,Blue,53,5,1,2,5561.0,1434,4127.0,1.423,1820,42,0.826,0.258,0,55-64,Lower-Middle ($40-60K),10-30% (Moderate),Low,Silver
@@ -988,7 +988,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 717776808,Existing Customer,47,F,4,Graduate,Single,Less than $40K,Blue,39,3,2,3,7353.0,1450,5903.0,0.739,2005,54,0.459,0.197,0,45-54,Low (<$40K),10-30% (Moderate),Moderate,Bronze
 714906033,Existing Customer,47,F,2,Graduate,Single,Less than $40K,Blue,36,6,2,2,5145.0,0,5145.0,0.693,1588,35,0.944,0.0,0,45-54,Low (<$40K),0% (Non-revolver),Low,Silver
 714273708,Existing Customer,53,F,4,Graduate,Married,$40K - $60K,Blue,36,3,2,3,4753.0,2472,2281.0,1.274,2242,49,0.815,0.52,0,45-54,Lower-Middle ($40-60K),>50% (High),Moderate,Bronze
-721117533,Existing Customer,46,F,3,Graduate,Single,Less than $40K,Blue,26,3,3,3,2171.0,1418,753.0,0.505,1415,45,0.406,0.653,0,45-54,Low (<$40K),>50% (High),Low,Bronze
+721117533,Existing Customer,46,F,3,Graduate,Single,Less than $40K,Blue,26,3,3,3,2171.0,1418,753.0,0.505,1415,45,0.406,0.653,0,45-54,Low (<$40K),>50% (High),Moderate,Bronze
 715374558,Existing Customer,26,M,0,College,Divorced,Less than $40K,Blue,36,5,2,3,4150.0,456,3694.0,1.126,2483,74,0.542,0.11,0,26-34,Low (<$40K),10-30% (Moderate),High,Silver
 824807658,Existing Customer,45,M,3,Graduate,Married,$60K - $80K,Blue,41,6,3,3,9106.0,2477,6629.0,0.515,1239,33,0.737,0.272,0,45-54,Middle ($60-80K),10-30% (Moderate),Low,Gold
 714940608,Existing Customer,36,M,2,High School,Divorced,$40K - $60K,Blue,36,3,3,2,2686.0,1733,953.0,0.706,2057,53,0.71,0.645,0,35-44,Lower-Middle ($40-60K),>50% (High),Moderate,Bronze
@@ -998,7 +998,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 772460508,Existing Customer,53,M,1,Uneducated,Married,$40K - $60K,Blue,43,3,1,2,4426.0,1530,2896.0,0.518,1231,34,0.214,0.346,0,45-54,Lower-Middle ($40-60K),30-50% (Elevated),Low,Bronze
 720484908,Existing Customer,65,F,1,Post-Graduate,Married,$40K - $60K,Blue,52,5,3,3,2155.0,0,2155.0,1.423,1655,27,1.25,0.0,0,65+,Lower-Middle ($40-60K),0% (Non-revolver),Low,Bronze
 771237933,Existing Customer,47,M,1,Uneducated,Unknown,$80K - $120K,Blue,34,4,1,3,20620.0,1085,19535.0,1.276,1477,23,0.533,0.053,0,45-54,Upper-Middle ($80-120K),0-10% (Low),Low,Silver
-794664183,Existing Customer,38,M,0,Uneducated,Married,$60K - $80K,Blue,19,3,1,3,3238.0,2146,1092.0,0.673,1501,45,0.667,0.663,0,35-44,Middle ($60-80K),>50% (High),Low,Bronze
+794664183,Existing Customer,38,M,0,Uneducated,Married,$60K - $80K,Blue,19,3,1,3,3238.0,2146,1092.0,0.673,1501,45,0.667,0.663,0,35-44,Middle ($60-80K),>50% (High),Moderate,Bronze
 797488158,Existing Customer,52,M,2,High School,Married,$60K - $80K,Blue,46,5,3,0,14316.0,1081,13235.0,0.67,1313,36,0.636,0.076,0,45-54,Middle ($60-80K),0-10% (Low),Low,Silver
 708543258,Existing Customer,36,M,3,High School,Married,$80K - $120K,Blue,36,5,3,2,2607.0,1880,727.0,1.464,2045,39,0.95,0.721,0,35-44,Upper-Middle ($80-120K),>50% (High),Low,Bronze
 778706508,Existing Customer,43,M,4,College,Married,$60K - $80K,Blue,24,3,5,4,6231.0,0,6231.0,1.054,1448,30,0.875,0.0,0,35-44,Middle ($60-80K),0% (Non-revolver),Low,Bronze
@@ -1026,9 +1026,9 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 813952233,Existing Customer,44,M,3,Graduate,Unknown,Less than $40K,Blue,39,5,2,4,2978.0,2134,844.0,0.579,1413,46,0.394,0.717,0,35-44,Low (<$40K),>50% (High),Moderate,Silver
 713053383,Attrited Customer,42,M,3,Graduate,Married,$80K - $120K,Blue,36,1,1,3,34516.0,781,33735.0,0.803,853,12,0.091,0.023,1,35-44,Upper-Middle ($80-120K),0-10% (Low),Low,Silver
 709979583,Existing Customer,54,M,3,Graduate,Married,$120K +,Blue,46,3,1,3,34516.0,854,33662.0,0.928,1999,54,0.8,0.025,0,45-54,High (>$120K),0-10% (Low),Moderate,Silver
-709380333,Existing Customer,57,M,1,Uneducated,Married,$120K +,Blue,36,6,2,3,24545.0,1735,22810.0,0.664,1671,45,0.5,0.071,0,55-64,High (>$120K),0-10% (Low),Low,Gold
+709380333,Existing Customer,57,M,1,Uneducated,Married,$120K +,Blue,36,6,2,3,24545.0,1735,22810.0,0.664,1671,45,0.5,0.071,0,55-64,High (>$120K),0-10% (Low),Moderate,Gold
 778574283,Existing Customer,53,F,1,Uneducated,Married,$40K - $60K,Blue,46,5,2,3,1438.3,0,1438.3,0.743,2118,64,0.455,0.0,0,45-54,Lower-Middle ($40-60K),0% (Non-revolver),Moderate,Bronze
-789875883,Existing Customer,41,F,4,Uneducated,Single,Less than $40K,Blue,31,5,1,2,2490.0,627,1863.0,0.345,1391,45,0.364,0.252,0,35-44,Low (<$40K),10-30% (Moderate),Low,Bronze
+789875883,Existing Customer,41,F,4,Uneducated,Single,Less than $40K,Blue,31,5,1,2,2490.0,627,1863.0,0.345,1391,45,0.364,0.252,0,35-44,Low (<$40K),10-30% (Moderate),Moderate,Bronze
 714661233,Existing Customer,39,M,1,Graduate,Single,$120K +,Blue,24,6,2,4,10074.0,2517,7557.0,0.77,1729,52,0.926,0.25,0,35-44,High (>$120K),10-30% (Moderate),Moderate,Gold
 813915933,Existing Customer,45,M,2,Graduate,Divorced,$40K - $60K,Blue,40,3,3,2,2259.0,954,1305.0,0.695,1393,35,0.842,0.422,0,45-54,Lower-Middle ($40-60K),30-50% (Elevated),Low,Bronze
 708358683,Existing Customer,46,M,2,Graduate,Married,$80K - $120K,Silver,35,6,3,2,34516.0,1236,33280.0,0.549,1665,40,0.667,0.036,0,45-54,Upper-Middle ($80-120K),0-10% (Low),Low,Gold
@@ -1134,7 +1134,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 709528308,Existing Customer,53,M,4,High School,Married,$80K - $120K,Blue,46,4,2,3,15242.0,1170,14072.0,0.496,1876,57,0.5,0.077,0,45-54,Upper-Middle ($80-120K),0-10% (Low),Moderate,Silver
 715127208,Existing Customer,48,M,3,Doctorate,Divorced,$120K +,Blue,36,4,3,2,34516.0,2517,31999.0,0.697,1699,48,0.846,0.073,0,45-54,High (>$120K),0-10% (Low),Moderate,Silver
 817144458,Existing Customer,32,F,2,Graduate,Single,Less than $40K,Blue,17,5,1,2,1438.3,1228,210.3,1.132,2580,67,0.971,0.854,0,26-34,Low (<$40K),>50% (High),Moderate,Silver
-710628783,Existing Customer,38,M,4,High School,Single,$80K - $120K,Gold,36,6,1,3,34516.0,1140,33376.0,0.815,1445,45,0.957,0.033,0,35-44,Upper-Middle ($80-120K),0-10% (Low),Low,Gold
+710628783,Existing Customer,38,M,4,High School,Single,$80K - $120K,Gold,36,6,1,3,34516.0,1140,33376.0,0.815,1445,45,0.957,0.033,0,35-44,Upper-Middle ($80-120K),0-10% (Low),Moderate,Gold
 772145658,Existing Customer,43,M,4,Uneducated,Single,$80K - $120K,Blue,32,4,1,3,16043.0,2036,14007.0,0.7,1394,28,0.75,0.127,0,35-44,Upper-Middle ($80-120K),10-30% (Moderate),Low,Silver
 739594758,Attrited Customer,51,F,2,Graduate,Single,Less than $40K,Blue,44,6,3,2,3181.0,2517,664.0,0.595,818,16,0.455,0.791,1,45-54,Low (<$40K),>50% (High),Low,Silver
 789198708,Existing Customer,58,M,3,Graduate,Married,$120K +,Blue,47,3,1,2,27088.0,0,27088.0,0.581,1135,24,0.846,0.0,0,55-64,High (>$120K),0% (Non-revolver),Low,Silver
@@ -1145,10 +1145,10 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 788826408,Existing Customer,33,M,1,Uneducated,Married,$120K +,Blue,16,6,1,3,10705.0,1352,9353.0,1.171,2434,58,0.812,0.126,0,26-34,High (>$120K),10-30% (Moderate),Moderate,Gold
 790128033,Existing Customer,54,M,3,High School,Single,$80K - $120K,Blue,47,3,1,2,16494.0,1348,15146.0,0.759,1302,36,0.385,0.082,0,45-54,Upper-Middle ($80-120K),0-10% (Low),Low,Silver
 718082208,Existing Customer,37,F,1,Graduate,Married,$40K - $60K,Blue,30,5,3,4,6469.0,2351,4118.0,1.018,1717,50,0.667,0.363,0,35-44,Lower-Middle ($40-60K),30-50% (Elevated),Moderate,Silver
-712037358,Existing Customer,30,M,0,Unknown,Married,$60K - $80K,Blue,23,3,3,2,5146.0,1773,3373.0,0.879,1509,45,0.667,0.345,0,26-34,Middle ($60-80K),30-50% (Elevated),Low,Bronze
+712037358,Existing Customer,30,M,0,Unknown,Married,$60K - $80K,Blue,23,3,3,2,5146.0,1773,3373.0,0.879,1509,45,0.667,0.345,0,26-34,Middle ($60-80K),30-50% (Elevated),Moderate,Bronze
 711711483,Existing Customer,61,M,0,High School,Married,$80K - $120K,Blue,50,4,1,3,2800.0,2448,352.0,0.549,1433,40,0.481,0.874,0,55-64,Upper-Middle ($80-120K),>50% (High),Low,Bronze
 718861458,Existing Customer,49,M,5,Unknown,Single,$60K - $80K,Blue,36,6,1,2,5159.0,1532,3627.0,0.787,1826,37,0.609,0.297,0,45-54,Middle ($60-80K),10-30% (Moderate),Low,Silver
-709426608,Existing Customer,56,M,1,Doctorate,Married,$60K - $80K,Blue,46,5,2,4,5248.0,1816,3432.0,0.696,2305,45,0.731,0.346,0,55-64,Middle ($60-80K),30-50% (Elevated),Low,Silver
+709426608,Existing Customer,56,M,1,Doctorate,Married,$60K - $80K,Blue,46,5,2,4,5248.0,1816,3432.0,0.696,2305,45,0.731,0.346,0,55-64,Middle ($60-80K),30-50% (Elevated),Moderate,Silver
 811457058,Existing Customer,51,F,3,Post-Graduate,Married,Less than $40K,Blue,46,5,3,2,5881.0,2005,3876.0,0.659,1931,56,0.806,0.341,0,45-54,Low (<$40K),30-50% (Elevated),Moderate,Silver
 773073558,Existing Customer,44,F,3,Graduate,Divorced,Less than $40K,Blue,36,6,3,3,1467.0,896,571.0,0.692,1731,54,0.5,0.611,0,35-44,Low (<$40K),>50% (High),Moderate,Silver
 715937133,Existing Customer,64,F,1,Uneducated,Married,$40K - $60K,Blue,52,6,2,2,4999.0,2299,2700.0,0.716,1601,48,0.5,0.46,0,55-64,Lower-Middle ($40-60K),30-50% (Elevated),Moderate,Silver
@@ -1178,7 +1178,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 710084883,Existing Customer,34,M,2,College,Married,$80K - $120K,Blue,22,4,2,4,1631.0,0,1631.0,1.893,2962,57,1.111,0.0,0,26-34,Upper-Middle ($80-120K),0% (Non-revolver),Moderate,Silver
 710736558,Existing Customer,39,F,2,Unknown,Married,Unknown,Blue,36,4,3,4,8096.0,1474,6622.0,0.789,1794,41,0.783,0.182,0,35-44,Not Declared,10-30% (Moderate),Low,Silver
 788915283,Existing Customer,43,F,2,College,Single,Less than $40K,Blue,29,5,1,2,2304.0,1589,715.0,0.872,1273,36,0.895,0.69,0,35-44,Low (<$40K),>50% (High),Low,Bronze
-714916758,Existing Customer,48,F,2,Uneducated,Married,$40K - $60K,Blue,36,3,3,2,5210.0,0,5210.0,0.531,1309,45,0.607,0.0,0,45-54,Lower-Middle ($40-60K),0% (Non-revolver),Low,Bronze
+714916758,Existing Customer,48,F,2,Uneducated,Married,$40K - $60K,Blue,36,3,3,2,5210.0,0,5210.0,0.531,1309,45,0.607,0.0,0,45-54,Lower-Middle ($40-60K),0% (Non-revolver),Moderate,Bronze
 789611283,Existing Customer,44,M,4,Graduate,Married,$40K - $60K,Blue,38,5,2,3,5452.0,2091,3361.0,0.813,1347,30,0.5,0.384,0,35-44,Lower-Middle ($40-60K),30-50% (Elevated),Low,Silver
 773288958,Existing Customer,38,M,1,Graduate,Married,$60K - $80K,Blue,31,6,3,3,7475.0,1473,6002.0,0.775,1592,30,0.429,0.197,0,35-44,Middle ($60-80K),10-30% (Moderate),Low,Silver
 811721133,Existing Customer,62,M,1,High School,Married,$40K - $60K,Blue,56,5,3,3,2359.0,1242,1117.0,1.043,2021,50,0.613,0.526,0,55-64,Lower-Middle ($40-60K),>50% (High),Moderate,Bronze
@@ -1186,7 +1186,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 783020958,Existing Customer,39,M,3,Unknown,Married,$80K - $120K,Blue,33,6,6,4,18582.0,794,17788.0,0.717,1836,46,0.586,0.043,0,35-44,Upper-Middle ($80-120K),0-10% (Low),Moderate,Gold
 715764483,Existing Customer,53,F,3,High School,Unknown,Less than $40K,Blue,37,3,2,4,7202.0,974,6228.0,0.517,1397,33,0.5,0.135,0,45-54,Low (<$40K),10-30% (Moderate),Low,Bronze
 798110358,Existing Customer,64,F,1,High School,Married,$40K - $60K,Blue,56,4,2,4,1438.3,0,1438.3,0.693,1417,35,0.591,0.0,0,55-64,Lower-Middle ($40-60K),0% (Non-revolver),Low,Bronze
-715745508,Existing Customer,51,F,4,Graduate,Single,Unknown,Blue,34,3,1,2,11221.0,1279,9942.0,1.116,1564,45,1.647,0.114,0,45-54,Not Declared,10-30% (Moderate),Low,Silver
+715745508,Existing Customer,51,F,4,Graduate,Single,Unknown,Blue,34,3,1,2,11221.0,1279,9942.0,1.116,1564,45,1.647,0.114,0,45-54,Not Declared,10-30% (Moderate),Moderate,Silver
 714350658,Existing Customer,32,M,1,Graduate,Single,Unknown,Blue,26,6,3,4,18889.0,1880,17009.0,0.702,2979,55,0.774,0.1,0,26-34,Not Declared,0-10% (Low),Moderate,Platinum
 826478958,Existing Customer,52,M,1,College,Married,$80K - $120K,Blue,48,4,3,3,2066.0,1601,465.0,0.742,1578,41,0.414,0.775,0,45-54,Upper-Middle ($80-120K),>50% (High),Low,Bronze
 719127558,Existing Customer,43,M,2,High School,Divorced,$80K - $120K,Blue,31,6,2,4,34516.0,1075,33441.0,0.727,3015,65,0.477,0.031,0,35-44,Upper-Middle ($80-120K),0-10% (Low),Moderate,Platinum
@@ -1216,7 +1216,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 712440483,Existing Customer,54,F,2,Uneducated,Married,Less than $40K,Blue,44,3,1,3,5413.0,1836,3577.0,0.766,1164,43,0.593,0.339,0,45-54,Low (<$40K),30-50% (Elevated),Low,Bronze
 715078383,Existing Customer,64,F,0,Graduate,Married,Unknown,Blue,36,3,1,3,7646.0,1010,6636.0,0.421,1667,47,0.469,0.132,0,55-64,Not Declared,10-30% (Moderate),Moderate,Bronze
 709214358,Existing Customer,39,F,3,Graduate,Divorced,Unknown,Blue,30,3,3,2,2420.0,1422,998.0,0.731,1362,24,0.714,0.588,0,35-44,Not Declared,>50% (High),Low,Bronze
-778399008,Existing Customer,50,M,0,High School,Married,$80K - $120K,Blue,30,3,4,2,4252.0,0,4252.0,0.478,1598,45,0.324,0.0,0,45-54,Upper-Middle ($80-120K),0% (Non-revolver),Low,Bronze
+778399008,Existing Customer,50,M,0,High School,Married,$80K - $120K,Blue,30,3,4,2,4252.0,0,4252.0,0.478,1598,45,0.324,0.0,0,45-54,Upper-Middle ($80-120K),0% (Non-revolver),Moderate,Bronze
 811534983,Existing Customer,54,F,3,Graduate,Married,Less than $40K,Blue,49,5,2,4,2031.0,1069,962.0,0.87,1943,47,0.621,0.526,0,45-54,Low (<$40K),>50% (High),Moderate,Bronze
 719728383,Existing Customer,38,F,4,Graduate,Married,Unknown,Blue,28,4,1,2,6861.0,1598,5263.0,2.103,2228,39,0.95,0.233,0,35-44,Not Declared,10-30% (Moderate),Low,Silver
 718726833,Existing Customer,39,M,1,High School,Married,$80K - $120K,Blue,28,4,2,4,3327.0,0,3327.0,1.089,1665,36,0.636,0.0,0,35-44,Upper-Middle ($80-120K),0% (Non-revolver),Low,Silver
@@ -1242,7 +1242,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 713735508,Existing Customer,35,M,3,Uneducated,Married,$80K - $120K,Blue,25,3,1,2,11927.0,675,11252.0,0.574,1986,36,0.636,0.057,0,35-44,Upper-Middle ($80-120K),0-10% (Low),Low,Silver
 805259733,Existing Customer,55,F,2,Unknown,Married,Unknown,Blue,50,6,1,4,11341.0,0,11341.0,0.412,1731,46,0.586,0.0,0,55-64,Not Declared,0% (Non-revolver),Moderate,Gold
 738749733,Existing Customer,57,F,4,Doctorate,Married,Unknown,Blue,47,4,3,3,7345.0,1814,5531.0,0.472,1390,30,0.25,0.247,0,55-64,Not Declared,10-30% (Moderate),Low,Silver
-814833408,Existing Customer,56,M,2,Doctorate,Married,$60K - $80K,Blue,51,3,3,4,6036.0,1409,4627.0,0.56,1741,45,0.364,0.233,0,55-64,Middle ($60-80K),10-30% (Moderate),Low,Bronze
+814833408,Existing Customer,56,M,2,Doctorate,Married,$60K - $80K,Blue,51,3,3,4,6036.0,1409,4627.0,0.56,1741,45,0.364,0.233,0,55-64,Middle ($60-80K),10-30% (Moderate),Moderate,Bronze
 719182308,Existing Customer,38,F,2,High School,Single,Less than $40K,Blue,27,6,1,3,2096.0,1567,529.0,0.778,1559,49,1.042,0.748,0,35-44,Low (<$40K),>50% (High),Moderate,Silver
 818497758,Existing Customer,54,F,3,Graduate,Married,Less than $40K,Blue,49,4,1,3,1906.0,1271,635.0,0.574,1343,37,0.682,0.667,0,45-54,Low (<$40K),>50% (High),Low,Bronze
 719518308,Existing Customer,48,M,2,Unknown,Unknown,$80K - $120K,Blue,35,5,2,4,5039.0,0,5039.0,0.757,1390,23,0.769,0.0,0,45-54,Upper-Middle ($80-120K),0% (Non-revolver),Low,Silver
@@ -1263,8 +1263,8 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 771653583,Existing Customer,58,M,1,High School,Married,$60K - $80K,Blue,46,3,2,4,4188.0,1147,3041.0,1.042,1276,25,1.083,0.274,0,55-64,Middle ($60-80K),10-30% (Moderate),Low,Bronze
 717374358,Existing Customer,33,M,1,Unknown,Married,$60K - $80K,Blue,22,3,3,0,3637.0,1998,1639.0,1.412,2161,56,0.931,0.549,0,26-34,Middle ($60-80K),>50% (High),Moderate,Bronze
 720836808,Existing Customer,35,M,3,High School,Single,$80K - $120K,Blue,28,4,2,2,11521.0,1147,10374.0,1.023,2260,68,1.125,0.1,0,35-44,Upper-Middle ($80-120K),0-10% (Low),High,Silver
-818701383,Existing Customer,37,M,3,High School,Married,$60K - $80K,Blue,32,6,2,2,2253.0,1667,586.0,0.884,1641,45,0.667,0.74,0,35-44,Middle ($60-80K),>50% (High),Low,Silver
-717277833,Existing Customer,27,F,1,Graduate,Single,Unknown,Blue,13,6,2,4,2339.0,2080,259.0,1.067,2294,45,0.452,0.889,0,26-34,Not Declared,>50% (High),Low,Silver
+818701383,Existing Customer,37,M,3,High School,Married,$60K - $80K,Blue,32,6,2,2,2253.0,1667,586.0,0.884,1641,45,0.667,0.74,0,35-44,Middle ($60-80K),>50% (High),Moderate,Silver
+717277833,Existing Customer,27,F,1,Graduate,Single,Unknown,Blue,13,6,2,4,2339.0,2080,259.0,1.067,2294,45,0.452,0.889,0,26-34,Not Declared,>50% (High),Moderate,Silver
 778137108,Existing Customer,43,M,4,High School,Single,$80K - $120K,Blue,37,6,1,2,30503.0,2517,27986.0,0.462,1860,47,0.306,0.083,0,35-44,Upper-Middle ($80-120K),0-10% (Low),Moderate,Gold
 720973833,Existing Customer,49,M,2,Graduate,Divorced,$60K - $80K,Blue,36,5,3,2,4596.0,0,4596.0,0.93,2872,62,0.722,0.0,0,45-54,Middle ($60-80K),0% (Non-revolver),Moderate,Silver
 768490458,Attrited Customer,49,M,2,Uneducated,Married,$80K - $120K,Blue,43,1,3,3,5701.0,2517,3184.0,0.716,961,32,0.524,0.442,1,45-54,Upper-Middle ($80-120K),30-50% (Elevated),Low,Bronze
@@ -1273,7 +1273,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 712820208,Existing Customer,32,F,0,High School,Divorced,Less than $40K,Blue,36,5,2,4,2699.0,1609,1090.0,0.893,2141,56,0.806,0.596,0,26-34,Low (<$40K),>50% (High),Moderate,Bronze
 794649858,Existing Customer,58,F,1,Uneducated,Married,Less than $40K,Blue,39,3,3,3,2210.0,1624,586.0,0.627,1287,37,0.48,0.735,0,55-64,Low (<$40K),>50% (High),Low,Bronze
 755262933,Existing Customer,56,M,2,Post-Graduate,Married,$60K - $80K,Blue,49,5,3,4,1438.3,0,1438.3,0.77,1446,38,0.81,0.0,0,55-64,Middle ($60-80K),0% (Non-revolver),Low,Bronze
-709541433,Existing Customer,37,M,2,Graduate,Married,Less than $40K,Blue,36,3,3,4,2041.0,1687,354.0,0.677,1555,45,0.552,0.827,0,35-44,Low (<$40K),>50% (High),Low,Bronze
+709541433,Existing Customer,37,M,2,Graduate,Married,Less than $40K,Blue,36,3,3,4,2041.0,1687,354.0,0.677,1555,45,0.552,0.827,0,35-44,Low (<$40K),>50% (High),Moderate,Bronze
 820622433,Existing Customer,39,M,1,High School,Married,$120K +,Blue,34,4,2,2,3250.0,1698,1552.0,0.767,2006,58,0.568,0.522,0,35-44,High (>$120K),>50% (High),Moderate,Silver
 712586583,Existing Customer,26,F,0,Graduate,Single,$40K - $60K,Blue,13,6,3,4,1643.0,1101,542.0,0.713,2152,50,0.471,0.67,0,26-34,Lower-Middle ($40-60K),>50% (High),Moderate,Silver
 709816158,Existing Customer,31,F,1,Unknown,Single,Unknown,Silver,36,4,3,2,34516.0,0,34516.0,0.791,2183,60,1.069,0.0,0,26-34,Not Declared,0% (Non-revolver),Moderate,Silver
@@ -1288,7 +1288,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 713921058,Existing Customer,55,F,3,High School,Married,Less than $40K,Blue,48,6,2,2,2897.0,1601,1296.0,0.878,1337,25,0.471,0.553,0,55-64,Low (<$40K),>50% (High),Low,Silver
 709183683,Existing Customer,31,F,0,Uneducated,Single,Less than $40K,Blue,36,4,2,0,5391.0,0,5391.0,1.075,1971,56,0.6,0.0,0,26-34,Low (<$40K),0% (Non-revolver),Moderate,Silver
 713407458,Existing Customer,62,F,0,Graduate,Single,Unknown,Blue,36,5,2,4,2870.0,2284,586.0,0.661,3946,74,0.574,0.796,0,55-64,Not Declared,>50% (High),High,Silver
-715241583,Existing Customer,34,M,3,High School,Married,$120K +,Blue,25,3,2,4,23959.0,2517,21442.0,0.926,1870,45,0.667,0.105,0,26-34,High (>$120K),10-30% (Moderate),Low,Silver
+715241583,Existing Customer,34,M,3,High School,Married,$120K +,Blue,25,3,2,4,23959.0,2517,21442.0,0.926,1870,45,0.667,0.105,0,26-34,High (>$120K),10-30% (Moderate),Moderate,Silver
 710475408,Existing Customer,33,M,3,High School,Married,$60K - $80K,Blue,25,5,2,2,14918.0,2028,12890.0,1.342,2171,35,1.059,0.136,0,26-34,Middle ($60-80K),10-30% (Moderate),Low,Silver
 708971583,Existing Customer,38,F,2,Uneducated,Single,Less than $40K,Blue,29,3,3,2,3590.0,1924,1666.0,0.573,1472,37,0.762,0.536,0,35-44,Low (<$40K),>50% (High),Low,Bronze
 714547458,Existing Customer,65,M,0,Graduate,Married,$40K - $60K,Blue,56,3,3,2,2297.0,0,2297.0,0.511,1941,51,0.417,0.0,0,65+,Lower-Middle ($40-60K),0% (Non-revolver),Moderate,Bronze
@@ -1313,7 +1313,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 713206683,Attrited Customer,40,M,4,Graduate,Single,$80K - $120K,Silver,22,3,1,3,34516.0,0,34516.0,0.64,1028,26,0.3,0.0,1,35-44,Upper-Middle ($80-120K),0% (Non-revolver),Low,Silver
 708679383,Existing Customer,44,F,2,Unknown,Unknown,Less than $40K,Blue,32,5,1,3,4852.0,1777,3075.0,0.667,1775,55,1.037,0.366,0,35-44,Low (<$40K),30-50% (Elevated),Moderate,Silver
 713067033,Existing Customer,37,M,2,Uneducated,Single,Unknown,Blue,28,5,3,3,7147.0,1424,5723.0,0.821,2539,50,1.273,0.199,0,35-44,Not Declared,10-30% (Moderate),Moderate,Silver
-789314133,Existing Customer,37,M,1,High School,Married,$60K - $80K,Blue,27,6,3,3,10320.0,1799,8521.0,0.75,1754,45,0.5,0.174,0,35-44,Middle ($60-80K),10-30% (Moderate),Low,Gold
+789314133,Existing Customer,37,M,1,High School,Married,$60K - $80K,Blue,27,6,3,3,10320.0,1799,8521.0,0.75,1754,45,0.5,0.174,0,35-44,Middle ($60-80K),10-30% (Moderate),Moderate,Gold
 713956308,Existing Customer,65,F,0,Graduate,Married,Less than $40K,Blue,49,4,2,2,3297.0,2297,1000.0,0.744,1894,56,0.556,0.697,0,65+,Low (<$40K),>50% (High),Moderate,Silver
 711595833,Existing Customer,46,M,3,College,Married,$60K - $80K,Blue,36,5,2,2,9981.0,807,9174.0,0.655,1456,30,0.667,0.081,0,45-54,Middle ($60-80K),0-10% (Low),Low,Silver
 779521533,Existing Customer,53,M,2,High School,Married,$120K +,Blue,36,5,3,3,3329.0,1092,2237.0,1.466,1978,33,0.833,0.328,0,45-54,High (>$120K),30-50% (Elevated),Low,Silver
@@ -1360,7 +1360,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 798796233,Existing Customer,37,F,3,High School,Married,$40K - $60K,Blue,31,5,3,3,1586.0,1038,548.0,0.973,1724,24,0.714,0.654,0,35-44,Lower-Middle ($40-60K),>50% (High),Low,Bronze
 815472108,Existing Customer,42,M,3,High School,Single,$40K - $60K,Blue,37,3,3,3,2247.0,1045,1202.0,0.952,1300,31,0.55,0.465,0,35-44,Lower-Middle ($40-60K),30-50% (Elevated),Low,Bronze
 769145733,Existing Customer,36,M,3,Graduate,Single,$60K - $80K,Blue,30,3,4,3,2789.0,1584,1205.0,0.996,2688,60,0.714,0.568,0,35-44,Middle ($60-80K),>50% (High),Moderate,Bronze
-783364233,Existing Customer,59,M,0,Graduate,Married,$40K - $60K,Blue,53,3,2,3,4241.0,0,4241.0,0.607,1798,45,0.731,0.0,0,55-64,Lower-Middle ($40-60K),0% (Non-revolver),Low,Bronze
+783364233,Existing Customer,59,M,0,Graduate,Married,$40K - $60K,Blue,53,3,2,3,4241.0,0,4241.0,0.607,1798,45,0.731,0.0,0,55-64,Lower-Middle ($40-60K),0% (Non-revolver),Moderate,Bronze
 772236108,Existing Customer,40,F,1,Graduate,Married,Unknown,Blue,29,5,1,3,8398.0,1892,6506.0,0.861,1489,29,0.526,0.225,0,35-44,Not Declared,10-30% (Moderate),Low,Silver
 715640358,Existing Customer,43,M,3,High School,Single,$40K - $60K,Blue,36,6,3,3,4112.0,768,3344.0,0.413,1334,40,0.429,0.187,0,35-44,Lower-Middle ($40-60K),10-30% (Moderate),Low,Silver
 713529858,Existing Customer,29,M,2,Graduate,Divorced,$40K - $60K,Silver,22,6,2,3,15578.0,1383,14195.0,0.794,2492,71,0.614,0.089,0,26-34,Lower-Middle ($40-60K),0-10% (Low),High,Gold
@@ -1408,7 +1408,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 708913233,Existing Customer,37,M,1,High School,Married,$40K - $60K,Blue,28,3,4,2,3601.0,1236,2365.0,0.726,1802,34,0.478,0.343,0,35-44,Lower-Middle ($40-60K),30-50% (Elevated),Low,Bronze
 788038383,Existing Customer,33,F,3,Graduate,Married,Less than $40K,Blue,25,3,2,2,2307.0,1385,922.0,1.515,2440,48,0.846,0.6,0,26-34,Low (<$40K),>50% (High),Moderate,Bronze
 719905908,Existing Customer,59,M,1,Uneducated,Married,$60K - $80K,Blue,36,4,3,3,3742.0,1175,2567.0,0.514,1505,31,0.824,0.314,0,55-64,Middle ($60-80K),30-50% (Elevated),Low,Silver
-807044958,Existing Customer,34,M,3,High School,Married,$40K - $60K,Blue,29,6,3,3,2937.0,869,2068.0,1.493,2171,45,0.875,0.296,0,26-34,Lower-Middle ($40-60K),10-30% (Moderate),Low,Silver
+807044958,Existing Customer,34,M,3,High School,Married,$40K - $60K,Blue,29,6,3,3,2937.0,869,2068.0,1.493,2171,45,0.875,0.296,0,26-34,Lower-Middle ($40-60K),10-30% (Moderate),Moderate,Silver
 719514783,Existing Customer,39,F,3,Post-Graduate,Unknown,Unknown,Blue,26,6,1,4,3209.0,2517,692.0,0.431,1292,37,0.762,0.784,0,35-44,Not Declared,>50% (High),Low,Silver
 787643658,Existing Customer,59,M,0,Graduate,Married,$60K - $80K,Blue,53,6,1,4,12554.0,2169,10385.0,0.529,1422,30,0.579,0.173,0,55-64,Middle ($60-80K),10-30% (Moderate),Low,Gold
 779138883,Existing Customer,50,M,1,Graduate,Married,$60K - $80K,Blue,34,6,3,4,4702.0,0,4702.0,0.578,1673,44,0.257,0.0,0,45-54,Middle ($60-80K),0% (Non-revolver),Low,Silver
@@ -1423,7 +1423,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 718068933,Existing Customer,36,F,3,Uneducated,Single,Less than $40K,Blue,36,5,2,4,5750.0,1521,4229.0,0.837,2155,61,0.605,0.265,0,35-44,Low (<$40K),10-30% (Moderate),Moderate,Silver
 718623783,Existing Customer,56,M,2,College,Married,$120K +,Blue,36,6,3,2,27157.0,1547,25610.0,0.487,1535,38,0.267,0.057,0,55-64,High (>$120K),0-10% (Low),Low,Gold
 716565258,Existing Customer,37,M,3,Doctorate,Single,$80K - $120K,Blue,36,5,2,4,12830.0,0,12830.0,0.774,2526,54,0.588,0.0,0,35-44,Upper-Middle ($80-120K),0% (Non-revolver),Moderate,Silver
-712505658,Existing Customer,51,F,4,Unknown,Single,Less than $40K,Blue,41,3,1,3,5530.0,1999,3531.0,1.018,1766,45,0.667,0.361,0,45-54,Low (<$40K),30-50% (Elevated),Low,Bronze
+712505658,Existing Customer,51,F,4,Unknown,Single,Less than $40K,Blue,41,3,1,3,5530.0,1999,3531.0,1.018,1766,45,0.667,0.361,0,45-54,Low (<$40K),30-50% (Elevated),Moderate,Bronze
 792565908,Existing Customer,36,F,2,Uneducated,Single,Less than $40K,Blue,30,6,2,3,2684.0,1474,1210.0,1.042,2346,51,1.04,0.549,0,35-44,Low (<$40K),>50% (High),Moderate,Silver
 709267308,Existing Customer,62,M,1,Graduate,Married,$80K - $120K,Blue,49,3,1,2,2437.0,1400,1037.0,0.779,1651,32,1.0,0.574,0,55-64,Upper-Middle ($80-120K),>50% (High),Low,Bronze
 710035008,Existing Customer,31,F,0,Uneducated,Single,Less than $40K,Blue,24,3,2,4,3827.0,1397,2430.0,0.88,2491,64,1.0,0.365,0,26-34,Low (<$40K),30-50% (Elevated),Moderate,Bronze
@@ -1457,7 +1457,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 715042608,Existing Customer,39,F,2,Doctorate,Married,Unknown,Blue,36,5,2,4,8058.0,791,7267.0,1.787,2742,42,2.0,0.098,0,35-44,Not Declared,0-10% (Low),Low,Silver
 755959683,Existing Customer,50,F,5,Unknown,Unknown,Unknown,Blue,43,5,1,2,3410.0,2281,1129.0,0.518,1296,31,0.348,0.669,0,45-54,Not Declared,>50% (High),Low,Silver
 715367058,Existing Customer,43,M,3,College,Unknown,$60K - $80K,Blue,37,5,2,3,19044.0,0,19044.0,0.721,1780,44,0.76,0.0,0,35-44,Middle ($60-80K),0% (Non-revolver),Low,Silver
-714573258,Existing Customer,36,M,2,Post-Graduate,Single,$60K - $80K,Blue,30,4,2,4,1606.0,798,808.0,0.59,2229,45,1.045,0.497,0,35-44,Middle ($60-80K),30-50% (Elevated),Low,Bronze
+714573258,Existing Customer,36,M,2,Post-Graduate,Single,$60K - $80K,Blue,30,4,2,4,1606.0,798,808.0,0.59,2229,45,1.045,0.497,0,35-44,Middle ($60-80K),30-50% (Elevated),Moderate,Bronze
 712281183,Existing Customer,55,M,4,Graduate,Married,$120K +,Blue,36,4,2,2,24336.0,856,23480.0,0.459,1425,33,0.65,0.035,0,55-64,High (>$120K),0-10% (Low),Low,Silver
 717670758,Existing Customer,30,F,1,Graduate,Single,Less than $40K,Blue,20,5,2,3,5030.0,1327,3703.0,0.803,2523,71,0.775,0.264,0,26-34,Low (<$40K),10-30% (Moderate),High,Silver
 720666333,Existing Customer,36,M,3,Unknown,Married,$120K +,Blue,24,6,3,2,24577.0,0,24577.0,0.75,1897,39,0.393,0.0,0,35-44,High (>$120K),0% (Non-revolver),Low,Gold
@@ -1502,13 +1502,13 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 716075208,Existing Customer,32,F,3,High School,Married,Less than $40K,Blue,22,4,2,4,4561.0,2029,2532.0,0.768,1874,38,0.52,0.445,0,26-34,Low (<$40K),30-50% (Elevated),Low,Silver
 780276258,Existing Customer,53,M,2,High School,Married,$120K +,Blue,39,3,2,3,13091.0,985,12106.0,0.322,1452,37,0.276,0.075,0,45-54,High (>$120K),0-10% (Low),Low,Silver
 789282333,Existing Customer,62,F,0,Graduate,Married,Unknown,Blue,51,3,3,3,10826.0,1274,9552.0,0.602,1355,34,0.619,0.118,0,55-64,Not Declared,10-30% (Moderate),Low,Silver
-811571733,Existing Customer,26,F,0,Unknown,Single,Unknown,Blue,13,4,2,2,2600.0,1876,724.0,0.606,2625,45,0.364,0.722,0,26-34,Not Declared,>50% (High),Low,Silver
+811571733,Existing Customer,26,F,0,Unknown,Single,Unknown,Blue,13,4,2,2,2600.0,1876,724.0,0.606,2625,45,0.364,0.722,0,26-34,Not Declared,>50% (High),Moderate,Silver
 709429533,Existing Customer,49,F,5,Graduate,Divorced,Unknown,Blue,35,6,3,4,2561.0,0,2561.0,1.021,2047,41,0.864,0.0,0,45-54,Not Declared,0% (Non-revolver),Low,Silver
 715247508,Existing Customer,30,F,1,Graduate,Married,Less than $40K,Blue,36,3,2,2,7087.0,1060,6027.0,0.709,1712,37,0.609,0.15,0,26-34,Low (<$40K),10-30% (Moderate),Low,Bronze
 718784358,Existing Customer,34,M,4,Uneducated,Single,$120K +,Blue,36,6,3,2,34516.0,2517,31999.0,0.975,1969,46,1.3,0.073,0,26-34,High (>$120K),0-10% (Low),Moderate,Gold
 751450008,Existing Customer,41,M,1,Post-Graduate,Single,$40K - $60K,Blue,32,3,2,4,10266.0,1390,8876.0,0.593,1720,42,0.556,0.135,0,35-44,Lower-Middle ($40-60K),10-30% (Moderate),Low,Silver
 719227233,Existing Customer,27,F,1,Unknown,Single,Less than $40K,Blue,36,3,3,3,1553.0,723,830.0,0.666,1954,43,0.344,0.466,0,26-34,Low (<$40K),30-50% (Elevated),Low,Bronze
-711050058,Existing Customer,33,F,2,Uneducated,Married,$40K - $60K,Blue,23,4,2,4,6732.0,0,6732.0,0.856,1644,45,0.731,0.0,0,26-34,Lower-Middle ($40-60K),0% (Non-revolver),Low,Silver
+711050058,Existing Customer,33,F,2,Uneducated,Married,$40K - $60K,Blue,23,4,2,4,6732.0,0,6732.0,0.856,1644,45,0.731,0.0,0,26-34,Lower-Middle ($40-60K),0% (Non-revolver),Moderate,Silver
 779040408,Existing Customer,56,M,2,High School,Married,$120K +,Blue,37,3,1,2,12181.0,1702,10479.0,0.834,1478,33,0.5,0.14,0,55-64,High (>$120K),10-30% (Moderate),Low,Silver
 714024858,Existing Customer,36,M,3,High School,Married,$80K - $120K,Blue,27,3,1,2,7056.0,0,7056.0,0.815,1739,35,0.842,0.0,0,35-44,Upper-Middle ($80-120K),0% (Non-revolver),Low,Bronze
 789849108,Existing Customer,35,M,1,Graduate,Single,$60K - $80K,Blue,25,6,1,2,14365.0,0,14365.0,0.61,2290,62,0.632,0.0,0,35-44,Middle ($60-80K),0% (Non-revolver),Moderate,Gold
@@ -1554,7 +1554,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 713725683,Existing Customer,36,F,0,College,Single,Less than $40K,Blue,27,6,3,2,3282.0,1843,1439.0,0.625,2614,79,0.646,0.562,0,35-44,Low (<$40K),>50% (High),High,Gold
 710364258,Existing Customer,53,F,2,Uneducated,Married,Unknown,Blue,41,4,2,2,15815.0,1217,14598.0,1.266,2135,48,0.846,0.077,0,45-54,Not Declared,0-10% (Low),Moderate,Silver
 816033783,Existing Customer,26,M,0,High School,Single,$60K - $80K,Blue,21,6,2,3,1672.0,957,715.0,0.576,2099,34,0.417,0.572,0,26-34,Middle ($60-80K),>50% (High),Low,Silver
-715065483,Existing Customer,45,F,3,Graduate,Divorced,Less than $40K,Blue,36,4,3,3,8121.0,1595,6526.0,0.743,1914,45,0.5,0.196,0,45-54,Low (<$40K),10-30% (Moderate),Low,Silver
+715065483,Existing Customer,45,F,3,Graduate,Divorced,Less than $40K,Blue,36,4,3,3,8121.0,1595,6526.0,0.743,1914,45,0.5,0.196,0,45-54,Low (<$40K),10-30% (Moderate),Moderate,Silver
 718751133,Existing Customer,36,F,2,Unknown,Married,Less than $40K,Blue,26,4,1,4,3182.0,2435,747.0,0.868,1670,30,0.765,0.765,0,35-44,Low (<$40K),>50% (High),Low,Silver
 713983308,Existing Customer,60,M,0,Post-Graduate,Married,$60K - $80K,Blue,49,5,1,4,3182.0,1928,1254.0,0.509,1233,35,0.4,0.606,0,55-64,Middle ($60-80K),>50% (High),Low,Silver
 718418958,Attrited Customer,30,M,1,Post-Graduate,Divorced,Less than $40K,Blue,36,6,2,4,5061.0,0,5061.0,0.911,1309,38,0.462,0.0,1,26-34,Low (<$40K),0% (Non-revolver),Low,Silver
@@ -1608,7 +1608,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 814086333,Existing Customer,36,M,3,College,Married,$40K - $60K,Blue,31,6,2,4,2220.0,1337,883.0,0.768,1685,44,0.375,0.602,0,35-44,Lower-Middle ($40-60K),>50% (High),Low,Silver
 715524708,Existing Customer,49,M,5,Unknown,Single,$40K - $60K,Silver,41,4,2,2,20756.0,1710,19046.0,0.816,1502,31,0.824,0.082,0,45-54,Lower-Middle ($40-60K),0-10% (Low),Low,Silver
 713307708,Existing Customer,64,F,0,Unknown,Married,$40K - $60K,Blue,55,6,3,2,2895.0,2517,378.0,0.322,1541,37,0.609,0.869,0,55-64,Lower-Middle ($40-60K),>50% (High),Low,Silver
-714069858,Existing Customer,53,M,3,Graduate,Married,$60K - $80K,Blue,36,4,3,2,3539.0,2517,1022.0,0.569,1677,45,0.5,0.711,0,45-54,Middle ($60-80K),>50% (High),Low,Silver
+714069858,Existing Customer,53,M,3,Graduate,Married,$60K - $80K,Blue,36,4,3,2,3539.0,2517,1022.0,0.569,1677,45,0.5,0.711,0,45-54,Middle ($60-80K),>50% (High),Moderate,Silver
 712789383,Existing Customer,52,M,1,Graduate,Married,$120K +,Blue,44,6,1,4,9274.0,2097,7177.0,0.776,2048,59,0.639,0.226,0,45-54,High (>$120K),10-30% (Moderate),Moderate,Gold
 787983633,Existing Customer,35,F,3,Uneducated,Married,Less than $40K,Blue,26,6,1,3,3187.0,2517,670.0,1.214,2072,33,0.833,0.79,0,35-44,Low (<$40K),>50% (High),Low,Silver
 758583708,Attrited Customer,37,F,3,Graduate,Single,Less than $40K,Blue,24,2,1,4,2802.0,2460,342.0,1.029,1406,28,0.077,0.878,1,35-44,Low (<$40K),>50% (High),Low,Bronze
@@ -1646,7 +1646,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 789247458,Existing Customer,32,M,0,Graduate,Single,$40K - $60K,Blue,21,6,2,3,2801.0,1472,1329.0,1.027,2467,54,0.8,0.526,0,26-34,Lower-Middle ($40-60K),>50% (High),Moderate,Silver
 717100833,Existing Customer,37,F,2,High School,Married,Less than $40K,Blue,27,6,6,2,3148.0,0,3148.0,0.498,1401,31,0.722,0.0,0,35-44,Low (<$40K),0% (Non-revolver),Low,Silver
 716870583,Existing Customer,36,F,3,Unknown,Married,Less than $40K,Blue,36,6,5,3,2786.0,1628,1158.0,1.314,2853,55,0.667,0.584,0,35-44,Low (<$40K),>50% (High),Moderate,Silver
-719999508,Existing Customer,37,M,3,Unknown,Married,$60K - $80K,Blue,24,3,1,2,11894.0,816,11078.0,1.561,2438,45,0.607,0.069,0,35-44,Middle ($60-80K),0-10% (Low),Low,Silver
+719999508,Existing Customer,37,M,3,Unknown,Married,$60K - $80K,Blue,24,3,1,2,11894.0,816,11078.0,1.561,2438,45,0.607,0.069,0,35-44,Middle ($60-80K),0-10% (Low),Moderate,Silver
 721236408,Existing Customer,38,M,2,Graduate,Married,$80K - $120K,Blue,29,5,3,3,7535.0,2517,5018.0,0.813,1655,41,0.577,0.334,0,35-44,Upper-Middle ($80-120K),30-50% (Elevated),Low,Silver
 720122808,Attrited Customer,52,M,2,High School,Married,$60K - $80K,Silver,35,4,4,3,33180.0,511,32669.0,0.681,797,14,0.273,0.015,1,45-54,Middle ($60-80K),0-10% (Low),Low,Silver
 716882658,Existing Customer,62,F,2,Graduate,Married,Less than $40K,Blue,51,6,2,4,2986.0,1632,1354.0,0.883,2141,55,0.667,0.547,0,55-64,Low (<$40K),>50% (High),Moderate,Silver
@@ -1785,7 +1785,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 720145683,Existing Customer,54,M,1,College,Married,$60K - $80K,Blue,42,3,2,2,2987.0,2517,470.0,0.479,1617,35,0.75,0.843,0,45-54,Middle ($60-80K),>50% (High),Low,Bronze
 714832383,Existing Customer,35,M,0,High School,Single,$80K - $120K,Gold,29,6,2,3,34516.0,1965,32551.0,1.044,2949,70,1.0,0.057,0,35-44,Upper-Middle ($80-120K),0-10% (Low),High,Platinum
 772706283,Existing Customer,38,F,2,College,Married,$40K - $60K,Blue,28,3,3,4,6275.0,1579,4696.0,0.996,1585,43,0.72,0.252,0,35-44,Lower-Middle ($40-60K),10-30% (Moderate),Low,Bronze
-795920358,Existing Customer,33,F,2,High School,Married,Less than $40K,Blue,27,3,2,3,7185.0,0,7185.0,1.504,2679,45,0.8,0.0,0,26-34,Low (<$40K),0% (Non-revolver),Low,Silver
+795920358,Existing Customer,33,F,2,High School,Married,Less than $40K,Blue,27,3,2,3,7185.0,0,7185.0,1.504,2679,45,0.8,0.0,0,26-34,Low (<$40K),0% (Non-revolver),Moderate,Silver
 716277558,Existing Customer,45,F,1,Uneducated,Single,Less than $40K,Blue,36,4,3,4,3281.0,1961,1320.0,0.744,1779,47,0.808,0.598,0,45-54,Low (<$40K),>50% (High),Moderate,Silver
 764776833,Existing Customer,61,M,0,Graduate,Married,$40K - $60K,Blue,54,3,3,2,3077.0,1646,1431.0,0.456,1523,30,0.579,0.535,0,55-64,Lower-Middle ($40-60K),>50% (High),Low,Bronze
 710795883,Existing Customer,33,F,3,Uneducated,Married,Less than $40K,Blue,16,6,1,4,2042.0,1864,178.0,1.318,2758,50,0.852,0.913,0,26-34,Low (<$40K),>50% (High),Moderate,Silver
@@ -1804,7 +1804,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 719883858,Existing Customer,58,M,2,Graduate,Married,Less than $40K,Blue,48,4,1,0,2774.0,0,2774.0,0.721,1258,33,0.435,0.0,0,55-64,Low (<$40K),0% (Non-revolver),Low,Bronze
 719628033,Existing Customer,33,F,1,Post-Graduate,Married,Unknown,Blue,36,5,3,3,4134.0,1130,3004.0,1.222,2475,52,0.926,0.273,0,26-34,Not Declared,10-30% (Moderate),Moderate,Silver
 712043433,Existing Customer,53,M,1,Graduate,Married,$80K - $120K,Blue,36,5,2,2,11329.0,1180,10149.0,0.648,1213,33,0.571,0.104,0,45-54,Upper-Middle ($80-120K),10-30% (Moderate),Low,Silver
-769095558,Existing Customer,59,M,1,Doctorate,Single,$60K - $80K,Blue,53,3,2,2,9055.0,1560,7495.0,0.696,1755,45,0.8,0.172,0,55-64,Middle ($60-80K),10-30% (Moderate),Low,Silver
+769095558,Existing Customer,59,M,1,Doctorate,Single,$60K - $80K,Blue,53,3,2,2,9055.0,1560,7495.0,0.696,1755,45,0.8,0.172,0,55-64,Middle ($60-80K),10-30% (Moderate),Moderate,Silver
 816094233,Existing Customer,37,M,1,High School,Married,$120K +,Blue,32,6,2,2,17393.0,1409,15984.0,0.608,1692,38,0.652,0.081,0,35-44,High (>$120K),0-10% (Low),Low,Gold
 758417508,Existing Customer,50,F,4,High School,Divorced,Less than $40K,Blue,43,6,3,4,5908.0,0,5908.0,0.822,3313,72,0.756,0.0,0,45-54,Low (<$40K),0% (Non-revolver),High,Gold
 721234308,Existing Customer,35,F,2,Uneducated,Married,Less than $40K,Blue,21,6,2,3,5825.0,1815,4010.0,1.132,2820,62,0.879,0.312,0,35-44,Low (<$40K),30-50% (Elevated),Moderate,Gold
@@ -1832,7 +1832,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 816013383,Attrited Customer,65,F,0,Graduate,Divorced,Less than $40K,Blue,56,3,6,3,6184.0,0,6184.0,1.016,1712,27,0.286,0.0,1,65+,Low (<$40K),0% (Non-revolver),Low,Bronze
 758765808,Existing Customer,36,F,2,Unknown,Married,Less than $40K,Blue,29,6,3,4,2029.0,1190,839.0,0.628,1802,40,0.481,0.586,0,35-44,Low (<$40K),>50% (High),Low,Silver
 780881358,Existing Customer,35,M,3,Graduate,Single,$40K - $60K,Silver,17,6,3,2,16659.0,0,16659.0,1.012,2551,74,0.609,0.0,0,35-44,Lower-Middle ($40-60K),0% (Non-revolver),High,Gold
-709422183,Existing Customer,58,F,1,Graduate,Married,Less than $40K,Blue,46,4,2,2,2203.0,1394,809.0,0.57,1788,45,0.364,0.633,0,55-64,Low (<$40K),>50% (High),Low,Bronze
+709422183,Existing Customer,58,F,1,Graduate,Married,Less than $40K,Blue,46,4,2,2,2203.0,1394,809.0,0.57,1788,45,0.364,0.633,0,55-64,Low (<$40K),>50% (High),Moderate,Bronze
 779951058,Existing Customer,54,F,3,High School,Married,Unknown,Blue,38,4,2,4,5122.0,1642,3480.0,0.935,1908,39,0.696,0.321,0,45-54,Not Declared,30-50% (Elevated),Low,Silver
 809941233,Existing Customer,53,M,1,Graduate,Married,$80K - $120K,Blue,48,4,1,3,3074.0,2390,684.0,0.421,1377,38,0.583,0.777,0,45-54,Upper-Middle ($80-120K),>50% (High),Low,Silver
 710844408,Existing Customer,38,M,3,Post-Graduate,Married,$60K - $80K,Blue,36,4,3,2,2584.0,0,2584.0,0.593,1843,28,0.647,0.0,0,35-44,Middle ($60-80K),0% (Non-revolver),Low,Bronze
@@ -1881,7 +1881,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 714474483,Existing Customer,35,F,1,Graduate,Married,$40K - $60K,Blue,29,4,2,2,2523.0,1877,646.0,1.631,2005,50,1.174,0.744,0,35-44,Lower-Middle ($40-60K),>50% (High),Moderate,Bronze
 716448783,Attrited Customer,48,F,3,Graduate,Married,$40K - $60K,Blue,39,2,4,3,6235.0,0,6235.0,0.848,1225,34,0.478,0.0,1,45-54,Lower-Middle ($40-60K),0% (Non-revolver),Low,Bronze
 711065133,Existing Customer,26,M,1,High School,Single,$40K - $60K,Blue,13,6,2,4,1473.0,0,1473.0,0.813,2099,39,0.857,0.0,0,26-34,Lower-Middle ($40-60K),0% (Non-revolver),Low,Silver
-713769258,Existing Customer,36,M,3,College,Married,$120K +,Blue,26,3,2,3,17116.0,939,16177.0,1.575,2547,45,0.731,0.055,0,35-44,High (>$120K),0-10% (Low),Low,Silver
+713769258,Existing Customer,36,M,3,College,Married,$120K +,Blue,26,3,2,3,17116.0,939,16177.0,1.575,2547,45,0.731,0.055,0,35-44,High (>$120K),0-10% (Low),Moderate,Silver
 712288158,Existing Customer,37,M,2,College,Married,$80K - $120K,Blue,17,5,3,2,4631.0,1991,2640.0,1.669,2864,37,0.947,0.43,0,35-44,Upper-Middle ($80-120K),30-50% (Elevated),Low,Silver
 714130233,Existing Customer,39,M,2,Unknown,Married,$60K - $80K,Blue,19,3,3,2,3047.0,2150,897.0,0.882,1602,37,1.312,0.706,0,35-44,Middle ($60-80K),>50% (High),Low,Bronze
 789127533,Existing Customer,49,M,4,High School,Divorced,$80K - $120K,Blue,37,5,2,2,32338.0,1664,30674.0,0.919,3013,83,0.766,0.051,0,45-54,Upper-Middle ($80-120K),0-10% (Low),Very High,Gold
@@ -1929,8 +1929,8 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 710273658,Existing Customer,36,M,2,Graduate,Married,$60K - $80K,Blue,17,5,2,3,3092.0,1825,1267.0,1.46,2883,61,0.488,0.59,0,35-44,Middle ($60-80K),>50% (High),Moderate,Silver
 771429408,Existing Customer,54,M,1,High School,Married,$80K - $120K,Blue,42,5,3,2,1618.0,668,950.0,0.552,1515,31,0.476,0.413,0,45-54,Upper-Middle ($80-120K),30-50% (Elevated),Low,Bronze
 719452308,Existing Customer,30,F,0,Graduate,Married,Less than $40K,Blue,23,5,2,3,2498.0,1632,866.0,0.712,2048,35,1.188,0.653,0,26-34,Low (<$40K),>50% (High),Low,Bronze
-818908833,Existing Customer,46,M,3,Graduate,Married,$40K - $60K,Blue,41,5,2,2,2564.0,0,2564.0,1.026,2038,45,0.364,0.0,0,45-54,Lower-Middle ($40-60K),0% (Non-revolver),Low,Bronze
-780998133,Existing Customer,43,M,3,Graduate,Married,$80K - $120K,Blue,34,3,4,4,10540.0,1489,9051.0,1.029,1980,45,0.607,0.141,0,35-44,Upper-Middle ($80-120K),10-30% (Moderate),Low,Silver
+818908833,Existing Customer,46,M,3,Graduate,Married,$40K - $60K,Blue,41,5,2,2,2564.0,0,2564.0,1.026,2038,45,0.364,0.0,0,45-54,Lower-Middle ($40-60K),0% (Non-revolver),Moderate,Bronze
+780998133,Existing Customer,43,M,3,Graduate,Married,$80K - $120K,Blue,34,3,4,4,10540.0,1489,9051.0,1.029,1980,45,0.607,0.141,0,35-44,Upper-Middle ($80-120K),10-30% (Moderate),Moderate,Silver
 801726933,Existing Customer,34,M,2,Graduate,Married,$120K +,Blue,28,4,3,3,13384.0,1853,11531.0,0.807,1899,33,0.833,0.138,0,26-34,High (>$120K),10-30% (Moderate),Low,Silver
 788474658,Existing Customer,55,M,3,Graduate,Married,$80K - $120K,Blue,48,5,2,4,16208.0,1278,14930.0,0.543,1842,56,0.436,0.079,0,55-64,Upper-Middle ($80-120K),0-10% (Low),Moderate,Silver
 708438033,Existing Customer,36,F,2,Unknown,Married,Less than $40K,Blue,27,3,3,4,3049.0,2198,851.0,1.546,2617,48,1.0,0.721,0,35-44,Low (<$40K),>50% (High),Moderate,Silver
@@ -1967,7 +1967,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 711199008,Existing Customer,38,M,2,Unknown,Married,$40K - $60K,Blue,31,3,2,2,2919.0,2192,727.0,1.073,2399,57,0.966,0.751,0,35-44,Lower-Middle ($40-60K),>50% (High),Moderate,Bronze
 709858533,Existing Customer,29,M,2,Graduate,Divorced,Less than $40K,Blue,20,4,1,2,2462.0,2021,441.0,0.966,2320,57,0.676,0.821,0,26-34,Low (<$40K),>50% (High),Moderate,Bronze
 718627458,Existing Customer,43,F,3,Doctorate,Married,Unknown,Blue,38,3,4,2,1947.0,0,1947.0,0.838,2119,52,1.0,0.0,0,35-44,Not Declared,0% (Non-revolver),Moderate,Bronze
-711816108,Attrited Customer,40,M,3,High School,Single,$80K - $120K,Blue,29,2,2,4,18563.0,0,18563.0,0.729,2395,45,0.552,0.0,1,35-44,Upper-Middle ($80-120K),0% (Non-revolver),Low,Silver
+711816108,Attrited Customer,40,M,3,High School,Single,$80K - $120K,Blue,29,2,2,4,18563.0,0,18563.0,0.729,2395,45,0.552,0.0,1,35-44,Upper-Middle ($80-120K),0% (Non-revolver),Moderate,Silver
 717105258,Existing Customer,37,F,1,Graduate,Married,Less than $40K,Blue,36,3,3,3,3992.0,1289,2703.0,1.008,2181,32,0.6,0.323,0,35-44,Low (<$40K),30-50% (Elevated),Low,Bronze
 715822008,Existing Customer,32,M,1,High School,Married,Less than $40K,Blue,14,4,2,2,3568.0,2175,1393.0,1.368,1913,35,0.667,0.61,0,26-34,Low (<$40K),>50% (High),Low,Silver
 714971583,Existing Customer,36,M,2,Graduate,Single,$60K - $80K,Blue,27,3,3,2,7776.0,831,6945.0,1.007,3063,87,0.891,0.107,0,35-44,Middle ($60-80K),10-30% (Moderate),Very High,Silver
@@ -2003,7 +2003,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 714118383,Existing Customer,49,F,5,Graduate,Married,Less than $40K,Blue,43,4,2,3,8154.0,0,8154.0,0.964,2223,72,0.946,0.0,0,45-54,Low (<$40K),0% (Non-revolver),High,Silver
 720532908,Existing Customer,36,F,2,Unknown,Divorced,$40K - $60K,Blue,20,4,3,2,9735.0,1245,8490.0,1.079,2967,80,0.739,0.128,0,35-44,Lower-Middle ($40-60K),10-30% (Moderate),High,Gold
 765055833,Existing Customer,56,M,4,Unknown,Married,$80K - $120K,Blue,49,3,4,2,4310.0,2229,2081.0,0.643,1645,33,0.941,0.517,0,55-64,Upper-Middle ($80-120K),>50% (High),Low,Bronze
-715310208,Existing Customer,53,M,3,Uneducated,Married,$80K - $120K,Blue,36,3,3,1,11450.0,2129,9321.0,0.956,2197,45,0.957,0.186,0,45-54,Upper-Middle ($80-120K),10-30% (Moderate),Low,Silver
+715310208,Existing Customer,53,M,3,Uneducated,Married,$80K - $120K,Blue,36,3,3,1,11450.0,2129,9321.0,0.956,2197,45,0.957,0.186,0,45-54,Upper-Middle ($80-120K),10-30% (Moderate),Moderate,Silver
 718577958,Attrited Customer,39,M,2,Uneducated,Married,$120K +,Blue,26,2,3,4,8906.0,0,8906.0,0.315,809,15,0.25,0.0,1,35-44,High (>$120K),0% (Non-revolver),Low,Silver
 789167658,Existing Customer,34,M,3,College,Married,$60K - $80K,Blue,23,5,3,2,4245.0,1815,2430.0,0.846,1534,34,0.545,0.428,0,26-34,Middle ($60-80K),30-50% (Elevated),Low,Silver
 789987183,Existing Customer,53,M,2,College,Married,$80K - $120K,Blue,45,4,4,4,21953.0,1311,20642.0,0.443,1413,37,0.37,0.06,0,45-54,Upper-Middle ($80-120K),0-10% (Low),Low,Silver
@@ -2044,9 +2044,9 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 768212583,Existing Customer,49,M,2,Graduate,Married,$60K - $80K,Blue,43,4,4,4,15377.0,1516,13861.0,0.627,1848,49,1.042,0.099,0,45-54,Middle ($60-80K),0-10% (Low),Moderate,Silver
 720181758,Attrited Customer,37,M,0,Doctorate,Married,$120K +,Blue,22,3,3,4,8654.0,0,8654.0,0.446,850,18,0.385,0.0,1,35-44,High (>$120K),0% (Non-revolver),Low,Silver
 710632683,Existing Customer,31,M,1,Uneducated,Married,$40K - $60K,Blue,24,5,2,3,1438.3,0,1438.3,0.665,2308,49,0.4,0.0,0,26-34,Lower-Middle ($40-60K),0% (Non-revolver),Moderate,Bronze
-711836733,Existing Customer,43,M,3,Graduate,Single,$120K +,Blue,31,3,3,3,1438.3,0,1438.3,0.663,1867,45,0.875,0.0,0,35-44,High (>$120K),0% (Non-revolver),Low,Bronze
+711836733,Existing Customer,43,M,3,Graduate,Single,$120K +,Blue,31,3,3,3,1438.3,0,1438.3,0.663,1867,45,0.875,0.0,0,35-44,High (>$120K),0% (Non-revolver),Moderate,Bronze
 771183933,Existing Customer,39,M,1,Uneducated,Married,$80K - $120K,Blue,26,6,2,3,16040.0,1220,14820.0,0.862,1923,49,0.4,0.076,0,35-44,Upper-Middle ($80-120K),0-10% (Low),Moderate,Gold
-711327558,Existing Customer,38,M,2,High School,Married,$40K - $60K,Blue,36,3,3,1,2801.0,1980,821.0,0.882,1600,45,0.406,0.707,0,35-44,Lower-Middle ($40-60K),>50% (High),Low,Bronze
+711327558,Existing Customer,38,M,2,High School,Married,$40K - $60K,Blue,36,3,3,1,2801.0,1980,821.0,0.882,1600,45,0.406,0.707,0,35-44,Lower-Middle ($40-60K),>50% (High),Moderate,Bronze
 788971308,Existing Customer,62,F,1,Uneducated,Married,Less than $40K,Blue,49,5,4,2,2658.0,1158,1500.0,0.476,1809,41,0.464,0.436,0,55-64,Low (<$40K),30-50% (Elevated),Low,Bronze
 718950483,Existing Customer,58,F,1,Unknown,Married,$40K - $60K,Blue,48,3,3,2,12423.0,1910,10513.0,0.405,1208,38,0.357,0.154,0,55-64,Lower-Middle ($40-60K),10-30% (Moderate),Low,Silver
 714278958,Existing Customer,39,F,2,High School,Married,Unknown,Blue,27,6,1,3,9347.0,1988,7359.0,1.173,2201,46,1.091,0.213,0,35-44,Not Declared,10-30% (Moderate),Moderate,Gold
@@ -2120,7 +2120,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 794627208,Existing Customer,43,M,1,High School,Married,$60K - $80K,Blue,23,4,3,2,7189.0,1550,5639.0,0.538,1935,52,0.368,0.216,0,35-44,Middle ($60-80K),10-30% (Moderate),Moderate,Silver
 719020983,Existing Customer,58,M,1,Graduate,Married,$80K - $120K,Blue,42,4,3,1,12421.0,2517,9904.0,0.73,1913,49,0.69,0.203,0,55-64,Upper-Middle ($80-120K),10-30% (Moderate),Moderate,Silver
 719131533,Existing Customer,29,F,0,Post-Graduate,Divorced,Less than $40K,Blue,17,3,2,4,2585.0,2008,577.0,1.266,3519,73,0.622,0.777,0,26-34,Low (<$40K),>50% (High),High,Bronze
-710449983,Existing Customer,38,M,2,High School,Married,$120K +,Blue,29,4,1,2,2818.0,1656,1162.0,1.404,2916,45,0.957,0.588,0,35-44,High (>$120K),>50% (High),Low,Silver
+710449983,Existing Customer,38,M,2,High School,Married,$120K +,Blue,29,4,1,2,2818.0,1656,1162.0,1.404,2916,45,0.957,0.588,0,35-44,High (>$120K),>50% (High),Moderate,Silver
 715651833,Attrited Customer,65,M,1,Unknown,Single,Less than $40K,Blue,36,3,4,4,2351.0,0,2351.0,0.881,1593,35,0.591,0.0,1,65+,Low (<$40K),0% (Non-revolver),Low,Bronze
 720714933,Existing Customer,62,F,1,Graduate,Married,Less than $40K,Blue,49,4,2,2,3143.0,2517,626.0,0.625,1323,25,0.923,0.801,0,55-64,Low (<$40K),>50% (High),Low,Silver
 789170283,Existing Customer,53,M,1,Graduate,Unknown,$80K - $120K,Blue,42,5,5,4,6514.0,978,5536.0,0.843,3084,63,0.658,0.15,0,45-54,Upper-Middle ($80-120K),10-30% (Moderate),Moderate,Silver
@@ -2296,7 +2296,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 719427333,Existing Customer,55,M,3,College,Married,$60K - $80K,Blue,36,5,4,4,2252.0,1737,515.0,0.685,1291,27,0.5,0.771,0,55-64,Middle ($60-80K),>50% (High),Low,Bronze
 714765408,Existing Customer,26,F,1,Unknown,Single,Less than $40K,Blue,36,4,3,3,2557.0,1990,567.0,0.575,2266,57,0.357,0.778,0,26-34,Low (<$40K),>50% (High),Moderate,Bronze
 709785783,Attrited Customer,35,F,0,Graduate,Single,Less than $40K,Blue,25,5,3,4,2300.0,0,2300.0,0.877,1485,34,0.478,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Low,Bronze
-809290308,Existing Customer,31,F,0,Graduate,Married,Less than $40K,Blue,26,3,1,1,3540.0,1173,2367.0,1.106,1912,45,0.667,0.331,0,26-34,Low (<$40K),30-50% (Elevated),Low,Bronze
+809290308,Existing Customer,31,F,0,Graduate,Married,Less than $40K,Blue,26,3,1,1,3540.0,1173,2367.0,1.106,1912,45,0.667,0.331,0,26-34,Low (<$40K),30-50% (Elevated),Moderate,Bronze
 779598183,Existing Customer,53,M,3,Unknown,Single,$60K - $80K,Blue,42,6,1,2,22938.0,1700,21238.0,0.636,3428,54,0.5,0.074,0,45-54,Middle ($60-80K),0-10% (Low),Moderate,Platinum
 779783508,Existing Customer,45,M,2,Graduate,Married,$40K - $60K,Blue,34,5,1,3,13129.0,901,12228.0,0.825,2564,56,0.474,0.069,0,45-54,Lower-Middle ($40-60K),0-10% (Low),Moderate,Silver
 719568333,Existing Customer,39,M,3,Unknown,Single,$80K - $120K,Silver,36,5,3,2,34516.0,1900,32616.0,1.002,1668,36,0.714,0.055,0,35-44,Upper-Middle ($80-120K),0-10% (Low),Low,Silver
@@ -2514,7 +2514,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 796336833,Existing Customer,51,M,3,Doctorate,Married,$80K - $120K,Blue,45,5,2,4,32096.0,0,32096.0,0.766,2619,69,0.917,0.0,0,45-54,Upper-Middle ($80-120K),0% (Non-revolver),High,Gold
 713763633,Existing Customer,54,F,2,Graduate,Married,Unknown,Blue,46,5,3,2,3014.0,794,2220.0,0.5,1488,30,0.579,0.263,0,45-54,Not Declared,10-30% (Moderate),Low,Silver
 710942358,Existing Customer,47,M,4,Unknown,Single,$40K - $60K,Blue,36,3,3,3,5762.0,1890,3872.0,0.938,3814,88,0.66,0.328,0,45-54,Lower-Middle ($40-60K),30-50% (Elevated),Very High,Silver
-713974533,Existing Customer,52,F,3,Post-Graduate,Single,Less than $40K,Blue,45,5,1,3,2555.0,1701,854.0,1.492,3127,45,1.25,0.666,0,45-54,Low (<$40K),>50% (High),Low,Silver
+713974533,Existing Customer,52,F,3,Post-Graduate,Single,Less than $40K,Blue,45,5,1,3,2555.0,1701,854.0,1.492,3127,45,1.25,0.666,0,45-54,Low (<$40K),>50% (High),Moderate,Silver
 787231233,Existing Customer,34,M,5,Post-Graduate,Single,$80K - $120K,Silver,28,3,3,2,34516.0,1731,32785.0,0.605,2421,63,0.575,0.05,0,26-34,Upper-Middle ($80-120K),0-10% (Low),Moderate,Silver
 719810583,Existing Customer,64,M,0,High School,Married,Less than $40K,Blue,54,4,3,2,2140.0,1361,779.0,0.46,1280,34,1.0,0.636,0,55-64,Low (<$40K),>50% (High),Low,Bronze
 717124983,Existing Customer,62,F,1,Uneducated,Married,$40K - $60K,Blue,43,3,1,1,4760.0,0,4760.0,0.564,1459,20,0.538,0.0,0,55-64,Lower-Middle ($40-60K),0% (Non-revolver),Low,Bronze
@@ -2564,7 +2564,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 779484408,Existing Customer,37,M,1,Unknown,Married,$60K - $80K,Blue,19,6,1,2,18951.0,1243,17708.0,1.148,2874,58,0.657,0.066,0,35-44,Middle ($60-80K),0-10% (Low),Moderate,Platinum
 710416533,Existing Customer,58,F,3,Unknown,Single,$40K - $60K,Blue,52,4,1,1,1454.0,888,566.0,1.19,3060,56,0.647,0.611,0,55-64,Lower-Middle ($40-60K),>50% (High),Moderate,Silver
 719706483,Existing Customer,33,M,3,High School,Married,$120K +,Blue,20,6,3,2,27499.0,1188,26311.0,0.544,2202,46,0.394,0.043,0,26-34,High (>$120K),0-10% (Low),Moderate,Gold
-712206858,Existing Customer,39,M,3,Graduate,Married,$120K +,Blue,36,3,3,2,32964.0,2231,30733.0,1.731,3094,45,1.647,0.068,0,35-44,High (>$120K),0-10% (Low),Low,Silver
+712206858,Existing Customer,39,M,3,Graduate,Married,$120K +,Blue,36,3,3,2,32964.0,2231,30733.0,1.731,3094,45,1.647,0.068,0,35-44,High (>$120K),0-10% (Low),Moderate,Silver
 709886583,Existing Customer,37,F,2,High School,Single,Less than $40K,Blue,28,5,2,1,7411.0,633,6778.0,0.762,2761,77,0.604,0.085,0,35-44,Low (<$40K),0-10% (Low),High,Silver
 711040758,Existing Customer,32,M,0,Uneducated,Single,$40K - $60K,Blue,36,4,3,3,7200.0,0,7200.0,0.894,3006,83,0.93,0.0,0,26-34,Lower-Middle ($40-60K),0% (Non-revolver),Very High,Silver
 817197333,Existing Customer,26,F,1,Uneducated,Single,Unknown,Blue,13,6,2,3,12007.0,956,11051.0,0.832,2678,50,0.471,0.08,0,26-34,Not Declared,0-10% (Low),Moderate,Platinum
@@ -2586,7 +2586,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 788621658,Existing Customer,54,M,1,College,Married,$60K - $80K,Blue,37,6,3,2,1909.0,1753,156.0,0.788,1457,24,0.6,0.918,0,45-54,Middle ($60-80K),>50% (High),Low,Silver
 716713533,Existing Customer,53,M,3,Post-Graduate,Single,$80K - $120K,Blue,44,5,2,2,19063.0,1236,17827.0,0.542,3393,58,0.871,0.065,0,45-54,Upper-Middle ($80-120K),0-10% (Low),Moderate,Gold
 712338033,Existing Customer,36,M,2,High School,Married,$80K - $120K,Blue,26,4,2,4,15982.0,1691,14291.0,0.808,1687,40,0.739,0.106,0,35-44,Upper-Middle ($80-120K),10-30% (Moderate),Low,Silver
-711639708,Existing Customer,42,M,3,Graduate,Single,$60K - $80K,Blue,32,6,2,2,1438.3,0,1438.3,0.66,1794,45,0.875,0.0,0,35-44,Middle ($60-80K),0% (Non-revolver),Low,Silver
+711639708,Existing Customer,42,M,3,Graduate,Single,$60K - $80K,Blue,32,6,2,2,1438.3,0,1438.3,0.66,1794,45,0.875,0.0,0,35-44,Middle ($60-80K),0% (Non-revolver),Moderate,Silver
 720216108,Existing Customer,27,F,2,College,Divorced,Less than $40K,Blue,14,4,3,3,2549.0,2130,419.0,0.693,2605,61,0.794,0.836,0,26-34,Low (<$40K),>50% (High),Moderate,Silver
 718708908,Existing Customer,58,M,4,Graduate,Married,$60K - $80K,Blue,36,6,2,4,5967.0,2350,3617.0,0.543,1426,29,0.812,0.394,0,55-64,Middle ($60-80K),30-50% (Elevated),Low,Silver
 802890333,Existing Customer,59,M,1,Uneducated,Married,$40K - $60K,Blue,53,5,1,3,2182.0,1558,624.0,0.457,1660,34,0.789,0.714,0,55-64,Lower-Middle ($40-60K),>50% (High),Low,Bronze
@@ -2609,7 +2609,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 755943033,Existing Customer,34,F,2,Graduate,Single,Less than $40K,Blue,27,4,1,1,1901.0,1176,725.0,0.612,2450,52,0.857,0.619,0,26-34,Low (<$40K),>50% (High),Moderate,Bronze
 772399983,Existing Customer,55,M,2,College,Single,$80K - $120K,Silver,45,3,1,4,34516.0,1433,33083.0,0.728,1966,31,0.55,0.042,0,55-64,Upper-Middle ($80-120K),0-10% (Low),Low,Silver
 826130133,Existing Customer,58,M,2,Graduate,Married,$120K +,Blue,54,6,2,4,31680.0,1812,29868.0,0.483,1121,25,0.562,0.057,0,55-64,High (>$120K),0-10% (Low),Low,Gold
-719238183,Existing Customer,55,F,3,Graduate,Married,Less than $40K,Blue,35,3,2,3,1872.0,1167,705.0,0.517,2238,45,0.607,0.623,0,55-64,Low (<$40K),>50% (High),Low,Bronze
+719238183,Existing Customer,55,F,3,Graduate,Married,Less than $40K,Blue,35,3,2,3,1872.0,1167,705.0,0.517,2238,45,0.607,0.623,0,55-64,Low (<$40K),>50% (High),Moderate,Bronze
 802666083,Existing Customer,48,F,2,Uneducated,Unknown,Less than $40K,Blue,42,3,2,2,2055.0,0,2055.0,1.064,3656,63,0.75,0.0,0,45-54,Low (<$40K),0% (Non-revolver),Moderate,Bronze
 713682708,Existing Customer,45,M,2,College,Divorced,$40K - $60K,Blue,37,5,1,2,10991.0,1328,9663.0,1.027,3692,60,0.714,0.121,0,45-54,Lower-Middle ($40-60K),10-30% (Moderate),Moderate,Gold
 712774008,Existing Customer,59,M,0,Uneducated,Married,Less than $40K,Blue,46,6,1,2,3939.0,2517,1422.0,0.376,1489,34,0.545,0.639,0,55-64,Low (<$40K),>50% (High),Low,Silver
@@ -2714,7 +2714,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 712255458,Existing Customer,37,M,3,High School,Single,$60K - $80K,Blue,36,3,1,5,8418.0,2051,6367.0,0.847,2879,63,0.703,0.244,0,35-44,Middle ($60-80K),10-30% (Moderate),Moderate,Silver
 789494133,Existing Customer,30,M,0,High School,Married,Less than $40K,Blue,21,5,4,3,2490.0,1259,1231.0,1.079,2441,53,0.514,0.506,0,26-34,Low (<$40K),>50% (High),Moderate,Bronze
 714178458,Existing Customer,45,M,3,Post-Graduate,Married,$80K - $120K,Blue,35,3,3,2,20640.0,1603,19037.0,0.532,1792,53,0.395,0.078,0,45-54,Upper-Middle ($80-120K),0-10% (Low),Moderate,Silver
-717595908,Existing Customer,54,M,1,High School,Married,$60K - $80K,Blue,37,5,1,1,9453.0,2188,7265.0,0.572,1688,45,0.452,0.231,0,45-54,Middle ($60-80K),10-30% (Moderate),Low,Silver
+717595908,Existing Customer,54,M,1,High School,Married,$60K - $80K,Blue,37,5,1,1,9453.0,2188,7265.0,0.572,1688,45,0.452,0.231,0,45-54,Middle ($60-80K),10-30% (Moderate),Moderate,Silver
 798114033,Existing Customer,46,M,2,Graduate,Married,$60K - $80K,Blue,40,4,2,4,7949.0,1514,6435.0,0.857,3355,58,0.657,0.19,0,45-54,Middle ($60-80K),10-30% (Moderate),Moderate,Silver
 709479558,Existing Customer,36,F,4,College,Single,Less than $40K,Blue,36,3,2,1,2758.0,2168,590.0,1.046,3073,86,0.792,0.786,0,35-44,Low (<$40K),>50% (High),Very High,Bronze
 778148283,Existing Customer,48,M,2,Doctorate,Single,$120K +,Blue,41,5,2,1,20148.0,1084,19064.0,0.79,3921,74,0.542,0.054,0,45-54,High (>$120K),0-10% (Low),High,Gold
@@ -2783,7 +2783,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 712700358,Existing Customer,36,F,4,Uneducated,Single,Less than $40K,Blue,26,4,3,2,2002.0,1377,625.0,0.671,2411,60,0.714,0.688,0,35-44,Low (<$40K),>50% (High),Moderate,Bronze
 779873508,Existing Customer,51,F,0,High School,Married,Less than $40K,Blue,35,5,3,4,3132.0,1815,1317.0,1.018,3607,60,0.935,0.58,0,45-54,Low (<$40K),>50% (High),Moderate,Silver
 779342958,Existing Customer,26,F,0,College,Married,$40K - $60K,Blue,13,2,3,3,2010.0,1070,940.0,0.906,3625,85,0.635,0.532,0,26-34,Lower-Middle ($40-60K),>50% (High),Very High,Bronze
-711738333,Existing Customer,34,M,2,Graduate,Married,$80K - $120K,Blue,23,6,2,3,7567.0,1776,5791.0,1.275,2361,45,0.875,0.235,0,26-34,Upper-Middle ($80-120K),10-30% (Moderate),Low,Silver
+711738333,Existing Customer,34,M,2,Graduate,Married,$80K - $120K,Blue,23,6,2,3,7567.0,1776,5791.0,1.275,2361,45,0.875,0.235,0,26-34,Upper-Middle ($80-120K),10-30% (Moderate),Moderate,Silver
 709413933,Attrited Customer,56,M,2,High School,Single,$40K - $60K,Blue,40,2,6,4,2381.0,651,1730.0,0.592,1920,46,0.586,0.273,1,55-64,Lower-Middle ($40-60K),10-30% (Moderate),Moderate,Bronze
 720323208,Existing Customer,43,M,2,Graduate,Married,$120K +,Silver,31,6,2,4,34516.0,2398,32118.0,0.917,4976,88,0.692,0.069,0,35-44,High (>$120K),0-10% (Low),Very High,Platinum
 708132783,Existing Customer,47,F,3,Uneducated,Single,Unknown,Blue,42,6,2,2,16411.0,1179,15232.0,0.849,3929,71,0.732,0.072,0,45-54,Not Declared,0-10% (Low),High,Platinum
@@ -2944,7 +2944,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 708740808,Existing Customer,45,M,4,Graduate,Married,$40K - $60K,Blue,36,5,3,4,4112.0,0,4112.0,0.777,2949,54,1.25,0.0,0,45-54,Lower-Middle ($40-60K),0% (Non-revolver),Moderate,Silver
 711728208,Existing Customer,46,M,4,Graduate,Single,$120K +,Blue,34,4,1,2,34516.0,0,34516.0,0.991,4143,68,0.659,0.0,0,45-54,High (>$120K),0% (Non-revolver),High,Gold
 720562008,Existing Customer,34,M,2,Graduate,Single,$80K - $120K,Silver,22,4,3,3,34516.0,1263,33253.0,0.603,2759,65,0.806,0.037,0,26-34,Upper-Middle ($80-120K),0-10% (Low),Moderate,Gold
-709012083,Existing Customer,39,M,1,Uneducated,Married,Less than $40K,Blue,28,3,3,4,4683.0,2514,2169.0,0.58,2010,45,0.731,0.537,0,35-44,Low (<$40K),>50% (High),Low,Bronze
+709012083,Existing Customer,39,M,1,Uneducated,Married,Less than $40K,Blue,28,3,3,4,4683.0,2514,2169.0,0.58,2010,45,0.731,0.537,0,35-44,Low (<$40K),>50% (High),Moderate,Bronze
 771073908,Existing Customer,62,M,0,Unknown,Married,$40K - $60K,Blue,48,4,1,2,1438.3,0,1438.3,0.425,1406,27,0.5,0.0,0,55-64,Lower-Middle ($40-60K),0% (Non-revolver),Low,Bronze
 718174908,Existing Customer,53,F,3,Uneducated,Married,Less than $40K,Blue,36,4,3,2,4224.0,2417,1807.0,0.522,1458,29,1.071,0.572,0,45-54,Low (<$40K),>50% (High),Low,Silver
 709550958,Existing Customer,51,M,3,Graduate,Married,$60K - $80K,Blue,32,3,1,4,7133.0,0,7133.0,0.612,2689,62,0.59,0.0,0,45-54,Middle ($60-80K),0% (Non-revolver),Moderate,Silver
@@ -2976,7 +2976,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 711989358,Existing Customer,50,M,2,Graduate,Single,$80K - $120K,Blue,36,4,2,1,19595.0,1187,18408.0,0.875,3811,62,0.824,0.061,0,45-54,Upper-Middle ($80-120K),0-10% (Low),Moderate,Gold
 720188508,Existing Customer,43,M,4,Graduate,Single,$60K - $80K,Blue,25,3,2,4,13193.0,1749,11444.0,0.671,4071,64,0.73,0.133,0,35-44,Middle ($60-80K),10-30% (Moderate),Moderate,Silver
 719528958,Existing Customer,57,F,3,College,Single,$40K - $60K,Blue,36,3,1,3,8184.0,1508,6676.0,0.789,4134,71,0.821,0.184,0,55-64,Lower-Middle ($40-60K),10-30% (Moderate),High,Silver
-713110908,Existing Customer,30,M,1,Unknown,Married,Less than $40K,Blue,13,3,6,5,2607.0,1966,641.0,0.65,1719,45,0.607,0.754,0,26-34,Low (<$40K),>50% (High),Low,Bronze
+713110908,Existing Customer,30,M,1,Unknown,Married,Less than $40K,Blue,13,3,6,5,2607.0,1966,641.0,0.65,1719,45,0.607,0.754,0,26-34,Low (<$40K),>50% (High),Moderate,Bronze
 721179708,Existing Customer,48,F,2,Unknown,Married,Less than $40K,Blue,37,4,2,3,5758.0,0,5758.0,0.433,4422,76,0.407,0.0,0,45-54,Low (<$40K),0% (Non-revolver),High,Silver
 716363658,Existing Customer,51,M,2,Doctorate,Single,$120K +,Blue,36,4,2,5,25873.0,582,25291.0,0.769,3920,84,0.647,0.022,0,45-54,High (>$120K),0-10% (Low),Very High,Gold
 711443808,Existing Customer,46,M,2,Unknown,Divorced,$60K - $80K,Blue,37,6,1,1,2695.0,1657,1038.0,0.813,4068,53,0.963,0.615,0,45-54,Middle ($60-80K),>50% (High),Moderate,Silver
@@ -3195,7 +3195,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 719801508,Existing Customer,36,M,1,Uneducated,Unknown,$120K +,Blue,23,6,3,3,20230.0,798,19432.0,0.592,4314,82,0.708,0.039,0,35-44,High (>$120K),0-10% (Low),Very High,Platinum
 720983733,Attrited Customer,44,M,3,Unknown,Single,$60K - $80K,Blue,36,2,3,3,15422.0,864,14558.0,0.578,2136,54,0.8,0.056,1,35-44,Middle ($60-80K),0-10% (Low),Moderate,Silver
 713657733,Existing Customer,47,M,4,Unknown,Single,$60K - $80K,Blue,36,5,3,1,9132.0,800,8332.0,0.62,3809,71,0.511,0.088,0,45-54,Middle ($60-80K),0-10% (Low),High,Gold
-709955958,Existing Customer,41,F,1,High School,Single,Less than $40K,Blue,33,4,2,0,8054.0,1023,7031.0,0.75,3374,45,0.875,0.127,0,35-44,Low (<$40K),10-30% (Moderate),Low,Silver
+709955958,Existing Customer,41,F,1,High School,Single,Less than $40K,Blue,33,4,2,0,8054.0,1023,7031.0,0.75,3374,45,0.875,0.127,0,35-44,Low (<$40K),10-30% (Moderate),Moderate,Silver
 719099583,Attrited Customer,42,M,3,Graduate,Married,$40K - $60K,Blue,34,3,2,3,1640.0,1444,196.0,0.423,1360,33,0.222,0.88,1,35-44,Lower-Middle ($40-60K),>50% (High),Low,Bronze
 719513733,Existing Customer,48,M,3,Doctorate,Married,$80K - $120K,Blue,41,3,3,4,8739.0,0,8739.0,0.715,4276,69,0.769,0.0,0,45-54,Upper-Middle ($80-120K),0% (Non-revolver),High,Silver
 710654808,Attrited Customer,46,M,4,Graduate,Single,$80K - $120K,Blue,36,3,1,4,1818.0,0,1818.0,0.672,2308,44,0.467,0.0,1,45-54,Upper-Middle ($80-120K),0% (Non-revolver),Low,Bronze
@@ -3288,7 +3288,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 715628733,Existing Customer,40,F,4,Unknown,Single,Less than $40K,Blue,36,6,3,4,7587.0,0,7587.0,0.82,3157,59,0.844,0.0,0,35-44,Low (<$40K),0% (Non-revolver),Moderate,Gold
 716613933,Existing Customer,51,F,3,High School,Single,$40K - $60K,Blue,36,6,5,2,3417.0,1482,1935.0,0.705,3651,60,0.818,0.434,0,45-54,Lower-Middle ($40-60K),30-50% (Elevated),Moderate,Gold
 712709508,Existing Customer,48,F,2,Unknown,Single,Unknown,Blue,40,3,3,4,8012.0,0,8012.0,0.596,2645,63,0.8,0.0,0,45-54,Not Declared,0% (Non-revolver),Moderate,Silver
-716306583,Attrited Customer,64,M,0,Graduate,Single,Less than $40K,Blue,36,3,3,5,3812.0,2517,1295.0,0.586,2325,45,0.731,0.66,1,55-64,Low (<$40K),>50% (High),Low,Bronze
+716306583,Attrited Customer,64,M,0,Graduate,Single,Less than $40K,Blue,36,3,3,5,3812.0,2517,1295.0,0.586,2325,45,0.731,0.66,1,55-64,Low (<$40K),>50% (High),Moderate,Bronze
 720026058,Existing Customer,49,M,3,Graduate,Married,$80K - $120K,Blue,36,6,1,3,21378.0,1284,20094.0,1.101,3526,64,0.684,0.06,0,45-54,Upper-Middle ($80-120K),0-10% (Low),Moderate,Platinum
 756397458,Existing Customer,54,F,1,Graduate,Single,Less than $40K,Silver,47,6,3,4,12873.0,0,12873.0,1.005,3170,70,0.842,0.0,0,45-54,Low (<$40K),0% (Non-revolver),High,Platinum
 712644483,Existing Customer,46,M,3,High School,Single,$60K - $80K,Blue,39,5,3,1,20229.0,1217,19012.0,0.741,4270,62,0.55,0.06,0,45-54,Middle ($60-80K),0-10% (Low),Moderate,Gold
@@ -3630,7 +3630,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 714496083,Existing Customer,51,M,3,Unknown,Single,$60K - $80K,Blue,43,4,2,3,6649.0,1781,4868.0,0.546,1609,28,0.474,0.268,0,45-54,Middle ($60-80K),10-30% (Moderate),Low,Silver
 713004933,Attrited Customer,40,M,3,High School,Married,$60K - $80K,Blue,27,3,2,1,6813.0,2332,4481.0,0.58,2634,51,0.378,0.342,1,35-44,Middle ($60-80K),30-50% (Elevated),Moderate,Silver
 712011633,Existing Customer,40,F,2,Doctorate,Single,$40K - $60K,Blue,36,6,1,3,2797.0,850,1947.0,0.953,3652,64,1.37,0.304,0,35-44,Lower-Middle ($40-60K),30-50% (Elevated),Moderate,Silver
-772466508,Attrited Customer,45,M,3,Unknown,Single,$60K - $80K,Blue,35,6,2,1,18004.0,2517,15487.0,0.569,2030,45,0.452,0.14,1,45-54,Middle ($60-80K),10-30% (Moderate),Low,Gold
+772466508,Attrited Customer,45,M,3,Unknown,Single,$60K - $80K,Blue,35,6,2,1,18004.0,2517,15487.0,0.569,2030,45,0.452,0.14,1,45-54,Middle ($60-80K),10-30% (Moderate),Moderate,Gold
 708225483,Existing Customer,47,M,4,Graduate,Married,$80K - $120K,Blue,36,3,2,4,11242.0,1561,9681.0,0.829,4246,81,0.8,0.139,0,45-54,Upper-Middle ($80-120K),10-30% (Moderate),High,Silver
 788923758,Existing Customer,26,F,1,High School,Unknown,Unknown,Blue,13,3,1,3,10693.0,2517,8176.0,0.88,4138,76,0.727,0.235,0,26-34,Not Declared,10-30% (Moderate),High,Silver
 789150633,Existing Customer,50,F,3,Graduate,Married,Less than $40K,Blue,38,6,3,2,3026.0,1888,1138.0,0.762,3687,58,0.812,0.624,0,45-54,Low (<$40K),>50% (High),Moderate,Gold
@@ -3654,7 +3654,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 714732183,Existing Customer,47,M,4,Uneducated,Unknown,$40K - $60K,Blue,36,6,3,2,3402.0,1607,1795.0,0.432,3188,65,0.667,0.472,0,45-54,Lower-Middle ($40-60K),30-50% (Elevated),Moderate,Gold
 714097683,Attrited Customer,55,F,2,Graduate,Married,$40K - $60K,Blue,49,3,3,4,1809.0,0,1809.0,0.569,2123,44,0.571,0.0,1,55-64,Lower-Middle ($40-60K),0% (Non-revolver),Low,Bronze
 720568083,Existing Customer,40,M,2,Graduate,Divorced,$60K - $80K,Blue,36,5,2,4,8624.0,0,8624.0,0.574,2428,53,0.893,0.0,0,35-44,Middle ($60-80K),0% (Non-revolver),Moderate,Silver
-708121908,Attrited Customer,48,M,4,Unknown,Married,$80K - $120K,Blue,36,2,3,2,22917.0,0,22917.0,0.574,2045,45,0.5,0.0,1,45-54,Upper-Middle ($80-120K),0% (Non-revolver),Low,Silver
+708121908,Attrited Customer,48,M,4,Unknown,Married,$80K - $120K,Blue,36,2,3,2,22917.0,0,22917.0,0.574,2045,45,0.5,0.0,1,45-54,Upper-Middle ($80-120K),0% (Non-revolver),Moderate,Silver
 778710783,Existing Customer,45,M,3,High School,Divorced,$80K - $120K,Blue,26,3,2,2,18410.0,974,17436.0,0.857,3778,83,0.694,0.053,0,45-54,Upper-Middle ($80-120K),0-10% (Low),Very High,Silver
 713745783,Existing Customer,29,F,0,Post-Graduate,Single,Unknown,Gold,36,4,1,4,34516.0,1452,33064.0,0.887,2336,49,1.13,0.042,0,26-34,Not Declared,0-10% (Low),Moderate,Silver
 711043983,Existing Customer,44,M,3,High School,Single,$80K - $120K,Blue,29,6,3,1,34516.0,1259,33257.0,0.547,3275,67,0.595,0.036,0,35-44,Upper-Middle ($80-120K),0-10% (Low),Moderate,Platinum
@@ -3666,7 +3666,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 719346708,Existing Customer,41,F,1,Unknown,Divorced,Less than $40K,Blue,30,5,2,4,2758.0,1675,1083.0,0.882,3820,72,0.636,0.607,0,35-44,Low (<$40K),>50% (High),High,Silver
 719874633,Attrited Customer,44,M,1,High School,Unknown,$80K - $120K,Gold,36,2,2,3,34516.0,0,34516.0,0.596,1891,34,0.214,0.0,1,35-44,Upper-Middle ($80-120K),0% (Non-revolver),Low,Silver
 720286908,Existing Customer,50,M,3,Uneducated,Married,$40K - $60K,Blue,40,5,2,2,3469.0,0,3469.0,0.956,3680,80,0.951,0.0,0,45-54,Lower-Middle ($40-60K),0% (Non-revolver),High,Silver
-719168883,Attrited Customer,45,F,5,Unknown,Single,Less than $40K,Blue,34,1,4,1,5155.0,0,5155.0,1.014,2753,45,0.607,0.0,1,45-54,Low (<$40K),0% (Non-revolver),Low,Silver
+719168883,Attrited Customer,45,F,5,Unknown,Single,Less than $40K,Blue,34,1,4,1,5155.0,0,5155.0,1.014,2753,45,0.607,0.0,1,45-54,Low (<$40K),0% (Non-revolver),Moderate,Silver
 789893808,Existing Customer,52,M,3,Graduate,Divorced,$120K +,Silver,42,6,2,3,34516.0,1230,33286.0,0.608,2100,38,0.407,0.036,0,45-54,High (>$120K),0-10% (Low),Low,Gold
 772472208,Existing Customer,50,M,1,Uneducated,Married,$60K - $80K,Blue,40,6,1,4,4092.0,996,3096.0,0.644,2298,48,0.655,0.243,0,45-54,Middle ($60-80K),10-30% (Moderate),Moderate,Silver
 710402508,Existing Customer,52,M,0,Unknown,Married,$80K - $120K,Blue,36,4,3,4,4675.0,0,4675.0,0.863,3487,69,0.683,0.0,0,45-54,Upper-Middle ($80-120K),0% (Non-revolver),High,Silver
@@ -3692,7 +3692,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 710871108,Existing Customer,45,M,5,Uneducated,Divorced,$60K - $80K,Silver,36,4,2,4,31756.0,1459,30297.0,0.687,4759,70,0.556,0.046,0,45-54,Middle ($60-80K),0-10% (Low),High,Platinum
 787770858,Existing Customer,43,M,4,Graduate,Single,$80K - $120K,Blue,32,3,2,3,8333.0,774,7559.0,0.984,3889,81,0.723,0.093,0,35-44,Upper-Middle ($80-120K),0-10% (Low),High,Silver
 721104708,Attrited Customer,41,F,3,Post-Graduate,Single,Less than $40K,Blue,36,1,3,1,2067.0,1966,101.0,0.91,3033,41,0.708,0.951,1,35-44,Low (<$40K),>50% (High),Low,Bronze
-717461283,Attrited Customer,38,F,2,Graduate,Single,Unknown,Blue,24,3,2,3,2214.0,570,1644.0,0.688,2066,45,0.25,0.257,1,35-44,Not Declared,10-30% (Moderate),Low,Bronze
+717461283,Attrited Customer,38,F,2,Graduate,Single,Unknown,Blue,24,3,2,3,2214.0,570,1644.0,0.688,2066,45,0.25,0.257,1,35-44,Not Declared,10-30% (Moderate),Moderate,Bronze
 803028858,Attrited Customer,38,F,2,Graduate,Single,Less than $40K,Blue,32,2,3,3,3775.0,0,3775.0,0.581,2031,36,0.385,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Low,Bronze
 716628633,Existing Customer,41,M,4,Uneducated,Single,$80K - $120K,Blue,33,6,3,3,4388.0,1519,2869.0,0.787,4406,74,0.574,0.346,0,35-44,Upper-Middle ($80-120K),30-50% (Elevated),High,Gold
 813380058,Existing Customer,64,F,0,Graduate,Single,Unknown,Blue,56,3,2,4,4100.0,863,3237.0,0.992,3593,51,0.821,0.21,0,55-64,Not Declared,10-30% (Moderate),Moderate,Silver
@@ -3821,7 +3821,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 778924158,Existing Customer,45,F,2,High School,Single,Less than $40K,Blue,26,4,3,4,1438.3,0,1438.3,0.71,3749,77,0.604,0.0,0,45-54,Low (<$40K),0% (Non-revolver),High,Silver
 719602908,Attrited Customer,42,F,2,Post-Graduate,Single,$40K - $60K,Blue,34,3,3,3,5667.0,812,4855.0,0.62,2064,42,0.4,0.143,1,35-44,Lower-Middle ($40-60K),10-30% (Moderate),Low,Bronze
 820383558,Existing Customer,45,M,4,High School,Married,$80K - $120K,Blue,40,6,2,3,6366.0,1344,5022.0,0.492,3258,58,0.758,0.211,0,45-54,Upper-Middle ($80-120K),10-30% (Moderate),Moderate,Gold
-717953283,Existing Customer,41,M,3,Graduate,Married,$60K - $80K,Blue,31,5,2,2,2122.0,1189,933.0,0.398,4379,45,1.143,0.56,0,35-44,Middle ($60-80K),>50% (High),Low,Silver
+717953283,Existing Customer,41,M,3,Graduate,Married,$60K - $80K,Blue,31,5,2,2,2122.0,1189,933.0,0.398,4379,45,1.143,0.56,0,35-44,Middle ($60-80K),>50% (High),Moderate,Silver
 710327508,Existing Customer,44,F,4,Uneducated,Single,Less than $40K,Blue,36,5,2,4,1687.0,1290,397.0,0.709,4247,87,0.706,0.765,0,35-44,Low (<$40K),>50% (High),Very High,Silver
 785134758,Existing Customer,41,M,2,College,Unknown,$80K - $120K,Blue,24,3,2,4,14320.0,0,14320.0,0.754,4077,77,0.791,0.0,0,35-44,Upper-Middle ($80-120K),0% (Non-revolver),High,Silver
 811970808,Existing Customer,53,F,0,Graduate,Single,Less than $40K,Blue,48,4,3,3,5972.0,1885,4087.0,0.973,3491,65,0.711,0.316,0,45-54,Low (<$40K),30-50% (Elevated),Moderate,Silver
@@ -3890,7 +3890,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 712685733,Existing Customer,57,F,3,Unknown,Single,Unknown,Silver,36,6,3,2,34516.0,1698,32818.0,0.823,3498,68,0.619,0.049,0,55-64,Not Declared,0-10% (Low),High,Platinum
 781306758,Attrited Customer,58,M,2,Uneducated,Single,$80K - $120K,Blue,52,1,2,4,3091.0,2517,574.0,0.602,1844,49,0.633,0.814,1,55-64,Upper-Middle ($80-120K),>50% (High),Moderate,Bronze
 743912958,Existing Customer,39,F,1,Graduate,Single,$40K - $60K,Blue,32,3,3,1,3812.0,1103,2709.0,0.757,4080,65,0.625,0.289,0,35-44,Lower-Middle ($40-60K),10-30% (Moderate),Moderate,Silver
-712294083,Attrited Customer,54,F,2,High School,Single,Unknown,Blue,44,4,3,4,3778.0,0,3778.0,0.739,2367,45,0.452,0.0,1,45-54,Not Declared,0% (Non-revolver),Low,Silver
+712294083,Attrited Customer,54,F,2,High School,Single,Unknown,Blue,44,4,3,4,3778.0,0,3778.0,0.739,2367,45,0.452,0.0,1,45-54,Not Declared,0% (Non-revolver),Moderate,Silver
 716630508,Existing Customer,58,M,3,High School,Married,$120K +,Blue,50,6,2,4,12698.0,2361,10337.0,0.799,4425,75,0.63,0.186,0,55-64,High (>$120K),10-30% (Moderate),High,Platinum
 711334983,Attrited Customer,41,F,3,High School,Married,Unknown,Blue,32,1,2,4,26229.0,0,26229.0,0.504,2077,46,0.643,0.0,1,35-44,Not Declared,0% (Non-revolver),Moderate,Silver
 717442758,Existing Customer,51,F,4,High School,Married,$40K - $60K,Blue,43,5,3,2,8346.0,1452,6894.0,1.194,4141,79,0.612,0.174,0,45-54,Lower-Middle ($40-60K),10-30% (Moderate),High,Gold
@@ -4072,7 +4072,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 708469533,Existing Customer,42,F,3,Unknown,Married,Unknown,Blue,34,6,3,2,5395.0,1439,3956.0,0.781,3523,79,0.717,0.267,0,35-44,Not Declared,10-30% (Moderate),High,Gold
 769927533,Existing Customer,50,F,1,High School,Married,Less than $40K,Blue,44,4,2,1,3222.0,1422,1800.0,0.662,4613,72,0.6,0.441,0,45-54,Low (<$40K),30-50% (Elevated),High,Gold
 718545033,Existing Customer,27,F,0,Graduate,Married,Less than $40K,Blue,17,4,2,2,2042.0,1567,475.0,0.744,5146,78,0.733,0.767,0,26-34,Low (<$40K),>50% (High),High,Silver
-714972558,Attrited Customer,37,F,2,Graduate,Single,Less than $40K,Blue,36,2,3,0,1610.0,0,1610.0,0.889,2729,45,0.406,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Low,Bronze
+714972558,Attrited Customer,37,F,2,Graduate,Single,Less than $40K,Blue,36,2,3,0,1610.0,0,1610.0,0.889,2729,45,0.406,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Moderate,Bronze
 772204758,Existing Customer,42,F,2,Post-Graduate,Unknown,Less than $40K,Blue,31,3,2,2,3809.0,1165,2644.0,0.634,2306,46,0.643,0.306,0,35-44,Low (<$40K),30-50% (Elevated),Moderate,Bronze
 709039533,Existing Customer,43,F,3,Unknown,Unknown,Less than $40K,Blue,24,6,1,4,5544.0,1095,4449.0,0.572,3829,55,0.964,0.198,0,35-44,Low (<$40K),10-30% (Moderate),Moderate,Gold
 716492583,Existing Customer,37,F,1,Uneducated,Single,Less than $40K,Blue,28,6,3,4,2388.0,1708,680.0,0.903,4539,89,0.745,0.715,0,35-44,Low (<$40K),>50% (High),Very High,Gold
@@ -4107,7 +4107,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 708406083,Existing Customer,35,F,0,Unknown,Married,Less than $40K,Blue,24,5,3,1,3436.0,2493,943.0,0.824,5211,90,0.765,0.726,0,35-44,Low (<$40K),>50% (High),Very High,Gold
 720029508,Existing Customer,50,F,1,Graduate,Single,$40K - $60K,Blue,37,3,1,0,12064.0,1312,10752.0,0.462,4100,67,0.675,0.109,0,45-54,Lower-Middle ($40-60K),10-30% (Moderate),Moderate,Silver
 709227033,Existing Customer,53,M,3,Graduate,Single,$80K - $120K,Blue,46,5,2,3,9065.0,1548,7517.0,0.872,4030,73,0.78,0.171,0,45-54,Upper-Middle ($80-120K),10-30% (Moderate),High,Gold
-720846558,Existing Customer,49,M,1,Unknown,Single,$80K - $120K,Blue,36,6,3,4,34516.0,0,34516.0,0.665,2512,45,0.324,0.0,0,45-54,Upper-Middle ($80-120K),0% (Non-revolver),Low,Gold
+720846558,Existing Customer,49,M,1,Unknown,Single,$80K - $120K,Blue,36,6,3,4,34516.0,0,34516.0,0.665,2512,45,0.324,0.0,0,45-54,Upper-Middle ($80-120K),0% (Non-revolver),Moderate,Gold
 716475183,Existing Customer,45,M,3,Graduate,Unknown,$60K - $80K,Blue,35,3,3,3,10290.0,753,9537.0,0.858,4326,81,0.761,0.073,0,45-54,Middle ($60-80K),0-10% (Low),High,Silver
 714296358,Existing Customer,52,F,2,College,Unknown,Less than $40K,Blue,44,4,1,3,3433.0,2486,947.0,0.838,4831,78,0.529,0.724,0,45-54,Low (<$40K),>50% (High),High,Gold
 719998233,Existing Customer,40,M,3,Unknown,Married,$120K +,Silver,30,6,3,2,34516.0,964,33552.0,0.521,2922,71,0.775,0.028,0,35-44,High (>$120K),0-10% (Low),High,Platinum
@@ -4201,7 +4201,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 717099408,Existing Customer,40,M,3,Graduate,Married,$60K - $80K,Blue,29,6,3,2,10529.0,0,10529.0,0.729,4583,87,0.851,0.0,0,35-44,Middle ($60-80K),0% (Non-revolver),Very High,Platinum
 715155033,Existing Customer,61,M,0,High School,Single,$40K - $60K,Blue,49,6,1,4,2122.0,975,1147.0,0.807,5224,85,0.667,0.459,0,55-64,Lower-Middle ($40-60K),30-50% (Elevated),Very High,Gold
 789586833,Existing Customer,45,F,3,Post-Graduate,Married,Unknown,Blue,38,5,2,1,2883.0,1732,1151.0,0.638,4053,85,0.635,0.601,0,45-54,Not Declared,>50% (High),Very High,Silver
-709338633,Attrited Customer,56,F,1,Graduate,Single,$40K - $60K,Blue,37,2,4,3,2339.0,0,2339.0,0.493,1542,45,0.607,0.0,1,55-64,Lower-Middle ($40-60K),0% (Non-revolver),Low,Bronze
+709338633,Attrited Customer,56,F,1,Graduate,Single,$40K - $60K,Blue,37,2,4,3,2339.0,0,2339.0,0.493,1542,45,0.607,0.0,1,55-64,Lower-Middle ($40-60K),0% (Non-revolver),Moderate,Bronze
 714106833,Existing Customer,57,F,3,Graduate,Unknown,Less than $40K,Blue,47,6,3,1,5225.0,2290,2935.0,0.962,4239,69,0.683,0.438,0,55-64,Low (<$40K),30-50% (Elevated),High,Gold
 741116058,Existing Customer,48,M,2,Graduate,Married,$40K - $60K,Blue,41,5,2,4,2582.0,1399,1183.0,0.559,2144,42,0.909,0.542,0,45-54,Lower-Middle ($40-60K),>50% (High),Low,Bronze
 813755658,Existing Customer,60,M,1,Graduate,Single,$80K - $120K,Blue,55,6,2,1,11524.0,0,11524.0,0.682,3598,72,0.532,0.0,0,55-64,Upper-Middle ($80-120K),0% (Non-revolver),High,Platinum
@@ -4245,7 +4245,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 771474108,Existing Customer,40,F,2,Uneducated,Married,Less than $40K,Blue,28,3,2,2,1794.0,1019,775.0,0.692,4455,63,0.658,0.568,0,35-44,Low (<$40K),>50% (High),Moderate,Bronze
 709774608,Existing Customer,51,M,3,Unknown,Married,$60K - $80K,Blue,36,4,3,4,5993.0,1582,4411.0,0.44,3464,64,0.684,0.264,0,45-54,Middle ($60-80K),10-30% (Moderate),Moderate,Silver
 718802283,Existing Customer,44,F,3,Post-Graduate,Divorced,Less than $40K,Blue,31,3,2,1,8320.0,0,8320.0,0.421,4128,82,0.491,0.0,0,35-44,Low (<$40K),0% (Non-revolver),Very High,Silver
-711626658,Attrited Customer,62,F,1,High School,Single,Less than $40K,Blue,36,2,3,4,1930.0,0,1930.0,0.331,1971,45,0.25,0.0,1,55-64,Low (<$40K),0% (Non-revolver),Low,Bronze
+711626658,Attrited Customer,62,F,1,High School,Single,Less than $40K,Blue,36,2,3,4,1930.0,0,1930.0,0.331,1971,45,0.25,0.0,1,55-64,Low (<$40K),0% (Non-revolver),Moderate,Bronze
 789354783,Existing Customer,45,F,3,Unknown,Single,Less than $40K,Blue,32,5,3,0,2329.0,1465,864.0,0.815,4286,86,0.72,0.629,0,45-54,Low (<$40K),>50% (High),Very High,Silver
 720486408,Existing Customer,55,F,1,Uneducated,Single,Less than $40K,Blue,36,3,3,0,1438.3,756,682.3,1.012,4436,73,0.622,0.526,0,55-64,Low (<$40K),>50% (High),High,Bronze
 717793983,Attrited Customer,55,M,3,Graduate,Single,$40K - $60K,Silver,45,2,3,1,18128.0,0,18128.0,0.71,2503,49,0.885,0.0,1,55-64,Lower-Middle ($40-60K),0% (Non-revolver),Moderate,Silver
@@ -4342,7 +4342,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 718487958,Existing Customer,53,F,2,High School,Married,Less than $40K,Blue,41,5,3,0,2799.0,1303,1496.0,0.763,3971,76,0.551,0.466,0,45-54,Low (<$40K),30-50% (Elevated),High,Silver
 710533233,Attrited Customer,38,F,1,Graduate,Married,Less than $40K,Blue,29,3,3,4,1438.3,0,1438.3,0.508,2139,47,0.567,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Moderate,Bronze
 778878633,Existing Customer,51,M,3,Unknown,Married,$80K - $120K,Blue,32,6,3,1,1817.0,885,932.0,0.621,3400,67,0.675,0.487,0,45-54,Upper-Middle ($80-120K),30-50% (Elevated),Moderate,Silver
-720197058,Attrited Customer,47,F,3,Graduate,Unknown,Unknown,Blue,33,1,3,4,3443.0,0,3443.0,0.832,2505,45,0.452,0.0,1,45-54,Not Declared,0% (Non-revolver),Low,Bronze
+720197058,Attrited Customer,47,F,3,Graduate,Unknown,Unknown,Blue,33,1,3,4,3443.0,0,3443.0,0.832,2505,45,0.452,0.0,1,45-54,Not Declared,0% (Non-revolver),Moderate,Bronze
 716317458,Attrited Customer,51,F,2,Post-Graduate,Single,Less than $40K,Blue,36,3,3,3,4281.0,0,4281.0,0.447,1723,44,0.375,0.0,1,45-54,Low (<$40K),0% (Non-revolver),Low,Bronze
 718569258,Existing Customer,56,F,2,Unknown,Married,Less than $40K,Blue,36,5,3,3,2029.0,974,1055.0,0.624,4170,73,0.553,0.48,0,55-64,Low (<$40K),30-50% (Elevated),High,Silver
 711649908,Existing Customer,33,F,3,Graduate,Married,Unknown,Blue,15,5,3,2,1438.3,1055,383.3,0.901,4208,67,0.675,0.734,0,26-34,Not Declared,>50% (High),Moderate,Silver
@@ -4367,7 +4367,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 787655058,Existing Customer,44,F,2,Uneducated,Single,Less than $40K,Blue,37,5,2,3,2568.0,1875,693.0,0.578,4254,85,0.735,0.73,0,35-44,Low (<$40K),>50% (High),Very High,Silver
 803113383,Attrited Customer,55,F,1,Uneducated,Single,Less than $40K,Blue,49,3,4,3,3292.0,0,3292.0,0.482,2222,54,0.636,0.0,1,55-64,Low (<$40K),0% (Non-revolver),Moderate,Bronze
 721273008,Attrited Customer,54,F,1,College,Unknown,Less than $40K,Silver,43,6,3,4,10797.0,1252,9545.0,0.489,1739,38,0.226,0.116,1,45-54,Low (<$40K),10-30% (Moderate),Low,Gold
-715762083,Existing Customer,46,M,0,Uneducated,Single,$60K - $80K,Silver,36,6,3,2,30501.0,2030,28471.0,0.56,2525,45,0.5,0.067,0,45-54,Middle ($60-80K),0-10% (Low),Low,Gold
+715762083,Existing Customer,46,M,0,Uneducated,Single,$60K - $80K,Silver,36,6,3,2,30501.0,2030,28471.0,0.56,2525,45,0.5,0.067,0,45-54,Middle ($60-80K),0-10% (Low),Moderate,Gold
 711629733,Existing Customer,45,F,2,Graduate,Married,Less than $40K,Blue,34,5,3,1,5371.0,1499,3872.0,0.737,3282,66,0.65,0.279,0,45-54,Low (<$40K),10-30% (Moderate),Moderate,Silver
 718410258,Existing Customer,37,M,3,High School,Unknown,$80K - $120K,Blue,28,5,4,4,13441.0,0,13441.0,0.513,4207,80,0.702,0.0,0,35-44,Upper-Middle ($80-120K),0% (Non-revolver),High,Gold
 719745558,Existing Customer,52,M,3,Graduate,Single,$60K - $80K,Blue,36,4,2,2,9137.0,1729,7408.0,0.974,4626,77,0.75,0.189,0,45-54,Middle ($60-80K),10-30% (Moderate),High,Platinum
@@ -4509,7 +4509,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 779694183,Existing Customer,51,M,3,College,Married,$80K - $120K,Blue,34,5,2,4,1864.0,1427,437.0,0.725,3833,73,0.587,0.766,0,45-54,Upper-Middle ($80-120K),>50% (High),High,Silver
 788544108,Existing Customer,43,F,2,High School,Single,Less than $40K,Blue,37,4,3,0,6611.0,1041,5570.0,0.744,4037,74,0.682,0.157,0,35-44,Low (<$40K),10-30% (Moderate),High,Silver
 715583283,Existing Customer,34,F,0,Graduate,Married,Unknown,Blue,13,4,1,4,7942.0,2087,5855.0,0.754,4068,66,0.61,0.263,0,26-34,Not Declared,10-30% (Moderate),Moderate,Silver
-719917233,Attrited Customer,49,M,3,Post-Graduate,Married,$80K - $120K,Blue,36,3,3,2,13382.0,1159,12223.0,0.404,1828,45,0.5,0.087,1,45-54,Upper-Middle ($80-120K),0-10% (Low),Low,Silver
+719917233,Attrited Customer,49,M,3,Post-Graduate,Married,$80K - $120K,Blue,36,3,3,2,13382.0,1159,12223.0,0.404,1828,45,0.5,0.087,1,45-54,Upper-Middle ($80-120K),0-10% (Low),Moderate,Silver
 717103758,Attrited Customer,63,M,0,Graduate,Single,Unknown,Blue,55,5,0,2,18550.0,0,18550.0,0.908,2616,42,0.826,0.0,1,55-64,Not Declared,0% (Non-revolver),Low,Gold
 714621183,Existing Customer,39,F,3,Graduate,Single,Less than $40K,Blue,36,4,3,4,2650.0,1646,1004.0,0.747,4512,80,0.509,0.621,0,35-44,Low (<$40K),>50% (High),High,Silver
 721365033,Attrited Customer,37,M,3,Uneducated,Single,$40K - $60K,Blue,36,3,2,4,1696.0,0,1696.0,0.857,2095,43,0.536,0.0,1,35-44,Lower-Middle ($40-60K),0% (Non-revolver),Low,Bronze
@@ -4732,7 +4732,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 709170108,Attrited Customer,60,F,1,Unknown,Single,$40K - $60K,Blue,41,3,2,4,2425.0,0,2425.0,0.187,1522,36,0.2,0.0,1,55-64,Lower-Middle ($40-60K),0% (Non-revolver),Low,Bronze
 716056158,Attrited Customer,63,M,0,Graduate,Single,$60K - $80K,Blue,51,3,3,3,11619.0,0,11619.0,0.631,2395,49,0.361,0.0,1,55-64,Middle ($60-80K),0% (Non-revolver),Moderate,Silver
 711326583,Existing Customer,62,F,0,High School,Single,Less than $40K,Blue,50,3,3,3,3989.0,0,3989.0,0.997,4274,68,0.545,0.0,0,55-64,Low (<$40K),0% (Non-revolver),High,Silver
-715406658,Attrited Customer,47,F,1,Unknown,Single,Less than $40K,Blue,37,4,2,1,2173.0,596,1577.0,0.81,2738,45,0.406,0.274,1,45-54,Low (<$40K),10-30% (Moderate),Low,Silver
+715406658,Attrited Customer,47,F,1,Unknown,Single,Less than $40K,Blue,37,4,2,1,2173.0,596,1577.0,0.81,2738,45,0.406,0.274,1,45-54,Low (<$40K),10-30% (Moderate),Moderate,Silver
 712814658,Existing Customer,50,F,0,Graduate,Married,Less than $40K,Blue,43,4,1,2,2393.0,1499,894.0,0.784,4755,82,0.745,0.626,0,45-54,Low (<$40K),>50% (High),Very High,Silver
 773228133,Attrited Customer,39,F,2,Graduate,Married,Less than $40K,Blue,29,3,2,2,1677.0,0,1677.0,0.869,2437,41,0.708,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Low,Bronze
 710453283,Existing Customer,40,F,3,Uneducated,Single,Less than $40K,Blue,27,5,4,2,2035.0,0,2035.0,0.779,4107,82,0.783,0.0,0,35-44,Low (<$40K),0% (Non-revolver),Very High,Silver
@@ -4862,13 +4862,13 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 779739783,Existing Customer,43,M,2,Graduate,Married,$60K - $80K,Blue,28,6,3,2,19826.0,1389,18437.0,0.614,3561,73,0.659,0.07,0,35-44,Middle ($60-80K),0-10% (Low),High,Platinum
 758653833,Existing Customer,34,F,1,Graduate,Married,$40K - $60K,Blue,27,3,1,3,2173.0,0,2173.0,0.922,4392,83,0.766,0.0,0,26-34,Lower-Middle ($40-60K),0% (Non-revolver),Very High,Bronze
 771288258,Existing Customer,48,F,3,Unknown,Unknown,$40K - $60K,Blue,36,6,2,2,2545.0,1894,651.0,0.911,4660,68,0.789,0.744,0,45-54,Lower-Middle ($40-60K),>50% (High),High,Gold
-716855058,Attrited Customer,49,F,4,Graduate,Married,Less than $40K,Blue,38,5,2,4,1757.0,0,1757.0,0.89,2557,45,0.406,0.0,1,45-54,Low (<$40K),0% (Non-revolver),Low,Bronze
+716855058,Attrited Customer,49,F,4,Graduate,Married,Less than $40K,Blue,38,5,2,4,1757.0,0,1757.0,0.89,2557,45,0.406,0.0,1,45-54,Low (<$40K),0% (Non-revolver),Moderate,Bronze
 708433683,Existing Customer,54,M,2,Graduate,Married,$80K - $120K,Blue,37,3,2,3,3164.0,2201,963.0,0.679,4410,86,0.623,0.696,0,45-54,Upper-Middle ($80-120K),>50% (High),Very High,Silver
 713175483,Existing Customer,44,F,2,Graduate,Married,Less than $40K,Blue,40,6,2,2,6022.0,871,5151.0,0.6,3745,74,0.423,0.145,0,35-44,Low (<$40K),10-30% (Moderate),High,Gold
 709500183,Attrited Customer,46,F,3,College,Married,Less than $40K,Blue,36,2,3,4,1804.0,0,1804.0,0.537,2077,44,0.419,0.0,1,45-54,Low (<$40K),0% (Non-revolver),Low,Bronze
 789238683,Existing Customer,53,M,2,Uneducated,Divorced,$120K +,Blue,42,4,2,2,22664.0,0,22664.0,0.749,4586,89,0.745,0.0,0,45-54,High (>$120K),0% (Non-revolver),Very High,Platinum
 710502258,Existing Customer,39,M,3,Graduate,Single,$60K - $80K,Blue,36,5,3,4,2527.0,2204,323.0,0.9,4598,85,0.771,0.872,0,35-44,Middle ($60-80K),>50% (High),Very High,Silver
-715445058,Attrited Customer,49,F,0,Doctorate,Married,Less than $40K,Blue,40,3,4,4,3547.0,2517,1030.0,0.805,2715,45,0.731,0.71,1,45-54,Low (<$40K),>50% (High),Low,Silver
+715445058,Attrited Customer,49,F,0,Doctorate,Married,Less than $40K,Blue,40,3,4,4,3547.0,2517,1030.0,0.805,2715,45,0.731,0.71,1,45-54,Low (<$40K),>50% (High),Moderate,Silver
 719464758,Existing Customer,52,F,1,College,Single,Less than $40K,Blue,43,5,2,3,1438.3,604,834.3,0.81,4219,83,0.694,0.42,0,45-54,Low (<$40K),30-50% (Elevated),Very High,Silver
 708442158,Existing Customer,51,F,1,College,Married,Unknown,Blue,38,3,2,4,6182.0,1516,4666.0,1.137,3801,61,0.968,0.245,0,45-54,Not Declared,10-30% (Moderate),Moderate,Silver
 718524783,Attrited Customer,40,M,3,High School,Unknown,$80K - $120K,Blue,34,1,3,4,29715.0,0,29715.0,0.399,2128,39,0.345,0.0,1,35-44,Upper-Middle ($80-120K),0% (Non-revolver),Low,Silver
@@ -4887,7 +4887,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 711017433,Existing Customer,41,M,3,Graduate,Divorced,Less than $40K,Blue,23,5,2,4,1438.3,0,1438.3,0.735,4416,68,0.744,0.0,0,35-44,Low (<$40K),0% (Non-revolver),High,Silver
 712777233,Attrited Customer,65,M,0,Graduate,Single,Unknown,Blue,48,1,4,3,1671.0,0,1671.0,0.725,2701,51,0.889,0.0,1,65+,Not Declared,0% (Non-revolver),Moderate,Bronze
 712706058,Attrited Customer,44,F,5,Graduate,Single,Less than $40K,Blue,37,1,2,4,1491.0,0,1491.0,0.551,1970,46,0.484,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Moderate,Bronze
-720905133,Attrited Customer,43,M,3,Graduate,Unknown,$80K - $120K,Blue,29,1,2,6,11422.0,1095,10327.0,0.773,2439,45,0.8,0.096,1,35-44,Upper-Middle ($80-120K),0-10% (Low),Low,Silver
+720905133,Attrited Customer,43,M,3,Graduate,Unknown,$80K - $120K,Blue,29,1,2,6,11422.0,1095,10327.0,0.773,2439,45,0.8,0.096,1,35-44,Upper-Middle ($80-120K),0-10% (Low),Moderate,Silver
 712947333,Attrited Customer,54,F,4,Unknown,Married,Less than $40K,Blue,43,3,3,0,5139.0,0,5139.0,0.33,1653,44,0.692,0.0,1,45-54,Low (<$40K),0% (Non-revolver),Low,Bronze
 806995683,Existing Customer,61,M,0,Doctorate,Single,$60K - $80K,Blue,56,4,1,3,4783.0,2517,2266.0,1.024,2870,50,1.174,0.526,0,55-64,Middle ($60-80K),>50% (High),Moderate,Silver
 720575058,Existing Customer,47,M,3,Unknown,Single,$60K - $80K,Blue,36,3,2,1,2589.0,1693,896.0,0.878,4259,83,0.766,0.654,0,45-54,Middle ($60-80K),>50% (High),Very High,Bronze
@@ -4950,7 +4950,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 708223383,Attrited Customer,47,F,3,High School,Married,Unknown,Blue,39,6,3,4,11410.0,979,10431.0,1.049,2736,38,0.462,0.086,1,45-54,Not Declared,0-10% (Low),Low,Platinum
 708705783,Attrited Customer,47,M,3,Doctorate,Married,$60K - $80K,Blue,36,6,3,1,1584.0,1214,370.0,0.887,2628,41,0.64,0.766,1,45-54,Middle ($60-80K),>50% (High),Low,Silver
 778949133,Existing Customer,44,M,1,Uneducated,Married,$80K - $120K,Blue,29,4,3,3,13298.0,1694,11604.0,0.824,3476,66,0.784,0.127,0,35-44,Upper-Middle ($80-120K),10-30% (Moderate),Moderate,Gold
-709017258,Attrited Customer,51,F,2,Unknown,Married,Less than $40K,Blue,36,1,2,2,2114.0,0,2114.0,0.875,2872,45,0.5,0.0,1,45-54,Low (<$40K),0% (Non-revolver),Low,Bronze
+709017258,Attrited Customer,51,F,2,Unknown,Married,Less than $40K,Blue,36,1,2,2,2114.0,0,2114.0,0.875,2872,45,0.5,0.0,1,45-54,Low (<$40K),0% (Non-revolver),Moderate,Bronze
 709161108,Attrited Customer,44,M,1,Unknown,Single,$60K - $80K,Blue,33,3,2,4,2540.0,0,2540.0,0.212,1531,31,0.107,0.0,1,35-44,Middle ($60-80K),0% (Non-revolver),Low,Bronze
 716842908,Existing Customer,41,F,5,Uneducated,Single,Less than $40K,Blue,30,4,2,1,1762.0,1051,711.0,0.785,4986,80,0.739,0.596,0,35-44,Low (<$40K),>50% (High),High,Silver
 787513533,Existing Customer,47,F,1,Uneducated,Married,Less than $40K,Blue,36,6,3,3,2245.0,1503,742.0,0.754,3344,54,0.543,0.669,0,45-54,Low (<$40K),>50% (High),Moderate,Silver
@@ -5065,8 +5065,8 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 778912683,Existing Customer,51,F,2,Graduate,Single,Unknown,Blue,32,3,3,1,8365.0,1504,6861.0,0.679,4778,88,0.956,0.18,0,45-54,Not Declared,10-30% (Moderate),Very High,Gold
 780496833,Attrited Customer,56,F,1,College,Single,Less than $40K,Blue,43,3,2,2,2846.0,0,2846.0,0.747,2122,44,0.419,0.0,1,55-64,Low (<$40K),0% (Non-revolver),Low,Bronze
 720057183,Existing Customer,49,F,4,Doctorate,Single,Less than $40K,Blue,42,5,1,4,7789.0,957,6832.0,0.724,3412,70,0.842,0.123,0,45-54,Low (<$40K),10-30% (Moderate),High,Silver
-789081408,Attrited Customer,44,F,4,Uneducated,Single,Less than $40K,Blue,32,6,3,4,1438.3,170,1268.3,0.889,2527,45,0.406,0.118,1,35-44,Low (<$40K),10-30% (Moderate),Low,Silver
-720634683,Attrited Customer,48,F,2,College,Married,Unknown,Blue,37,5,2,4,2220.0,0,2220.0,0.737,2456,45,0.452,0.0,1,45-54,Not Declared,0% (Non-revolver),Low,Bronze
+789081408,Attrited Customer,44,F,4,Uneducated,Single,Less than $40K,Blue,32,6,3,4,1438.3,170,1268.3,0.889,2527,45,0.406,0.118,1,35-44,Low (<$40K),10-30% (Moderate),Moderate,Silver
+720634683,Attrited Customer,48,F,2,College,Married,Unknown,Blue,37,5,2,4,2220.0,0,2220.0,0.737,2456,45,0.452,0.0,1,45-54,Not Declared,0% (Non-revolver),Moderate,Bronze
 808732458,Existing Customer,48,M,3,Unknown,Married,$120K +,Blue,43,5,3,0,6626.0,1558,5068.0,1.02,2838,49,1.333,0.235,0,45-54,High (>$120K),10-30% (Moderate),Moderate,Silver
 719947533,Existing Customer,46,F,2,Graduate,Married,Unknown,Blue,36,6,2,1,5547.0,0,5547.0,0.85,4585,79,0.795,0.0,0,45-54,Not Declared,0% (Non-revolver),High,Platinum
 715452408,Existing Customer,37,F,2,Graduate,Divorced,Less than $40K,Blue,36,4,3,3,1734.0,987,747.0,0.879,4727,67,0.914,0.569,0,35-44,Low (<$40K),>50% (High),Moderate,Silver
@@ -5138,7 +5138,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 709779258,Existing Customer,53,F,3,Post-Graduate,Married,Less than $40K,Blue,43,4,3,4,1438.3,0,1438.3,0.939,4075,71,0.614,0.0,0,45-54,Low (<$40K),0% (Non-revolver),High,Silver
 713696808,Attrited Customer,46,F,3,High School,Married,Less than $40K,Blue,39,3,3,0,1801.0,316,1485.0,0.494,2252,42,0.4,0.175,1,45-54,Low (<$40K),10-30% (Moderate),Low,Bronze
 720044658,Attrited Customer,53,M,1,Post-Graduate,Single,$60K - $80K,Blue,46,6,2,4,4573.0,2076,2497.0,0.839,2720,46,0.484,0.454,1,45-54,Middle ($60-80K),30-50% (Elevated),Moderate,Gold
-716373483,Attrited Customer,48,F,5,Graduate,Married,Less than $40K,Blue,40,4,3,2,2860.0,2517,343.0,0.38,1544,45,0.364,0.88,1,45-54,Low (<$40K),>50% (High),Low,Bronze
+716373483,Attrited Customer,48,F,5,Graduate,Married,Less than $40K,Blue,40,4,3,2,2860.0,2517,343.0,0.38,1544,45,0.364,0.88,1,45-54,Low (<$40K),>50% (High),Moderate,Bronze
 714305508,Existing Customer,46,F,3,Uneducated,Married,$40K - $60K,Blue,36,6,3,2,13387.0,0,13387.0,0.746,3706,81,0.62,0.0,0,45-54,Lower-Middle ($40-60K),0% (Non-revolver),High,Platinum
 712202433,Existing Customer,46,F,2,High School,Single,Less than $40K,Blue,36,3,3,4,2283.0,1020,1263.0,0.944,3687,68,1.125,0.447,0,45-54,Low (<$40K),30-50% (Elevated),High,Bronze
 716600733,Attrited Customer,47,F,4,Unknown,Married,Less than $40K,Blue,36,3,3,3,2033.0,228,1805.0,0.904,2572,43,0.72,0.112,1,45-54,Low (<$40K),10-30% (Moderate),Low,Bronze
@@ -5147,14 +5147,14 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 708969633,Existing Customer,42,M,4,Uneducated,Unknown,$80K - $120K,Blue,36,6,5,1,2447.0,2195,252.0,0.717,4544,80,0.667,0.897,0,35-44,Upper-Middle ($80-120K),>50% (High),High,Gold
 715765758,Existing Customer,54,F,2,Uneducated,Single,Less than $40K,Blue,41,5,2,4,1438.3,814,624.3,0.675,4217,72,0.5,0.566,0,45-54,Low (<$40K),>50% (High),High,Silver
 803097333,Existing Customer,41,M,2,Graduate,Married,$80K - $120K,Blue,35,3,3,4,10873.0,1514,9359.0,0.879,5089,82,0.783,0.139,0,35-44,Upper-Middle ($80-120K),10-30% (Moderate),Very High,Gold
-710411358,Attrited Customer,39,F,4,College,Married,$40K - $60K,Blue,28,4,2,4,7596.0,2199,5397.0,0.633,2164,45,0.5,0.289,1,35-44,Lower-Middle ($40-60K),10-30% (Moderate),Low,Silver
+710411358,Attrited Customer,39,F,4,College,Married,$40K - $60K,Blue,28,4,2,4,7596.0,2199,5397.0,0.633,2164,45,0.5,0.289,1,35-44,Lower-Middle ($40-60K),10-30% (Moderate),Moderate,Silver
 715660308,Attrited Customer,54,F,3,College,Married,Less than $40K,Blue,44,5,3,2,2921.0,2412,509.0,0.823,2612,33,0.375,0.826,1,45-54,Low (<$40K),>50% (High),Low,Silver
 711866358,Existing Customer,42,F,3,High School,Single,$40K - $60K,Blue,30,4,2,3,10136.0,0,10136.0,0.428,4429,78,0.472,0.0,0,35-44,Lower-Middle ($40-60K),0% (Non-revolver),High,Gold
 710738883,Existing Customer,52,F,3,High School,Married,Less than $40K,Blue,36,4,2,3,2187.0,1094,1093.0,0.843,4222,61,0.649,0.5,0,45-54,Low (<$40K),30-50% (Elevated),Moderate,Silver
 717822108,Existing Customer,60,F,0,Uneducated,Single,Less than $40K,Blue,48,3,2,3,3302.0,2517,785.0,0.785,4613,85,0.932,0.762,0,55-64,Low (<$40K),>50% (High),Very High,Silver
 714407058,Existing Customer,40,M,3,Uneducated,Divorced,$80K - $120K,Blue,29,3,2,1,30997.0,2330,28667.0,0.65,3821,81,0.841,0.075,0,35-44,Upper-Middle ($80-120K),0-10% (Low),High,Silver
 710744433,Existing Customer,48,F,1,Uneducated,Single,Less than $40K,Blue,38,5,2,0,2578.0,2424,154.0,0.517,4077,78,0.625,0.94,0,45-54,Low (<$40K),>50% (High),High,Silver
-778959258,Attrited Customer,51,F,1,Unknown,Married,Less than $40K,Blue,32,5,3,3,1438.3,0,1438.3,0.905,2585,45,0.5,0.0,1,45-54,Low (<$40K),0% (Non-revolver),Low,Silver
+778959258,Attrited Customer,51,F,1,Unknown,Married,Less than $40K,Blue,32,5,3,3,1438.3,0,1438.3,0.905,2585,45,0.5,0.0,1,45-54,Low (<$40K),0% (Non-revolver),Moderate,Silver
 713320008,Existing Customer,48,M,3,Graduate,Single,$80K - $120K,Blue,37,3,3,2,3034.0,468,2566.0,0.553,4172,66,0.784,0.154,0,45-54,Upper-Middle ($80-120K),10-30% (Moderate),Moderate,Silver
 766795983,Existing Customer,46,F,1,Unknown,Single,Less than $40K,Blue,40,4,2,2,1438.3,0,1438.3,0.756,4692,91,0.596,0.0,0,45-54,Low (<$40K),0% (Non-revolver),Very High,Silver
 716256483,Existing Customer,50,F,2,Graduate,Single,Unknown,Blue,36,6,2,4,2611.0,1824,787.0,0.711,4232,80,0.633,0.699,0,45-54,Not Declared,>50% (High),High,Silver
@@ -5443,7 +5443,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 708837858,Existing Customer,44,F,4,Doctorate,Unknown,Less than $40K,Blue,34,5,2,2,2718.0,1718,1000.0,0.679,4423,68,0.619,0.632,0,35-44,Low (<$40K),>50% (High),High,Silver
 828227433,Existing Customer,50,M,2,High School,Single,$60K - $80K,Blue,46,6,2,4,5626.0,778,4848.0,1.009,4957,84,1.049,0.138,0,45-54,Middle ($60-80K),10-30% (Moderate),Very High,Platinum
 714487458,Attrited Customer,49,F,5,Graduate,Divorced,$40K - $60K,Blue,40,6,4,2,2920.0,0,2920.0,0.516,2306,39,0.625,0.0,1,45-54,Lower-Middle ($40-60K),0% (Non-revolver),Low,Silver
-711390333,Attrited Customer,59,M,0,Post-Graduate,Married,$80K - $120K,Blue,46,5,4,2,6526.0,489,6037.0,0.678,2331,45,0.452,0.075,1,55-64,Upper-Middle ($80-120K),0-10% (Low),Low,Silver
+711390333,Attrited Customer,59,M,0,Post-Graduate,Married,$80K - $120K,Blue,46,5,4,2,6526.0,489,6037.0,0.678,2331,45,0.452,0.075,1,55-64,Upper-Middle ($80-120K),0-10% (Low),Moderate,Silver
 787974108,Attrited Customer,37,F,1,High School,Single,$40K - $60K,Blue,27,4,2,2,1793.0,792,1001.0,0.723,2374,40,0.429,0.442,1,35-44,Lower-Middle ($40-60K),30-50% (Elevated),Low,Bronze
 714036258,Existing Customer,47,F,3,Unknown,Single,Less than $40K,Blue,36,4,1,4,2798.0,1963,835.0,0.805,4255,64,0.561,0.702,0,45-54,Low (<$40K),>50% (High),Moderate,Silver
 788752833,Existing Customer,52,F,2,High School,Divorced,Less than $40K,Blue,32,6,3,4,2427.0,1581,846.0,0.694,3857,69,0.816,0.651,0,45-54,Low (<$40K),>50% (High),High,Silver
@@ -5816,7 +5816,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 714246333,Attrited Customer,58,F,4,High School,Married,Unknown,Blue,48,1,4,3,5396.0,1803,3593.0,0.493,2107,39,0.393,0.334,1,55-64,Not Declared,30-50% (Elevated),Low,Bronze
 718693683,Existing Customer,65,F,0,High School,Single,$40K - $60K,Blue,53,4,1,3,2418.0,2205,213.0,0.84,3918,74,0.51,0.912,0,65+,Lower-Middle ($40-60K),>50% (High),High,Silver
 716298633,Existing Customer,56,F,1,Graduate,Single,Less than $40K,Blue,47,5,2,3,2086.0,1792,294.0,0.859,5774,84,0.909,0.859,0,55-64,Low (<$40K),>50% (High),Very High,Silver
-755661933,Attrited Customer,48,F,3,Graduate,Single,$40K - $60K,Blue,41,5,3,3,1899.0,671,1228.0,0.736,2434,45,0.406,0.353,1,45-54,Lower-Middle ($40-60K),30-50% (Elevated),Low,Bronze
+755661933,Attrited Customer,48,F,3,Graduate,Single,$40K - $60K,Blue,41,5,3,3,1899.0,671,1228.0,0.736,2434,45,0.406,0.353,1,45-54,Lower-Middle ($40-60K),30-50% (Elevated),Moderate,Bronze
 712914783,Existing Customer,43,M,5,Graduate,Single,$40K - $60K,Blue,31,4,1,2,7564.0,0,7564.0,0.61,4743,82,0.822,0.0,0,35-44,Lower-Middle ($40-60K),0% (Non-revolver),Very High,Gold
 711240108,Existing Customer,41,M,2,Graduate,Married,$60K - $80K,Blue,31,3,2,2,13116.0,1225,11891.0,0.735,4800,61,0.605,0.093,0,35-44,Middle ($60-80K),0-10% (Low),Moderate,Gold
 721396758,Existing Customer,35,F,4,Doctorate,Married,Less than $40K,Blue,36,3,1,3,1438.3,606,832.3,0.692,5062,80,0.818,0.421,0,35-44,Low (<$40K),30-50% (Elevated),High,Silver
@@ -6010,7 +6010,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 711144183,Attrited Customer,55,F,3,Graduate,Married,Unknown,Blue,45,1,3,1,2815.0,1848,967.0,0.563,2618,29,0.45,0.656,1,55-64,Not Declared,>50% (High),Low,Bronze
 709080783,Existing Customer,56,F,1,Graduate,Single,Less than $40K,Blue,38,4,1,3,1737.0,0,1737.0,0.953,4723,78,0.625,0.0,0,55-64,Low (<$40K),0% (Non-revolver),High,Silver
 710520408,Existing Customer,52,F,4,High School,Single,Unknown,Blue,36,5,3,3,9078.0,1194,7884.0,0.745,4458,87,0.812,0.132,0,45-54,Not Declared,10-30% (Moderate),Very High,Gold
-785262333,Attrited Customer,46,M,5,Uneducated,Unknown,$40K - $60K,Blue,40,5,4,3,6185.0,1960,4225.0,0.669,2225,45,0.875,0.317,1,45-54,Lower-Middle ($40-60K),30-50% (Elevated),Low,Silver
+785262333,Attrited Customer,46,M,5,Uneducated,Unknown,$40K - $60K,Blue,40,5,4,3,6185.0,1960,4225.0,0.669,2225,45,0.875,0.317,1,45-54,Lower-Middle ($40-60K),30-50% (Elevated),Moderate,Silver
 716513358,Existing Customer,51,F,2,Graduate,Divorced,Unknown,Blue,36,5,3,3,2069.0,1802,267.0,0.651,4402,91,0.75,0.871,0,45-54,Not Declared,>50% (High),Very High,Silver
 719073483,Attrited Customer,45,M,3,Uneducated,Married,$80K - $120K,Blue,38,3,3,3,9234.0,0,9234.0,0.629,2586,44,0.257,0.0,1,45-54,Upper-Middle ($80-120K),0% (Non-revolver),Low,Silver
 715372083,Existing Customer,37,F,1,Graduate,Single,Less than $40K,Blue,36,3,3,3,2684.0,0,2684.0,0.66,4796,85,0.635,0.0,0,35-44,Low (<$40K),0% (Non-revolver),Very High,Silver
@@ -6024,7 +6024,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 808675083,Existing Customer,61,M,1,Graduate,Single,Unknown,Blue,56,5,3,2,4235.0,1675,2560.0,1.079,3862,76,0.949,0.396,0,55-64,Not Declared,30-50% (Elevated),High,Silver
 710864358,Existing Customer,51,F,2,Doctorate,Married,Unknown,Blue,45,6,6,2,6501.0,0,6501.0,0.651,5074,81,0.688,0.0,0,45-54,Not Declared,0% (Non-revolver),High,Platinum
 712574583,Existing Customer,34,F,1,Graduate,Single,Unknown,Blue,21,6,1,3,6376.0,1322,5054.0,0.709,5192,70,0.628,0.207,0,26-34,Not Declared,10-30% (Moderate),High,Platinum
-708412758,Attrited Customer,33,F,3,Graduate,Single,Less than $40K,Blue,36,5,2,3,1457.0,0,1457.0,0.677,2200,45,0.364,0.0,1,26-34,Low (<$40K),0% (Non-revolver),Low,Bronze
+708412758,Attrited Customer,33,F,3,Graduate,Single,Less than $40K,Blue,36,5,2,3,1457.0,0,1457.0,0.677,2200,45,0.364,0.0,1,26-34,Low (<$40K),0% (Non-revolver),Moderate,Bronze
 714389058,Existing Customer,38,F,3,Unknown,Married,$40K - $60K,Blue,36,3,3,2,5576.0,0,5576.0,0.686,4322,85,0.809,0.0,0,35-44,Lower-Middle ($40-60K),0% (Non-revolver),Very High,Silver
 715767033,Existing Customer,56,F,3,College,Single,Unknown,Blue,36,5,1,3,1438.3,0,1438.3,0.76,4919,83,0.627,0.0,0,55-64,Not Declared,0% (Non-revolver),Very High,Silver
 779281233,Existing Customer,45,F,3,Graduate,Single,Unknown,Blue,27,4,3,3,2478.0,1748,730.0,0.643,4353,80,0.667,0.705,0,45-54,Not Declared,>50% (High),High,Silver
@@ -6142,7 +6142,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 717202083,Attrited Customer,46,M,2,Unknown,Single,$80K - $120K,Blue,34,2,3,3,7077.0,0,7077.0,0.838,2619,41,0.519,0.0,1,45-54,Upper-Middle ($80-120K),0% (Non-revolver),Low,Silver
 719051733,Existing Customer,63,M,0,College,Single,$60K - $80K,Blue,51,4,2,1,2706.0,889,1817.0,0.73,5047,64,0.882,0.329,0,55-64,Middle ($60-80K),30-50% (Elevated),Moderate,Silver
 789900633,Existing Customer,49,F,2,High School,Married,$40K - $60K,Blue,40,5,3,2,3263.0,1522,1741.0,0.58,4288,69,0.725,0.466,0,45-54,Lower-Middle ($40-60K),30-50% (Elevated),High,Silver
-789122808,Attrited Customer,41,F,4,College,Married,$40K - $60K,Blue,29,5,2,3,3281.0,0,3281.0,0.875,2907,45,0.406,0.0,1,35-44,Lower-Middle ($40-60K),0% (Non-revolver),Low,Silver
+789122808,Attrited Customer,41,F,4,College,Married,$40K - $60K,Blue,29,5,2,3,3281.0,0,3281.0,0.875,2907,45,0.406,0.0,1,35-44,Lower-Middle ($40-60K),0% (Non-revolver),Moderate,Silver
 709902108,Existing Customer,51,M,2,High School,Married,$80K - $120K,Blue,40,4,3,2,8169.0,794,7375.0,0.665,4927,70,0.944,0.097,0,45-54,Upper-Middle ($80-120K),0-10% (Low),High,Platinum
 713666058,Existing Customer,46,F,5,College,Divorced,$40K - $60K,Blue,38,6,1,3,3276.0,1915,1361.0,0.672,4264,76,0.617,0.585,0,45-54,Lower-Middle ($40-60K),>50% (High),High,Gold
 711453783,Existing Customer,41,F,3,Unknown,Single,Less than $40K,Blue,29,4,2,3,1966.0,1452,514.0,0.621,4666,74,0.682,0.739,0,35-44,Low (<$40K),>50% (High),High,Silver
@@ -6294,7 +6294,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 713594883,Attrited Customer,44,F,2,Uneducated,Single,Unknown,Blue,32,5,3,3,1486.0,849,637.0,0.621,2380,43,0.87,0.571,1,35-44,Not Declared,>50% (High),Low,Bronze
 719848908,Existing Customer,41,F,3,Graduate,Married,Unknown,Blue,33,3,3,3,2542.0,0,2542.0,0.587,4087,73,0.78,0.0,0,35-44,Not Declared,0% (Non-revolver),High,Bronze
 714962658,Attrited Customer,35,M,2,Unknown,Single,Less than $40K,Blue,36,5,3,3,1931.0,0,1931.0,0.862,2482,40,0.6,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Low,Bronze
-717429258,Attrited Customer,48,F,3,Doctorate,Single,Less than $40K,Blue,39,3,3,4,1644.0,500,1144.0,0.784,2450,45,0.406,0.304,1,45-54,Low (<$40K),30-50% (Elevated),Low,Bronze
+717429258,Attrited Customer,48,F,3,Doctorate,Single,Less than $40K,Blue,39,3,3,4,1644.0,500,1144.0,0.784,2450,45,0.406,0.304,1,45-54,Low (<$40K),30-50% (Elevated),Moderate,Bronze
 717022533,Existing Customer,43,F,2,Post-Graduate,Single,$40K - $60K,Blue,36,4,1,3,2283.0,0,2283.0,0.899,4088,66,0.886,0.0,0,35-44,Lower-Middle ($40-60K),0% (Non-revolver),Moderate,Silver
 710853033,Existing Customer,36,F,1,Doctorate,Unknown,Less than $40K,Blue,36,3,2,2,4943.0,1204,3739.0,0.417,4024,82,0.783,0.244,0,35-44,Low (<$40K),10-30% (Moderate),Very High,Silver
 709548783,Attrited Customer,44,M,2,Doctorate,Unknown,$40K - $60K,Blue,36,5,3,4,1438.3,0,1438.3,0.602,2100,54,0.588,0.0,1,35-44,Lower-Middle ($40-60K),0% (Non-revolver),Moderate,Bronze
@@ -6325,7 +6325,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 714475908,Attrited Customer,43,M,2,Uneducated,Single,$60K - $80K,Blue,35,5,3,2,6348.0,0,6348.0,0.4,1732,39,0.393,0.0,1,35-44,Middle ($60-80K),0% (Non-revolver),Low,Silver
 713656308,Existing Customer,56,F,0,High School,Married,Less than $40K,Blue,48,3,3,1,1438.3,0,1438.3,0.618,4210,75,0.5,0.0,0,55-64,Low (<$40K),0% (Non-revolver),High,Bronze
 716790633,Attrited Customer,43,M,3,Graduate,Married,$60K - $80K,Blue,36,4,2,3,17239.0,0,17239.0,0.393,1789,38,0.357,0.0,1,35-44,Middle ($60-80K),0% (Non-revolver),Low,Silver
-716127333,Attrited Customer,45,F,3,Graduate,Married,Unknown,Blue,36,5,2,3,18432.0,484,17948.0,0.557,2300,45,0.552,0.026,1,45-54,Not Declared,0-10% (Low),Low,Silver
+716127333,Attrited Customer,45,F,3,Graduate,Married,Unknown,Blue,36,5,2,3,18432.0,484,17948.0,0.557,2300,45,0.552,0.026,1,45-54,Not Declared,0-10% (Low),Moderate,Silver
 713017758,Existing Customer,47,F,1,Uneducated,Single,Less than $40K,Blue,32,6,2,2,1636.0,1135,501.0,0.754,5056,85,0.809,0.694,0,45-54,Low (<$40K),>50% (High),Very High,Gold
 717893358,Existing Customer,43,F,3,Graduate,Married,Unknown,Blue,33,6,1,3,7951.0,1456,6495.0,0.882,4452,65,0.512,0.183,0,35-44,Not Declared,10-30% (Moderate),Moderate,Gold
 780032208,Attrited Customer,44,M,3,Graduate,Married,$60K - $80K,Blue,34,5,3,3,14201.0,0,14201.0,0.574,2223,47,0.679,0.0,1,35-44,Middle ($60-80K),0% (Non-revolver),Moderate,Silver
@@ -6501,11 +6501,11 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 712305333,Existing Customer,59,M,0,Graduate,Single,$60K - $80K,Blue,53,4,2,2,4386.0,2505,1881.0,0.806,4064,65,0.806,0.571,0,55-64,Middle ($60-80K),>50% (High),Moderate,Silver
 812785158,Existing Customer,42,M,4,Uneducated,Married,Less than $40K,Blue,37,4,3,2,2411.0,1797,614.0,0.607,4331,63,0.5,0.745,0,35-44,Low (<$40K),>50% (High),Moderate,Silver
 765459858,Attrited Customer,47,M,3,Graduate,Divorced,Less than $40K,Blue,40,4,4,3,6397.0,0,6397.0,0.632,2511,56,0.556,0.0,1,45-54,Low (<$40K),0% (Non-revolver),Moderate,Silver
-714894708,Attrited Customer,53,M,1,Uneducated,Unknown,$120K +,Blue,45,4,4,2,23958.0,2517,21441.0,0.702,2777,45,0.552,0.105,1,45-54,High (>$120K),10-30% (Moderate),Low,Gold
+714894708,Attrited Customer,53,M,1,Uneducated,Unknown,$120K +,Blue,45,4,4,2,23958.0,2517,21441.0,0.702,2777,45,0.552,0.105,1,45-54,High (>$120K),10-30% (Moderate),Moderate,Gold
 711296508,Existing Customer,49,F,3,Graduate,Single,Less than $40K,Blue,42,5,2,3,2608.0,2455,153.0,0.886,4776,85,0.889,0.941,0,45-54,Low (<$40K),>50% (High),Very High,Silver
 795713058,Existing Customer,45,M,3,Post-Graduate,Married,$40K - $60K,Blue,39,3,1,2,4409.0,1753,2656.0,0.55,4292,76,0.652,0.398,0,45-54,Lower-Middle ($40-60K),30-50% (Elevated),High,Silver
 789487308,Existing Customer,48,M,2,Doctorate,Single,$60K - $80K,Blue,39,3,2,2,10033.0,0,10033.0,0.644,4106,78,0.902,0.0,0,45-54,Middle ($60-80K),0% (Non-revolver),High,Silver
-720130233,Attrited Customer,48,M,2,High School,Single,$60K - $80K,Blue,36,4,3,1,1641.0,0,1641.0,0.791,2536,45,0.364,0.0,1,45-54,Middle ($60-80K),0% (Non-revolver),Low,Bronze
+720130233,Attrited Customer,48,M,2,High School,Single,$60K - $80K,Blue,36,4,3,1,1641.0,0,1641.0,0.791,2536,45,0.364,0.0,1,45-54,Middle ($60-80K),0% (Non-revolver),Moderate,Bronze
 789047208,Existing Customer,57,F,2,High School,Single,Less than $40K,Blue,45,4,1,3,2454.0,1610,844.0,1.036,4983,79,0.795,0.656,0,55-64,Low (<$40K),>50% (High),High,Silver
 715864983,Existing Customer,56,F,2,High School,Married,Less than $40K,Blue,43,5,2,2,1978.0,0,1978.0,0.641,4870,83,0.844,0.0,0,55-64,Low (<$40K),0% (Non-revolver),Very High,Silver
 708765933,Existing Customer,46,M,2,Post-Graduate,Married,$60K - $80K,Blue,36,3,2,2,5464.0,887,4577.0,0.554,4866,81,0.62,0.162,0,45-54,Middle ($60-80K),10-30% (Moderate),High,Silver
@@ -6543,7 +6543,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 708316008,Attrited Customer,59,F,1,Graduate,Single,Unknown,Blue,36,3,2,3,10031.0,0,10031.0,0.238,1792,29,0.074,0.0,1,55-64,Not Declared,0% (Non-revolver),Low,Silver
 714655758,Existing Customer,62,M,0,Graduate,Divorced,$40K - $60K,Blue,36,6,3,2,4049.0,0,4049.0,0.567,4003,73,0.659,0.0,0,55-64,Lower-Middle ($40-60K),0% (Non-revolver),High,Gold
 711846183,Attrited Customer,38,F,3,Graduate,Single,$40K - $60K,Blue,26,3,2,3,2669.0,0,2669.0,0.67,2271,31,0.722,0.0,1,35-44,Lower-Middle ($40-60K),0% (Non-revolver),Low,Bronze
-720612333,Attrited Customer,44,F,3,College,Single,Less than $40K,Blue,28,6,2,2,1951.0,0,1951.0,0.772,2697,45,0.731,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Low,Silver
+720612333,Attrited Customer,44,F,3,College,Single,Less than $40K,Blue,28,6,2,2,1951.0,0,1951.0,0.772,2697,45,0.731,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Moderate,Silver
 714673833,Existing Customer,59,F,1,Graduate,Single,$40K - $60K,Blue,36,3,3,1,1528.0,0,1528.0,0.669,4411,77,0.833,0.0,0,55-64,Lower-Middle ($40-60K),0% (Non-revolver),High,Bronze
 710525508,Attrited Customer,48,F,2,High School,Married,Less than $40K,Blue,36,6,3,3,1438.3,455,983.3,0.626,2090,50,0.562,0.316,1,45-54,Low (<$40K),30-50% (Elevated),Moderate,Silver
 757854858,Attrited Customer,50,M,2,Unknown,Married,$60K - $80K,Blue,43,4,3,4,3143.0,0,3143.0,0.764,2297,37,0.321,0.0,1,45-54,Middle ($60-80K),0% (Non-revolver),Low,Silver
@@ -6576,7 +6576,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 720728133,Existing Customer,44,M,4,Uneducated,Single,$40K - $60K,Blue,33,4,3,3,1714.0,0,1714.0,0.849,4180,71,0.919,0.0,0,35-44,Lower-Middle ($40-60K),0% (Non-revolver),High,Silver
 718153233,Existing Customer,46,M,3,Uneducated,Married,$80K - $120K,Blue,36,3,2,2,23512.0,1562,21950.0,0.632,3764,60,0.538,0.066,0,45-54,Upper-Middle ($80-120K),0-10% (Low),Moderate,Silver
 716122008,Attrited Customer,44,F,3,Unknown,Married,Less than $40K,Blue,35,3,3,2,1855.0,0,1855.0,0.988,2544,27,0.929,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Low,Bronze
-714960408,Attrited Customer,44,F,3,College,Single,Less than $40K,Blue,34,4,3,1,1605.0,890,715.0,0.742,2722,45,0.5,0.555,1,35-44,Low (<$40K),>50% (High),Low,Silver
+714960408,Attrited Customer,44,F,3,College,Single,Less than $40K,Blue,34,4,3,1,1605.0,890,715.0,0.742,2722,45,0.5,0.555,1,35-44,Low (<$40K),>50% (High),Moderate,Silver
 772382283,Attrited Customer,46,F,3,Graduate,Married,Less than $40K,Blue,36,3,3,3,2302.0,1593,709.0,0.671,2689,49,0.324,0.692,1,45-54,Low (<$40K),>50% (High),Moderate,Bronze
 817236708,Existing Customer,42,M,3,Uneducated,Married,$60K - $80K,Blue,25,6,2,3,13546.0,1720,11826.0,0.538,3943,73,0.698,0.127,0,35-44,Middle ($60-80K),10-30% (Moderate),High,Platinum
 714266883,Attrited Customer,54,F,4,Post-Graduate,Unknown,Less than $40K,Blue,44,5,3,3,2440.0,503,1937.0,0.415,2334,51,0.594,0.206,1,45-54,Low (<$40K),10-30% (Moderate),Moderate,Bronze
@@ -6616,12 +6616,12 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 794068308,Existing Customer,45,M,4,Unknown,Unknown,$40K - $60K,Gold,39,5,1,2,23981.0,1684,22297.0,0.736,4141,73,0.521,0.07,0,45-54,Lower-Middle ($40-60K),0-10% (Low),High,Gold
 824812983,Existing Customer,42,M,3,Unknown,Single,$60K - $80K,Blue,38,5,1,1,6318.0,1397,4921.0,0.517,4166,86,0.755,0.221,0,35-44,Middle ($60-80K),10-30% (Moderate),Very High,Silver
 713396358,Existing Customer,32,F,1,Graduate,Single,Unknown,Blue,13,5,1,3,3558.0,816,2742.0,0.77,4878,71,0.578,0.229,0,26-34,Not Declared,10-30% (Moderate),High,Gold
-719420883,Attrited Customer,56,F,4,Graduate,Unknown,Less than $40K,Blue,44,5,3,3,1677.0,0,1677.0,0.835,2477,45,0.324,0.0,1,55-64,Low (<$40K),0% (Non-revolver),Low,Bronze
+719420883,Attrited Customer,56,F,4,Graduate,Unknown,Less than $40K,Blue,44,5,3,3,1677.0,0,1677.0,0.835,2477,45,0.324,0.0,1,55-64,Low (<$40K),0% (Non-revolver),Moderate,Bronze
 785500533,Existing Customer,53,F,4,Unknown,Married,Less than $40K,Blue,47,3,2,2,2734.0,2085,649.0,0.764,4064,66,0.784,0.763,0,45-54,Low (<$40K),>50% (High),Moderate,Bronze
 712138008,Existing Customer,52,F,2,Graduate,Married,$40K - $60K,Blue,36,5,3,1,2396.0,1663,733.0,0.645,4569,70,0.667,0.694,0,45-54,Lower-Middle ($40-60K),>50% (High),High,Silver
 709279608,Existing Customer,45,M,4,High School,Married,$80K - $120K,Blue,35,5,2,3,9852.0,2277,7575.0,0.831,3813,71,0.614,0.231,0,45-54,Upper-Middle ($80-120K),10-30% (Moderate),High,Gold
 788771733,Existing Customer,49,M,4,High School,Single,$60K - $80K,Blue,30,5,3,3,1579.0,900,679.0,0.592,4354,70,0.707,0.57,0,45-54,Middle ($60-80K),>50% (High),High,Silver
-753365883,Attrited Customer,44,F,3,Unknown,Single,Unknown,Blue,37,3,2,3,1900.0,0,1900.0,0.864,2298,45,0.452,0.0,1,35-44,Not Declared,0% (Non-revolver),Low,Bronze
+753365883,Attrited Customer,44,F,3,Unknown,Single,Unknown,Blue,37,3,2,3,1900.0,0,1900.0,0.864,2298,45,0.452,0.0,1,35-44,Not Declared,0% (Non-revolver),Moderate,Bronze
 770717883,Existing Customer,42,F,2,College,Married,$40K - $60K,Blue,28,6,2,1,1820.0,0,1820.0,0.658,4592,67,0.811,0.0,0,35-44,Lower-Middle ($40-60K),0% (Non-revolver),Moderate,Gold
 716919633,Existing Customer,58,F,1,Uneducated,Unknown,$40K - $60K,Blue,39,5,1,1,2406.0,0,2406.0,1.016,4450,73,0.698,0.0,0,55-64,Lower-Middle ($40-60K),0% (Non-revolver),High,Silver
 717915783,Attrited Customer,60,M,0,Unknown,Married,$60K - $80K,Blue,47,5,1,3,4541.0,1037,3504.0,0.825,2829,44,0.467,0.228,1,55-64,Middle ($60-80K),10-30% (Moderate),Low,Silver
@@ -6699,7 +6699,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 815772333,Existing Customer,48,F,2,Unknown,Single,Less than $40K,Blue,43,6,3,3,1438.3,0,1438.3,0.816,4059,89,0.816,0.0,0,45-54,Low (<$40K),0% (Non-revolver),Very High,Silver
 778255083,Existing Customer,52,F,1,Uneducated,Married,Less than $40K,Blue,42,5,3,3,3103.0,2517,586.0,0.881,4641,80,1.0,0.811,0,45-54,Low (<$40K),>50% (High),High,Gold
 715571583,Existing Customer,57,F,2,Doctorate,Divorced,Less than $40K,Blue,47,5,1,2,2504.0,1915,589.0,0.897,4847,86,0.654,0.765,0,55-64,Low (<$40K),>50% (High),Very High,Silver
-720711483,Attrited Customer,56,F,1,High School,Married,Unknown,Blue,42,5,2,3,3674.0,2517,1157.0,0.854,2608,45,0.731,0.685,1,55-64,Not Declared,>50% (High),Low,Silver
+720711483,Attrited Customer,56,F,1,High School,Married,Unknown,Blue,42,5,2,3,3674.0,2517,1157.0,0.854,2608,45,0.731,0.685,1,55-64,Not Declared,>50% (High),Moderate,Silver
 827436483,Existing Customer,48,M,1,Graduate,Married,$80K - $120K,Blue,44,6,1,3,2916.0,0,2916.0,0.792,4336,72,0.714,0.0,0,45-54,Upper-Middle ($80-120K),0% (Non-revolver),High,Silver
 710715783,Existing Customer,52,F,1,Uneducated,Single,Less than $40K,Blue,45,5,2,3,1633.0,0,1633.0,0.725,4436,75,0.667,0.0,0,45-54,Low (<$40K),0% (Non-revolver),High,Silver
 758367933,Existing Customer,56,M,2,Uneducated,Single,$80K - $120K,Blue,49,5,3,2,5466.0,0,5466.0,0.587,4435,79,0.881,0.0,0,55-64,Upper-Middle ($80-120K),0% (Non-revolver),High,Silver
@@ -6742,7 +6742,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 710862258,Existing Customer,41,F,2,Uneducated,Married,Less than $40K,Blue,36,3,2,2,1755.0,0,1755.0,0.77,4786,73,0.553,0.0,0,35-44,Low (<$40K),0% (Non-revolver),High,Silver
 720072933,Existing Customer,49,F,4,Graduate,Married,Less than $40K,Blue,36,3,3,3,1438.3,666,772.3,0.675,4759,90,0.667,0.463,0,45-54,Low (<$40K),30-50% (Elevated),Very High,Silver
 757527033,Existing Customer,53,F,2,College,Single,Less than $40K,Blue,46,3,5,2,2153.0,0,2153.0,0.766,4628,69,0.971,0.0,0,45-54,Low (<$40K),0% (Non-revolver),High,Silver
-713115483,Attrited Customer,44,F,3,Uneducated,Married,Less than $40K,Blue,36,6,3,3,1684.0,0,1684.0,0.557,2275,45,0.607,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Low,Silver
+713115483,Attrited Customer,44,F,3,Uneducated,Married,Less than $40K,Blue,36,6,3,3,1684.0,0,1684.0,0.557,2275,45,0.607,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Moderate,Silver
 816078708,Existing Customer,45,M,3,Unknown,Single,$40K - $60K,Blue,40,3,4,3,5662.0,1952,3710.0,0.519,4014,61,0.525,0.345,0,45-54,Lower-Middle ($40-60K),30-50% (Elevated),Moderate,Silver
 713985183,Existing Customer,46,F,5,Graduate,Single,Less than $40K,Blue,38,4,5,2,2799.0,2412,387.0,0.877,4634,91,0.75,0.862,0,45-54,Low (<$40K),>50% (High),Very High,Silver
 789601308,Existing Customer,58,M,3,Unknown,Married,$120K +,Blue,52,4,5,3,12398.0,0,12398.0,0.785,4228,93,0.788,0.0,0,55-64,High (>$120K),0% (Non-revolver),Very High,Gold
@@ -6906,7 +6906,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 713310558,Existing Customer,47,F,2,Graduate,Married,$40K - $60K,Blue,28,5,2,2,2035.0,1620,415.0,0.838,4130,74,0.721,0.796,0,45-54,Lower-Middle ($40-60K),>50% (High),High,Silver
 719995008,Existing Customer,44,F,4,Graduate,Married,Unknown,Blue,36,6,2,2,3979.0,780,3199.0,0.873,5024,69,0.769,0.196,0,35-44,Not Declared,10-30% (Moderate),High,Platinum
 811713408,Existing Customer,58,F,2,High School,Married,$40K - $60K,Blue,53,4,2,3,2642.0,1249,1393.0,0.682,4897,81,0.723,0.473,0,55-64,Lower-Middle ($40-60K),30-50% (Elevated),High,Silver
-709649958,Attrited Customer,62,M,0,Post-Graduate,Divorced,$60K - $80K,Silver,46,4,5,6,28229.0,287,27942.0,0.594,2281,45,0.552,0.01,1,55-64,Middle ($60-80K),0-10% (Low),Low,Silver
+709649958,Attrited Customer,62,M,0,Post-Graduate,Divorced,$60K - $80K,Silver,46,4,5,6,28229.0,287,27942.0,0.594,2281,45,0.552,0.01,1,55-64,Middle ($60-80K),0-10% (Low),Moderate,Silver
 708822783,Existing Customer,53,F,2,High School,Single,Less than $40K,Blue,36,4,3,1,2973.0,2517,456.0,0.588,4862,77,0.453,0.847,0,45-54,Low (<$40K),>50% (High),High,Gold
 771869508,Existing Customer,51,F,2,Uneducated,Married,Less than $40K,Blue,40,4,3,3,1612.0,831,781.0,0.602,4924,81,0.884,0.516,0,45-54,Low (<$40K),>50% (High),High,Silver
 804413508,Existing Customer,41,M,1,High School,Single,$80K - $120K,Blue,36,6,2,3,12084.0,1638,10446.0,0.695,4506,90,0.957,0.136,0,35-44,Upper-Middle ($80-120K),10-30% (Moderate),Very High,Platinum
@@ -6943,7 +6943,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 825753258,Existing Customer,47,M,4,Uneducated,Married,$60K - $80K,Blue,43,4,3,1,6519.0,1525,4994.0,0.874,4495,81,1.025,0.234,0,45-54,Middle ($60-80K),10-30% (Moderate),High,Gold
 713930433,Attrited Customer,57,M,2,Uneducated,Unknown,$80K - $120K,Blue,36,5,3,3,4316.0,0,4316.0,0.363,1920,53,0.472,0.0,1,55-64,Upper-Middle ($80-120K),0% (Non-revolver),Moderate,Silver
 715941633,Existing Customer,50,F,0,Graduate,Married,Less than $40K,Blue,36,3,3,3,1438.3,0,1438.3,0.718,3800,69,0.533,0.0,0,45-54,Low (<$40K),0% (Non-revolver),High,Bronze
-772162683,Attrited Customer,34,F,2,Graduate,Married,Less than $40K,Blue,23,6,2,2,3116.0,0,3116.0,0.698,2768,45,0.667,0.0,1,26-34,Low (<$40K),0% (Non-revolver),Low,Gold
+772162683,Attrited Customer,34,F,2,Graduate,Married,Less than $40K,Blue,23,6,2,2,3116.0,0,3116.0,0.698,2768,45,0.667,0.0,1,26-34,Low (<$40K),0% (Non-revolver),Moderate,Gold
 712531008,Attrited Customer,43,M,3,Unknown,Married,$120K +,Blue,34,4,3,2,24868.0,794,24074.0,0.649,2510,32,0.231,0.032,1,35-44,High (>$120K),0-10% (Low),Low,Silver
 711583458,Existing Customer,48,F,2,College,Married,Less than $40K,Blue,36,4,3,1,1438.3,0,1438.3,0.743,4913,82,0.822,0.0,0,45-54,Low (<$40K),0% (Non-revolver),Very High,Silver
 714418983,Existing Customer,43,M,5,Graduate,Single,$40K - $60K,Blue,33,4,2,1,1438.3,0,1438.3,0.643,4509,80,0.569,0.0,0,35-44,Lower-Middle ($40-60K),0% (Non-revolver),High,Silver
@@ -7008,7 +7008,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 710756133,Existing Customer,40,F,3,Unknown,Married,Less than $40K,Blue,31,5,6,1,1811.0,821,990.0,0.773,4290,73,0.78,0.453,0,35-44,Low (<$40K),30-50% (Elevated),High,Silver
 713873658,Existing Customer,45,M,4,High School,Single,$120K +,Blue,37,4,3,3,2701.0,1986,715.0,0.538,4767,76,0.854,0.735,0,45-54,High (>$120K),>50% (High),High,Silver
 771499233,Existing Customer,46,F,4,High School,Married,Less than $40K,Blue,34,6,1,3,5387.0,1133,4254.0,0.652,4374,76,0.49,0.21,0,45-54,Low (<$40K),10-30% (Moderate),High,Gold
-711274458,Attrited Customer,38,F,3,High School,Married,Less than $40K,Blue,27,4,3,3,1438.3,0,1438.3,0.73,2478,45,0.552,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Low,Bronze
+711274458,Attrited Customer,38,F,3,High School,Married,Less than $40K,Blue,27,4,3,3,1438.3,0,1438.3,0.73,2478,45,0.552,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Moderate,Bronze
 790108908,Existing Customer,44,M,2,Post-Graduate,Married,$80K - $120K,Blue,37,5,1,1,34058.0,0,34058.0,0.552,4043,57,0.781,0.0,0,35-44,Upper-Middle ($80-120K),0% (Non-revolver),Moderate,Gold
 797389758,Existing Customer,42,F,2,Graduate,Married,$40K - $60K,Silver,36,6,2,1,16290.0,0,16290.0,0.758,4232,79,0.795,0.0,0,35-44,Lower-Middle ($40-60K),0% (Non-revolver),High,Platinum
 827100333,Existing Customer,49,F,3,High School,Married,Less than $40K,Blue,45,3,3,2,1438.3,726,712.3,0.657,5208,93,0.755,0.505,0,45-54,Low (<$40K),>50% (High),Very High,Silver
@@ -7036,7 +7036,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 709728183,Existing Customer,46,F,3,College,Married,Less than $40K,Blue,39,3,2,3,1438.3,0,1438.3,0.786,4370,79,0.795,0.0,0,45-54,Low (<$40K),0% (Non-revolver),High,Bronze
 715797783,Existing Customer,55,F,1,Uneducated,Divorced,$40K - $60K,Blue,47,3,2,3,2697.0,1863,834.0,0.735,4615,81,0.688,0.691,0,55-64,Lower-Middle ($40-60K),>50% (High),High,Silver
 710879283,Existing Customer,51,M,1,High School,Married,Less than $40K,Blue,41,3,4,3,1438.3,0,1438.3,0.623,4312,81,0.723,0.0,0,45-54,Low (<$40K),0% (Non-revolver),High,Bronze
-827051808,Attrited Customer,44,F,0,College,Married,Less than $40K,Blue,40,5,4,2,7499.0,1083,6416.0,0.716,2478,45,0.667,0.144,1,35-44,Low (<$40K),10-30% (Moderate),Low,Silver
+827051808,Attrited Customer,44,F,0,College,Married,Less than $40K,Blue,40,5,4,2,7499.0,1083,6416.0,0.716,2478,45,0.667,0.144,1,35-44,Low (<$40K),10-30% (Moderate),Moderate,Silver
 710484408,Attrited Customer,39,M,4,Post-Graduate,Married,$120K +,Blue,29,6,3,3,8700.0,1742,6958.0,0.454,2306,50,0.613,0.2,1,35-44,High (>$120K),10-30% (Moderate),Moderate,Gold
 817108083,Attrited Customer,55,M,3,Unknown,Single,$60K - $80K,Blue,35,3,3,3,14266.0,1341,12925.0,0.309,1625,34,0.36,0.094,1,55-64,Middle ($60-80K),0-10% (Low),Low,Silver
 715995933,Existing Customer,46,M,0,Graduate,Single,$120K +,Blue,36,6,2,1,2692.0,1631,1061.0,0.99,4619,83,0.694,0.606,0,45-54,High (>$120K),>50% (High),Very High,Gold
@@ -7127,7 +7127,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 717516333,Existing Customer,40,M,2,Graduate,Married,$120K +,Blue,33,6,4,1,14713.0,905,13808.0,0.817,4125,82,0.822,0.062,0,35-44,High (>$120K),0-10% (Low),Very High,Platinum
 788835408,Attrited Customer,49,F,3,Unknown,Married,Less than $40K,Blue,33,6,3,3,2910.0,0,2910.0,0.789,2648,41,0.464,0.0,1,45-54,Low (<$40K),0% (Non-revolver),Low,Silver
 716414958,Existing Customer,39,F,3,High School,Single,Unknown,Blue,36,3,3,3,2366.0,1927,439.0,0.631,3659,66,0.833,0.814,0,35-44,Not Declared,>50% (High),Moderate,Bronze
-712327608,Attrited Customer,54,F,0,Doctorate,Single,Less than $40K,Blue,36,4,3,2,2708.0,0,2708.0,0.673,2321,45,0.552,0.0,1,45-54,Low (<$40K),0% (Non-revolver),Low,Bronze
+712327608,Attrited Customer,54,F,0,Doctorate,Single,Less than $40K,Blue,36,4,3,2,2708.0,0,2708.0,0.673,2321,45,0.552,0.0,1,45-54,Low (<$40K),0% (Non-revolver),Moderate,Bronze
 796326483,Existing Customer,42,M,3,High School,Married,$80K - $120K,Blue,36,5,4,3,1681.0,0,1681.0,0.994,5416,82,0.952,0.0,0,35-44,Upper-Middle ($80-120K),0% (Non-revolver),Very High,Silver
 714146208,Existing Customer,40,F,4,Unknown,Single,Less than $40K,Blue,32,6,1,1,2594.0,2159,435.0,0.792,3872,71,0.511,0.832,0,35-44,Low (<$40K),>50% (High),High,Silver
 779166783,Existing Customer,41,F,4,Unknown,Single,$40K - $60K,Blue,31,5,1,2,2128.0,1383,745.0,0.679,3968,81,0.761,0.65,0,35-44,Lower-Middle ($40-60K),>50% (High),High,Silver
@@ -7263,16 +7263,16 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 714186108,Existing Customer,37,F,2,Unknown,Single,Less than $40K,Blue,19,6,5,2,2152.0,1682,470.0,1.051,4126,71,0.972,0.782,0,35-44,Low (<$40K),>50% (High),High,Silver
 820047858,Attrited Customer,44,F,4,Graduate,Unknown,Less than $40K,Blue,39,1,4,2,3017.0,1868,1149.0,0.722,2096,50,0.471,0.619,1,35-44,Low (<$40K),>50% (High),Moderate,Bronze
 708894183,Existing Customer,53,M,3,College,Single,$120K +,Silver,44,4,4,2,34516.0,1073,33443.0,0.558,4485,86,0.755,0.031,0,45-54,High (>$120K),0-10% (Low),Very High,Platinum
-708186933,Attrited Customer,33,M,1,Graduate,Single,$60K - $80K,Blue,36,4,3,2,1819.0,725,1094.0,0.737,2254,45,0.406,0.399,1,26-34,Middle ($60-80K),30-50% (Elevated),Low,Bronze
+708186933,Attrited Customer,33,M,1,Graduate,Single,$60K - $80K,Blue,36,4,3,2,1819.0,725,1094.0,0.737,2254,45,0.406,0.399,1,26-34,Middle ($60-80K),30-50% (Elevated),Moderate,Bronze
 778937583,Existing Customer,46,F,3,Uneducated,Married,Less than $40K,Blue,29,5,1,1,2228.0,1449,779.0,0.61,4382,83,0.694,0.65,0,45-54,Low (<$40K),>50% (High),Very High,Silver
 708498033,Attrited Customer,44,F,3,Unknown,Married,Less than $40K,Blue,36,3,4,6,2279.0,1837,442.0,0.853,2789,52,0.677,0.806,1,35-44,Low (<$40K),>50% (High),Moderate,Bronze
-815315058,Attrited Customer,48,F,4,High School,Married,$40K - $60K,Blue,43,4,2,2,1438.3,0,1438.3,0.722,2520,45,0.452,0.0,1,45-54,Lower-Middle ($40-60K),0% (Non-revolver),Low,Bronze
+815315058,Attrited Customer,48,F,4,High School,Married,$40K - $60K,Blue,43,4,2,2,1438.3,0,1438.3,0.722,2520,45,0.452,0.0,1,45-54,Lower-Middle ($40-60K),0% (Non-revolver),Moderate,Bronze
 751607058,Existing Customer,45,M,2,Doctorate,Married,$120K +,Blue,38,4,3,3,1686.0,0,1686.0,0.812,4413,77,0.75,0.0,0,45-54,High (>$120K),0% (Non-revolver),High,Silver
 718194858,Existing Customer,48,F,5,Graduate,Single,Unknown,Blue,35,5,2,3,1942.0,1488,454.0,0.816,4940,88,0.796,0.766,0,45-54,Not Declared,>50% (High),Very High,Silver
 827123883,Existing Customer,53,M,4,High School,Single,$60K - $80K,Blue,49,5,1,2,3858.0,0,3858.0,0.67,4472,92,0.614,0.0,0,45-54,Middle ($60-80K),0% (Non-revolver),Very High,Silver
 711473058,Existing Customer,44,M,4,Graduate,Divorced,$60K - $80K,Blue,32,6,3,2,11651.0,1368,10283.0,0.563,3870,64,0.561,0.117,0,35-44,Middle ($60-80K),10-30% (Moderate),Moderate,Platinum
 715197633,Existing Customer,43,M,3,Uneducated,Unknown,$40K - $60K,Blue,38,5,4,2,9449.0,1914,7535.0,0.87,4658,93,0.722,0.203,0,35-44,Lower-Middle ($40-60K),10-30% (Moderate),Very High,Platinum
-713512308,Attrited Customer,50,F,0,Graduate,Single,Less than $40K,Blue,41,2,3,1,3423.0,0,3423.0,0.505,2229,45,0.406,0.0,1,45-54,Low (<$40K),0% (Non-revolver),Low,Bronze
+713512308,Attrited Customer,50,F,0,Graduate,Single,Less than $40K,Blue,41,2,3,1,3423.0,0,3423.0,0.505,2229,45,0.406,0.0,1,45-54,Low (<$40K),0% (Non-revolver),Moderate,Bronze
 790023408,Existing Customer,47,F,3,Unknown,Single,Less than $40K,Blue,39,6,2,1,2915.0,2422,493.0,0.576,4037,83,0.766,0.831,0,45-54,Low (<$40K),>50% (High),Very High,Silver
 720403008,Existing Customer,50,F,3,Uneducated,Married,Unknown,Blue,38,4,4,1,11486.0,0,11486.0,0.383,4918,79,0.549,0.0,0,45-54,Not Declared,0% (Non-revolver),High,Platinum
 709581483,Attrited Customer,40,F,4,Doctorate,Married,Less than $40K,Blue,21,1,2,1,2984.0,2517,467.0,0.574,2373,53,0.359,0.843,1,35-44,Low (<$40K),>50% (High),Moderate,Bronze
@@ -7283,13 +7283,13 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 716581983,Existing Customer,56,F,0,College,Married,$40K - $60K,Blue,36,5,2,3,4384.0,929,3455.0,0.678,4792,91,0.75,0.212,0,55-64,Lower-Middle ($40-60K),10-30% (Moderate),Very High,Gold
 716930133,Existing Customer,43,F,3,High School,Unknown,Less than $40K,Blue,36,3,3,2,1824.0,0,1824.0,0.797,4594,86,0.654,0.0,0,35-44,Low (<$40K),0% (Non-revolver),Very High,Silver
 808981608,Existing Customer,50,F,2,Uneducated,Married,Less than $40K,Blue,45,4,1,0,5452.0,540,4912.0,0.539,4220,66,0.737,0.099,0,45-54,Low (<$40K),0-10% (Low),Moderate,Silver
-709714008,Attrited Customer,50,F,1,Unknown,Single,Unknown,Blue,39,6,3,3,9248.0,0,9248.0,0.613,2325,45,0.552,0.0,1,45-54,Not Declared,0% (Non-revolver),Low,Gold
+709714008,Attrited Customer,50,F,1,Unknown,Single,Unknown,Blue,39,6,3,3,9248.0,0,9248.0,0.613,2325,45,0.552,0.0,1,45-54,Not Declared,0% (Non-revolver),Moderate,Gold
 811942983,Existing Customer,55,M,2,High School,Married,$120K +,Blue,50,3,2,3,17627.0,1756,15871.0,0.757,4836,74,0.721,0.1,0,55-64,High (>$120K),0-10% (Low),High,Gold
 715565058,Existing Customer,27,F,1,Uneducated,Unknown,Less than $40K,Blue,16,3,1,2,1438.3,0,1438.3,0.469,4479,70,0.628,0.0,0,26-34,Low (<$40K),0% (Non-revolver),High,Silver
 714519408,Attrited Customer,44,F,3,College,Married,Less than $40K,Blue,36,2,3,3,5357.0,2139,3218.0,0.499,1979,48,0.655,0.399,1,35-44,Low (<$40K),30-50% (Elevated),Moderate,Bronze
 719153433,Existing Customer,49,F,4,Uneducated,Married,Unknown,Blue,38,4,2,1,2542.0,850,1692.0,0.723,4972,79,0.717,0.334,0,45-54,Not Declared,30-50% (Elevated),High,Silver
 809127858,Existing Customer,51,F,1,Post-Graduate,Single,$40K - $60K,Blue,46,4,1,3,2275.0,1219,1056.0,0.639,4807,72,0.6,0.536,0,45-54,Lower-Middle ($40-60K),>50% (High),High,Silver
-712740108,Attrited Customer,43,F,4,Uneducated,Divorced,Less than $40K,Blue,33,6,3,1,1706.0,0,1706.0,0.601,2371,45,0.5,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Low,Silver
+712740108,Attrited Customer,43,F,4,Uneducated,Divorced,Less than $40K,Blue,33,6,3,1,1706.0,0,1706.0,0.601,2371,45,0.5,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Moderate,Silver
 720251358,Attrited Customer,54,F,2,High School,Divorced,Less than $40K,Blue,36,6,3,1,3591.0,2517,1074.0,0.665,2313,43,0.536,0.701,1,45-54,Low (<$40K),>50% (High),Low,Silver
 713935533,Existing Customer,44,M,3,Graduate,Single,$40K - $60K,Silver,29,5,1,3,19360.0,870,18490.0,0.532,3966,78,0.902,0.045,0,35-44,Lower-Middle ($40-60K),0-10% (Low),High,Gold
 710243208,Existing Customer,56,F,4,Unknown,Married,Less than $40K,Blue,44,3,3,2,1707.0,0,1707.0,0.683,4846,80,0.569,0.0,0,55-64,Low (<$40K),0% (Non-revolver),High,Silver
@@ -7316,7 +7316,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 789698733,Existing Customer,40,F,4,Uneducated,Married,Less than $40K,Blue,27,5,3,1,4788.0,1088,3700.0,0.808,4438,78,0.95,0.227,0,35-44,Low (<$40K),10-30% (Moderate),High,Silver
 787514433,Existing Customer,34,F,3,College,Married,Less than $40K,Blue,23,3,3,3,2164.0,1176,988.0,0.835,5075,71,0.868,0.543,0,26-34,Low (<$40K),>50% (High),High,Silver
 811081083,Existing Customer,48,F,3,Uneducated,Single,Less than $40K,Blue,43,5,4,2,1532.0,1183,349.0,0.617,4359,78,0.857,0.772,0,45-54,Low (<$40K),>50% (High),High,Silver
-717371583,Attrited Customer,56,F,2,Uneducated,Single,Less than $40K,Blue,36,1,3,5,1883.0,400,1483.0,0.528,1954,45,0.5,0.212,1,55-64,Low (<$40K),10-30% (Moderate),Low,Bronze
+717371583,Attrited Customer,56,F,2,Uneducated,Single,Less than $40K,Blue,36,1,3,5,1883.0,400,1483.0,0.528,1954,45,0.5,0.212,1,55-64,Low (<$40K),10-30% (Moderate),Moderate,Bronze
 715579233,Existing Customer,44,F,3,Doctorate,Single,$40K - $60K,Blue,40,4,1,3,3659.0,1356,2303.0,0.715,4861,74,0.762,0.371,0,35-44,Lower-Middle ($40-60K),30-50% (Elevated),High,Gold
 781930233,Existing Customer,47,F,2,High School,Married,Less than $40K,Blue,37,6,1,1,2946.0,2338,608.0,0.58,4717,70,0.628,0.794,0,45-54,Low (<$40K),>50% (High),High,Gold
 716825808,Existing Customer,45,F,3,Uneducated,Divorced,Less than $40K,Blue,36,5,1,0,2697.0,2216,481.0,0.681,4063,75,0.786,0.822,0,45-54,Low (<$40K),>50% (High),High,Silver
@@ -7335,7 +7335,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 789637308,Attrited Customer,45,F,2,College,Divorced,$40K - $60K,Blue,39,4,3,4,3076.0,0,3076.0,0.734,2580,50,0.429,0.0,1,45-54,Lower-Middle ($40-60K),0% (Non-revolver),Moderate,Silver
 717247383,Existing Customer,48,M,4,Graduate,Single,$40K - $60K,Blue,36,5,2,3,7514.0,0,7514.0,0.514,4789,69,0.408,0.0,0,45-54,Lower-Middle ($40-60K),0% (Non-revolver),High,Gold
 714842208,Existing Customer,52,F,2,Graduate,Married,$40K - $60K,Blue,36,6,4,2,2804.0,1782,1022.0,0.698,4357,69,0.605,0.636,0,45-54,Lower-Middle ($40-60K),>50% (High),High,Silver
-794172033,Attrited Customer,58,F,1,Post-Graduate,Divorced,Less than $40K,Blue,52,4,1,3,1817.0,0,1817.0,0.503,2347,45,0.452,0.0,1,55-64,Low (<$40K),0% (Non-revolver),Low,Bronze
+794172033,Attrited Customer,58,F,1,Post-Graduate,Divorced,Less than $40K,Blue,52,4,1,3,1817.0,0,1817.0,0.503,2347,45,0.452,0.0,1,55-64,Low (<$40K),0% (Non-revolver),Moderate,Bronze
 713592408,Existing Customer,43,F,3,High School,Married,Less than $40K,Blue,28,3,3,2,2590.0,0,2590.0,0.63,3391,66,0.833,0.0,0,35-44,Low (<$40K),0% (Non-revolver),Moderate,Bronze
 709314408,Existing Customer,39,F,2,College,Single,$40K - $60K,Blue,29,5,3,1,4938.0,1593,3345.0,0.7,4516,82,0.783,0.323,0,35-44,Lower-Middle ($40-60K),30-50% (Elevated),Very High,Gold
 715957233,Existing Customer,53,M,3,College,Single,$60K - $80K,Blue,36,5,1,1,19940.0,2018,17922.0,0.42,4694,75,0.786,0.101,0,45-54,Middle ($60-80K),10-30% (Moderate),High,Platinum
@@ -7394,7 +7394,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 717836733,Existing Customer,49,F,1,Graduate,Married,Less than $40K,Blue,36,6,2,1,5153.0,1378,3775.0,0.744,4274,81,0.723,0.267,0,45-54,Low (<$40K),10-30% (Moderate),High,Gold
 712619808,Existing Customer,47,F,3,College,Single,Less than $40K,Blue,36,3,2,1,2500.0,1169,1331.0,0.638,4265,87,0.812,0.468,0,45-54,Low (<$40K),30-50% (Elevated),Very High,Bronze
 712221408,Existing Customer,42,M,4,Graduate,Single,$40K - $60K,Blue,33,5,3,2,2654.0,1489,1165.0,0.668,4767,82,0.673,0.561,0,35-44,Lower-Middle ($40-60K),>50% (High),Very High,Silver
-714213708,Attrited Customer,35,F,3,College,Single,Less than $40K,Blue,25,4,3,2,3611.0,2517,1094.0,0.537,2178,45,0.552,0.697,1,35-44,Low (<$40K),>50% (High),Low,Silver
+714213708,Attrited Customer,35,F,3,College,Single,Less than $40K,Blue,25,4,3,2,3611.0,2517,1094.0,0.537,2178,45,0.552,0.697,1,35-44,Low (<$40K),>50% (High),Moderate,Silver
 720289533,Existing Customer,47,F,4,Unknown,Married,Unknown,Blue,42,5,2,3,1882.0,1143,739.0,0.638,4536,85,0.889,0.607,0,45-54,Not Declared,>50% (High),Very High,Silver
 709469658,Existing Customer,47,M,3,Unknown,Single,$80K - $120K,Blue,36,3,1,2,7421.0,0,7421.0,0.708,4353,75,0.786,0.0,0,45-54,Upper-Middle ($80-120K),0% (Non-revolver),High,Silver
 772323033,Existing Customer,44,F,4,Graduate,Single,Less than $40K,Blue,33,3,2,2,4606.0,1556,3050.0,0.676,4363,78,0.66,0.338,0,35-44,Low (<$40K),30-50% (Elevated),High,Silver
@@ -7528,7 +7528,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 710897133,Existing Customer,51,F,3,Unknown,Unknown,Less than $40K,Blue,36,5,2,2,2267.0,1357,910.0,0.697,4464,85,0.735,0.599,0,45-54,Low (<$40K),>50% (High),Very High,Silver
 772813458,Existing Customer,48,F,3,Graduate,Married,Unknown,Blue,39,3,1,2,6130.0,1741,4389.0,0.578,4264,63,0.658,0.284,0,45-54,Not Declared,10-30% (Moderate),Moderate,Silver
 712998033,Attrited Customer,37,M,3,High School,Single,$120K +,Blue,36,3,2,2,7361.0,0,7361.0,0.59,2109,44,0.571,0.0,1,35-44,High (>$120K),0% (Non-revolver),Low,Bronze
-712843983,Attrited Customer,41,F,2,College,Divorced,Less than $40K,Blue,36,3,3,4,1569.0,257,1312.0,0.408,2288,45,0.667,0.164,1,35-44,Low (<$40K),10-30% (Moderate),Low,Bronze
+712843983,Attrited Customer,41,F,2,College,Divorced,Less than $40K,Blue,36,3,3,4,1569.0,257,1312.0,0.408,2288,45,0.667,0.164,1,35-44,Low (<$40K),10-30% (Moderate),Moderate,Bronze
 717947508,Existing Customer,47,M,3,Uneducated,Divorced,$80K - $120K,Blue,34,5,1,3,1626.0,1013,613.0,0.826,5262,83,0.729,0.623,0,45-54,Upper-Middle ($80-120K),>50% (High),Very High,Silver
 719279208,Existing Customer,35,F,1,Unknown,Married,Less than $40K,Blue,36,3,1,2,2158.0,1299,859.0,0.733,4946,73,0.973,0.602,0,35-44,Low (<$40K),>50% (High),High,Silver
 711365133,Existing Customer,43,M,1,Unknown,Single,$60K - $80K,Blue,31,4,3,1,2283.0,1470,813.0,0.935,5100,76,0.689,0.644,0,35-44,Middle ($60-80K),>50% (High),High,Silver
@@ -7612,7 +7612,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 717908208,Existing Customer,43,F,3,Graduate,Divorced,Less than $40K,Blue,36,6,1,2,2525.0,1595,930.0,0.78,4859,82,0.864,0.632,0,35-44,Low (<$40K),>50% (High),Very High,Gold
 826136283,Existing Customer,38,F,3,High School,Married,Less than $40K,Blue,34,3,3,2,2450.0,1981,469.0,0.712,4352,66,0.784,0.809,0,35-44,Low (<$40K),>50% (High),Moderate,Bronze
 778714833,Existing Customer,36,F,4,College,Married,Unknown,Blue,18,4,3,2,3926.0,1760,2166.0,0.874,4890,92,0.704,0.448,0,35-44,Not Declared,30-50% (Elevated),Very High,Gold
-779302233,Attrited Customer,40,F,4,Graduate,Single,Less than $40K,Blue,22,4,2,3,1438.3,0,1438.3,0.695,2502,45,0.452,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Low,Bronze
+779302233,Attrited Customer,40,F,4,Graduate,Single,Less than $40K,Blue,22,4,2,3,1438.3,0,1438.3,0.695,2502,45,0.452,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Moderate,Bronze
 778659108,Existing Customer,51,F,2,High School,Single,Unknown,Blue,31,6,2,1,4789.0,2203,2586.0,0.847,4718,81,0.976,0.46,0,45-54,Not Declared,30-50% (Elevated),High,Platinum
 720374808,Existing Customer,41,F,2,Unknown,Unknown,Less than $40K,Blue,34,6,3,3,2864.0,1928,936.0,0.769,4641,78,0.66,0.673,0,35-44,Low (<$40K),>50% (High),High,Gold
 719592483,Existing Customer,43,F,5,Graduate,Single,Unknown,Blue,34,6,6,3,4607.0,2440,2167.0,0.646,4825,77,0.878,0.53,0,35-44,Not Declared,>50% (High),High,Platinum
@@ -7666,12 +7666,12 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 712562433,Attrited Customer,48,F,2,Unknown,Married,Less than $40K,Blue,30,3,3,3,4204.0,0,4204.0,0.703,2316,43,0.536,0.0,1,45-54,Low (<$40K),0% (Non-revolver),Low,Bronze
 718186233,Existing Customer,34,F,3,Uneducated,Single,Less than $40K,Blue,26,4,2,3,3234.0,971,2263.0,0.79,3989,71,0.868,0.3,0,26-34,Low (<$40K),10-30% (Moderate),High,Silver
 713717283,Attrited Customer,40,F,3,Unknown,Single,$40K - $60K,Blue,29,3,3,3,2473.0,2332,141.0,0.293,1738,32,0.455,0.943,1,35-44,Lower-Middle ($40-60K),>50% (High),Low,Bronze
-713822208,Attrited Customer,42,M,2,High School,Single,$60K - $80K,Blue,33,3,3,3,4836.0,493,4343.0,0.417,1870,45,0.406,0.102,1,35-44,Middle ($60-80K),10-30% (Moderate),Low,Bronze
+713822208,Attrited Customer,42,M,2,High School,Single,$60K - $80K,Blue,33,3,3,3,4836.0,493,4343.0,0.417,1870,45,0.406,0.102,1,35-44,Middle ($60-80K),10-30% (Moderate),Moderate,Bronze
 710466633,Existing Customer,55,F,3,High School,Married,Less than $40K,Blue,44,5,1,1,1438.3,0,1438.3,0.575,4755,76,0.9,0.0,0,55-64,Low (<$40K),0% (Non-revolver),High,Silver
 711153783,Existing Customer,44,F,3,Uneducated,Single,Less than $40K,Blue,36,5,3,1,1438.3,541,897.3,0.821,4173,70,1.188,0.376,0,35-44,Low (<$40K),30-50% (Elevated),High,Silver
 718230933,Attrited Customer,45,M,4,Graduate,Single,Less than $40K,Blue,36,5,2,3,1438.3,1060,378.3,0.301,1253,29,0.318,0.737,1,45-54,Low (<$40K),>50% (High),Low,Bronze
 788885133,Existing Customer,57,F,3,College,Unknown,Less than $40K,Silver,42,6,1,1,12675.0,2422,10253.0,0.642,3912,63,0.575,0.191,0,55-64,Low (<$40K),10-30% (Moderate),Moderate,Platinum
-711637458,Attrited Customer,44,F,3,High School,Single,Less than $40K,Blue,36,2,3,3,2228.0,0,2228.0,0.686,2523,45,0.607,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Low,Bronze
+711637458,Attrited Customer,44,F,3,High School,Single,Less than $40K,Blue,36,2,3,3,2228.0,0,2228.0,0.686,2523,45,0.607,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Moderate,Bronze
 719532108,Existing Customer,40,F,5,High School,Married,Less than $40K,Blue,31,4,2,2,2813.0,2208,605.0,0.877,4491,68,0.744,0.785,0,35-44,Low (<$40K),>50% (High),High,Silver
 757643733,Existing Customer,42,F,2,Post-Graduate,Single,Less than $40K,Blue,35,6,3,2,3223.0,0,3223.0,0.593,4916,79,0.717,0.0,0,35-44,Low (<$40K),0% (Non-revolver),High,Platinum
 715122858,Existing Customer,55,F,2,Graduate,Married,$40K - $60K,Blue,36,5,3,3,2653.0,0,2653.0,0.969,5052,81,0.761,0.0,0,55-64,Lower-Middle ($40-60K),0% (Non-revolver),High,Silver
@@ -7682,7 +7682,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 713180433,Existing Customer,56,F,2,Graduate,Single,Unknown,Blue,48,5,3,2,3934.0,2517,1417.0,0.682,4837,87,0.673,0.64,0,55-64,Not Declared,>50% (High),Very High,Gold
 787458783,Existing Customer,49,F,4,High School,Married,Less than $40K,Blue,35,5,3,2,3038.0,2133,905.0,0.689,4784,83,0.694,0.702,0,45-54,Low (<$40K),>50% (High),Very High,Gold
 720315933,Existing Customer,53,F,1,Uneducated,Single,Less than $40K,Blue,39,3,2,3,1982.0,1276,706.0,0.897,5136,76,0.949,0.644,0,45-54,Low (<$40K),>50% (High),High,Silver
-713677158,Attrited Customer,31,F,1,Graduate,Divorced,Unknown,Blue,22,2,2,3,1623.0,0,1623.0,0.501,2126,45,0.364,0.0,1,26-34,Not Declared,0% (Non-revolver),Low,Bronze
+713677158,Attrited Customer,31,F,1,Graduate,Divorced,Unknown,Blue,22,2,2,3,1623.0,0,1623.0,0.501,2126,45,0.364,0.0,1,26-34,Not Declared,0% (Non-revolver),Moderate,Bronze
 739828308,Existing Customer,55,M,3,Uneducated,Single,$120K +,Blue,48,5,2,2,3088.0,1743,1345.0,0.766,3906,68,0.659,0.564,0,55-64,High (>$120K),>50% (High),High,Silver
 720959058,Existing Customer,44,F,3,Unknown,Single,Unknown,Blue,33,5,3,1,8064.0,2417,5647.0,0.644,4412,67,0.861,0.3,0,35-44,Not Declared,10-30% (Moderate),Moderate,Silver
 718090233,Attrited Customer,56,F,3,Graduate,Single,Unknown,Blue,36,3,3,3,10016.0,1872,8144.0,0.735,2804,37,0.542,0.187,1,55-64,Not Declared,10-30% (Moderate),Low,Silver
@@ -7961,7 +7961,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 771907158,Existing Customer,54,M,5,Unknown,Married,$120K +,Blue,42,1,1,3,3731.0,1903,1828.0,0.915,4667,88,0.725,0.51,0,45-54,High (>$120K),>50% (High),Very High,Silver
 815789883,Existing Customer,46,F,3,College,Single,Less than $40K,Blue,41,1,3,2,2485.0,861,1624.0,0.566,4728,81,0.761,0.346,0,45-54,Low (<$40K),30-50% (Elevated),High,Silver
 712177908,Existing Customer,50,F,4,College,Single,Less than $40K,Blue,36,1,3,1,2446.0,1763,683.0,0.598,4310,75,0.875,0.721,0,45-54,Low (<$40K),>50% (High),High,Bronze
-711234783,Attrited Customer,44,F,4,Unknown,Married,Less than $40K,Blue,28,5,2,3,2020.0,0,2020.0,0.716,2621,45,0.552,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Low,Silver
+711234783,Attrited Customer,44,F,4,Unknown,Married,Less than $40K,Blue,28,5,2,3,2020.0,0,2020.0,0.716,2621,45,0.552,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Moderate,Silver
 793379058,Existing Customer,48,F,3,Graduate,Single,Less than $40K,Blue,42,2,2,1,2214.0,1025,1189.0,0.567,5084,82,0.745,0.463,0,45-54,Low (<$40K),30-50% (Elevated),Very High,Silver
 720480183,Existing Customer,45,F,3,Unknown,Divorced,Less than $40K,Blue,34,1,2,1,1811.0,787,1024.0,0.585,4882,80,1.162,0.435,0,45-54,Low (<$40K),30-50% (Elevated),High,Silver
 712974558,Existing Customer,56,F,2,College,Single,Less than $40K,Blue,43,1,3,1,5254.0,0,5254.0,0.651,4546,89,0.712,0.0,0,55-64,Low (<$40K),0% (Non-revolver),Very High,Silver
@@ -8180,7 +8180,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 711333933,Existing Customer,56,F,3,Post-Graduate,Single,$40K - $60K,Blue,36,2,1,1,3005.0,1660,1345.0,0.88,4586,72,0.756,0.552,0,55-64,Lower-Middle ($40-60K),>50% (High),High,Silver
 710797833,Existing Customer,50,F,5,Graduate,Married,Less than $40K,Blue,30,1,3,2,2033.0,841,1192.0,0.717,4360,95,0.696,0.414,0,45-54,Low (<$40K),30-50% (Elevated),Very High,Bronze
 720154533,Existing Customer,53,F,4,Graduate,Unknown,Less than $40K,Blue,39,2,3,2,2415.0,1643,772.0,0.964,5063,78,0.733,0.68,0,45-54,Low (<$40K),>50% (High),High,Silver
-719123958,Attrited Customer,40,M,4,Unknown,Divorced,$60K - $80K,Blue,27,2,2,3,5051.0,0,5051.0,0.588,2137,45,0.552,0.0,1,35-44,Middle ($60-80K),0% (Non-revolver),Low,Bronze
+719123958,Attrited Customer,40,M,4,Unknown,Divorced,$60K - $80K,Blue,27,2,2,3,5051.0,0,5051.0,0.588,2137,45,0.552,0.0,1,35-44,Middle ($60-80K),0% (Non-revolver),Moderate,Bronze
 780942633,Existing Customer,49,M,4,High School,Married,Unknown,Blue,32,2,1,3,3519.0,1336,2183.0,0.506,3552,68,0.619,0.38,0,45-54,Not Declared,30-50% (Elevated),High,Silver
 720034983,Existing Customer,26,M,0,Unknown,Unknown,Less than $40K,Silver,13,2,1,1,10254.0,0,10254.0,0.51,4258,68,0.838,0.0,0,26-34,Low (<$40K),0% (Non-revolver),High,Silver
 717307158,Existing Customer,48,F,3,Unknown,Single,Less than $40K,Blue,36,2,1,3,1853.0,1314,539.0,0.925,5331,79,0.612,0.709,0,45-54,Low (<$40K),>50% (High),High,Silver
@@ -8199,7 +8199,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 778853358,Existing Customer,59,F,0,College,Single,Less than $40K,Blue,40,1,3,3,3297.0,0,3297.0,0.861,4783,91,0.685,0.0,0,55-64,Low (<$40K),0% (Non-revolver),Very High,Silver
 716512383,Existing Customer,39,F,2,High School,Married,Less than $40K,Blue,36,1,3,1,2816.0,2517,299.0,0.742,4817,87,0.776,0.894,0,35-44,Low (<$40K),>50% (High),Very High,Silver
 823548858,Attrited Customer,53,F,4,Graduate,Married,Unknown,Blue,49,5,5,4,10533.0,330,10203.0,0.823,2585,48,0.714,0.031,1,45-54,Not Declared,0-10% (Low),Moderate,Gold
-712144158,Attrited Customer,53,F,1,Graduate,Single,Less than $40K,Blue,48,6,6,3,2370.0,1166,1204.0,0.562,2164,45,0.607,0.492,1,45-54,Low (<$40K),30-50% (Elevated),Low,Silver
+712144158,Attrited Customer,53,F,1,Graduate,Single,Less than $40K,Blue,48,6,6,3,2370.0,1166,1204.0,0.562,2164,45,0.607,0.492,1,45-54,Low (<$40K),30-50% (Elevated),Moderate,Silver
 824560758,Attrited Customer,35,F,3,Graduate,Single,Less than $40K,Blue,31,1,3,4,1678.0,0,1678.0,0.676,2475,61,0.694,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Moderate,Bronze
 757710783,Attrited Customer,36,F,1,Graduate,Married,Less than $40K,Blue,29,4,2,3,1493.0,0,1493.0,0.721,2516,63,0.575,0.0,1,35-44,Low (<$40K),0% (Non-revolver),Moderate,Bronze
 713081583,Existing Customer,51,F,4,Unknown,Married,Less than $40K,Blue,32,2,2,3,2350.0,1272,1078.0,0.873,4647,86,0.911,0.541,0,45-54,Low (<$40K),>50% (High),Very High,Silver
@@ -8296,7 +8296,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 772271508,Attrited Customer,46,F,3,Uneducated,Single,Unknown,Blue,35,2,3,3,1706.0,0,1706.0,0.726,2320,42,0.448,0.0,1,45-54,Not Declared,0% (Non-revolver),Low,Bronze
 716366208,Existing Customer,45,F,2,Uneducated,Married,Unknown,Blue,36,2,1,3,8103.0,0,8103.0,0.986,5221,82,0.673,0.0,0,45-54,Not Declared,0% (Non-revolver),Very High,Gold
 710971908,Existing Customer,43,M,1,High School,Married,$60K - $80K,Blue,31,2,3,3,3764.0,1780,1984.0,0.79,4898,80,0.667,0.473,0,35-44,Middle ($60-80K),30-50% (Elevated),High,Silver
-711412533,Attrited Customer,40,F,3,High School,Single,Less than $40K,Blue,35,6,3,5,5492.0,1573,3919.0,0.636,2416,45,0.667,0.286,1,35-44,Low (<$40K),10-30% (Moderate),Low,Silver
+711412533,Attrited Customer,40,F,3,High School,Single,Less than $40K,Blue,35,6,3,5,5492.0,1573,3919.0,0.636,2416,45,0.667,0.286,1,35-44,Low (<$40K),10-30% (Moderate),Moderate,Silver
 720593583,Existing Customer,39,F,2,Doctorate,Divorced,Less than $40K,Blue,32,1,2,2,3554.0,747,2807.0,0.621,5152,90,0.765,0.21,0,35-44,Low (<$40K),10-30% (Moderate),Very High,Silver
 720165258,Existing Customer,44,F,2,High School,Unknown,Less than $40K,Blue,29,2,3,1,3170.0,2330,840.0,0.858,5357,91,0.978,0.735,0,35-44,Low (<$40K),>50% (High),Very High,Silver
 716147658,Existing Customer,49,F,2,Uneducated,Single,Unknown,Blue,40,2,3,1,2464.0,1601,863.0,0.649,4739,86,0.792,0.65,0,45-54,Not Declared,>50% (High),Very High,Silver
@@ -8463,7 +8463,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 715980258,Existing Customer,36,F,1,Doctorate,Single,Less than $40K,Blue,25,1,2,3,2835.0,2511,324.0,0.731,4811,77,0.925,0.886,0,35-44,Low (<$40K),>50% (High),High,Silver
 788715483,Existing Customer,44,F,5,Graduate,Single,Less than $40K,Blue,28,2,2,2,1558.0,879,679.0,0.874,4805,86,0.792,0.564,0,35-44,Low (<$40K),>50% (High),Very High,Silver
 809276808,Existing Customer,47,M,4,Graduate,Single,$80K - $120K,Blue,42,1,1,3,7299.0,0,7299.0,0.806,4678,83,0.729,0.0,0,45-54,Upper-Middle ($80-120K),0% (Non-revolver),Very High,Silver
-708885558,Attrited Customer,56,F,1,High School,Single,Less than $40K,Blue,48,1,5,2,3556.0,0,3556.0,0.596,2220,45,0.731,0.0,1,55-64,Low (<$40K),0% (Non-revolver),Low,Bronze
+708885558,Attrited Customer,56,F,1,High School,Single,Less than $40K,Blue,48,1,5,2,3556.0,0,3556.0,0.596,2220,45,0.731,0.0,1,55-64,Low (<$40K),0% (Non-revolver),Moderate,Bronze
 789373683,Existing Customer,45,F,3,Graduate,Married,Less than $40K,Blue,35,1,2,2,1438.3,834,604.3,0.635,4976,70,0.842,0.58,0,45-54,Low (<$40K),>50% (High),High,Silver
 714216858,Existing Customer,35,F,2,Unknown,Single,Unknown,Blue,36,2,1,2,1507.0,0,1507.0,0.81,4679,85,0.771,0.0,0,35-44,Not Declared,0% (Non-revolver),Very High,Silver
 719150658,Attrited Customer,51,F,2,Graduate,Married,Unknown,Blue,34,2,3,2,7551.0,0,7551.0,0.894,2977,46,0.394,0.0,1,45-54,Not Declared,0% (Non-revolver),Moderate,Silver
@@ -8501,7 +8501,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 779401233,Existing Customer,47,F,4,Uneducated,Single,$40K - $60K,Blue,36,1,1,0,1438.3,0,1438.3,0.61,5216,78,0.66,0.0,0,45-54,Lower-Middle ($40-60K),0% (Non-revolver),High,Silver
 784994883,Existing Customer,26,F,0,Unknown,Married,Less than $40K,Blue,20,2,2,2,2516.0,2378,138.0,1.033,4746,75,0.875,0.945,0,26-34,Low (<$40K),>50% (High),High,Silver
 721080183,Existing Customer,33,F,1,Graduate,Single,$40K - $60K,Blue,20,2,2,3,4883.0,0,4883.0,0.724,4613,82,1.0,0.0,0,26-34,Lower-Middle ($40-60K),0% (Non-revolver),Very High,Silver
-712572858,Existing Customer,38,M,3,High School,Single,$80K - $120K,Blue,29,2,1,3,3413.0,1801,1612.0,0.88,3831,45,0.667,0.528,0,35-44,Upper-Middle ($80-120K),>50% (High),Low,Silver
+712572858,Existing Customer,38,M,3,High School,Single,$80K - $120K,Blue,29,2,1,3,3413.0,1801,1612.0,0.88,3831,45,0.667,0.528,0,35-44,Upper-Middle ($80-120K),>50% (High),Moderate,Silver
 719759733,Attrited Customer,59,F,0,Unknown,Single,$40K - $60K,Blue,52,2,4,3,1852.0,0,1852.0,0.902,2851,49,0.75,0.0,1,55-64,Lower-Middle ($40-60K),0% (Non-revolver),Moderate,Bronze
 780371433,Existing Customer,35,F,2,Graduate,Married,Unknown,Blue,25,2,3,3,3339.0,2014,1325.0,0.688,4725,83,0.694,0.603,0,35-44,Not Declared,>50% (High),Very High,Silver
 822170733,Attrited Customer,45,F,4,College,Single,Less than $40K,Blue,41,6,3,2,3785.0,2517,1268.0,0.574,2401,54,0.742,0.665,1,45-54,Low (<$40K),>50% (High),Moderate,Silver
@@ -8512,7 +8512,7 @@ CLIENTNUM,Attrition_Flag,Customer_Age,Gender,Dependent_count,Education_Level,Mar
 823629333,Existing Customer,42,M,4,Uneducated,Married,$40K - $60K,Blue,38,1,4,1,2444.0,0,2444.0,0.788,4220,50,1.174,0.0,0,35-44,Lower-Middle ($40-60K),0% (Non-revolver),Moderate,Bronze
 712961658,Existing Customer,45,F,4,Uneducated,Married,Less than $40K,Blue,32,1,1,1,3335.0,2238,1097.0,0.644,5321,78,0.95,0.671,0,45-54,Low (<$40K),>50% (High),High,Silver
 710464683,Existing Customer,45,F,3,Post-Graduate,Married,Less than $40K,Blue,32,2,3,2,2726.0,2127,599.0,0.814,5578,89,0.854,0.78,0,45-54,Low (<$40K),>50% (High),Very High,Silver
-716688183,Attrited Customer,51,F,1,High School,Married,Less than $40K,Blue,43,4,3,3,1665.0,1521,144.0,0.874,2878,45,0.452,0.914,1,45-54,Low (<$40K),>50% (High),Low,Silver
+716688183,Attrited Customer,51,F,1,High School,Married,Less than $40K,Blue,43,4,3,3,1665.0,1521,144.0,0.874,2878,45,0.452,0.914,1,45-54,Low (<$40K),>50% (High),Moderate,Silver
 789082758,Existing Customer,40,F,2,High School,Married,Less than $40K,Blue,28,1,3,3,2734.0,1661,1073.0,0.726,4981,90,0.698,0.608,0,35-44,Low (<$40K),>50% (High),Very High,Silver
 709140858,Existing Customer,57,F,2,College,Single,Less than $40K,Blue,47,1,3,1,1727.0,996,731.0,0.767,5112,82,0.673,0.577,0,55-64,Low (<$40K),>50% (High),Very High,Silver
 822127008,Existing Customer,50,F,1,Post-Graduate,Married,Unknown,Blue,46,2,2,1,19349.0,615,18734.0,0.708,4351,79,0.717,0.032,0,45-54,Not Declared,0-10% (Low),High,Silver

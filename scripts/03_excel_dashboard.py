@@ -509,10 +509,10 @@ derived = [
     ("Age_Band", "26-34 / 35-44 / 45-54 / 55-64 / 65+ bands from Customer_Age"),
     ("Income_Segment", "Ordinal segments from Income_Category; 'Unknown' mapped to 'Not Declared'"),
     ("Utilisation_Band", "0% (Non-revolver) / 0-10% / 10-30% / 30-50% / >50% from Avg_Utilization_Ratio"),
-    ("Transaction_Frequency", "Quartiles of Total_Trans_Ct: Low (<45) / Moderate (45-67) / High (67-81) / Very High (>81)"),
+    ("Transaction_Frequency", "Low (<45) / Moderate (45-67) / High (68-81) / Very High (>81) — aligned with risk rules"),
     ("Customer_Value_Class", "Composite tercile score of Total_Trans_Amt + Credit_Limit + products: Bronze / Silver / Gold / Platinum"),
-    ("Risk_Score (0-12)", "6 rules x 0-2 points: dormancy, inactivity, txn volume, momentum, product depth, contacts"),
-    ("Churn_Risk_Band", "Low (<=4) / Medium (5-7) / High (>=8) from Risk_Score"),
+    ("Risk_Score (0-12)", "Historical retention-priority score: 6 rules x 0-2 points (dormancy, inactivity, txn, momentum, products, contacts)"),
+    ("Churn_Risk_Band", "Low (<=4) / Medium (5-7) / High (>=8) — retrospective priority bands, not live prediction"),
 ]
 rr = r2 + 1
 for j, hd in enumerate(["Field", "Definition / rule"]):

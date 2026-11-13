@@ -11,7 +11,15 @@ import numpy as np
 import pandas as pd
 from scipy import stats
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, classification_report, roc_auc_score
+from sklearn.metrics import (
+    accuracy_score,
+    classification_report,
+    confusion_matrix,
+    f1_score,
+    precision_score,
+    recall_score,
+    roc_auc_score,
+)
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
@@ -240,12 +248,24 @@ X_tr, X_te, y_tr, y_te = train_test_split(X, y, test_size=0.30, stratify=y, rand
 scaler = StandardScaler().fit(X_tr)
 model = LogisticRegression(max_iter=1000, random_state=42).fit(scaler.transform(X_tr), y_tr)
 proba = model.predict_proba(scaler.transform(X_te))[:, 1]
+y_pred = (proba >= 0.5).astype(int)
 auc = roc_auc_score(y_te, proba)
-acc = accuracy_score(y_te, (proba >= 0.5).astype(int))
+acc = accuracy_score(y_te, y_pred)
+# Attrited class (=1) metrics — accuracy alone is weak under class imbalance
+prec = precision_score(y_te, y_pred, pos_label=1, zero_division=0)
+rec = recall_score(y_te, y_pred, pos_label=1, zero_division=0)
+f1 = f1_score(y_te, y_pred, pos_label=1, zero_division=0)
+cm = confusion_matrix(y_te, y_pred, labels=[0, 1])
+tn, fp, fn, tp = (int(x) for x in cm.ravel())
 coefs = pd.Series(model.coef_[0], index=feat)
 odds = np.exp(coefs)
-print("\n=== Logistic regression (30% holdout) ===")
+print("\n=== Logistic regression (30% stratified holdout — internal validation only) ===")
 print(f"AUC={auc:.3f}  accuracy={acc:.3f}")
+print(f"Attrited class: precision={prec:.3f}  recall={rec:.3f}  F1={f1:.3f}")
+print("Confusion matrix [rows=actual Existing/Attrited; cols=pred Existing/Attrited]:")
+print(f"  TN={tn}  FP={fp}")
+print(f"  FN={fn}  TP={tp}")
+print(classification_report(y_te, y_pred, target_names=["Existing", "Attrited"], digits=3))
 print("Standardised coefficients (odds ratios):")
 for f in coefs.abs().sort_values(ascending=False).index:
     print(f"  {f:26s} beta={coefs[f]:+.3f}  OR={odds[f]:.2f}")
@@ -257,6 +277,18 @@ model_out = {
     "features": feat,
     "auc": round(float(auc), 3),
     "accuracy": round(float(acc), 3),
+    "precision_attrited": round(float(prec), 3),
+    "recall_attrited": round(float(rec), 3),
+    "f1_attrited": round(float(f1), 3),
+    "confusion_matrix": {
+        "labels": ["Existing(0)", "Attrited(1)"],
+        "tn": tn, "fp": fp, "fn": fn, "tp": tp,
+    },
+    "note": (
+        "Internal random holdout only; not evidence of live future performance "
+        "in a Nigerian bank. Rule-based bands are a historical retention-priority "
+        "score evaluated retrospectively on the same snapshot."
+    ),
     "coefficients": {f: round(float(c), 3) for f, c in coefs.items()},
     "odds_ratios": {f: round(float(o), 2) for f, o in odds.items()},
     "train_n": int(len(y_tr)),

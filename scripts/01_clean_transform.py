@@ -115,13 +115,27 @@ def util_band(r):
 
 df["Utilisation_Band"] = df["Avg_Utilization_Ratio"].apply(util_band)
 
+# Align with risk rules and report narrative: Low = under 45 (<45),
+# Moderate = 45-67 inclusive, High = 68-81, Very High = above 81.
+# (Quartile reference points Q1/Q2/Q3 ≈ 45/67/81 on this dataset.)
 q1, q2, q3 = df["Total_Trans_Ct"].quantile([0.25, 0.5, 0.75])
-df["Transaction_Frequency"] = pd.cut(
-    df["Total_Trans_Ct"],
-    bins=[0, q1, q2, q3, 1000],
-    labels=["Low", "Moderate", "High", "Very High"],
+
+
+def txn_freq(ct):
+    if ct < 45:
+        return "Low"
+    if ct <= 67:
+        return "Moderate"
+    if ct <= 81:
+        return "High"
+    return "Very High"
+
+
+df["Transaction_Frequency"] = df["Total_Trans_Ct"].apply(txn_freq)
+print(
+    f"[DERIVE] transaction bands: Low<45, Moderate 45-67, High 68-81, Very High>81 "
+    f"(quartile refs Q1={q1:.0f}, Q2={q2:.0f}, Q3={q3:.0f})"
 )
-print(f"[DERIVE] transaction quartile cut points: Q1={q1:.0f}, Q2={q2:.0f}, Q3={q3:.0f}")
 
 
 def tercile(s):
