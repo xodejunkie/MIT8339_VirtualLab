@@ -1,4 +1,4 @@
-"""Shared project paths — all scripts resolve relative to the codebase root."""
+"""Shared project paths. Every script finds its files relative to the project root."""
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]

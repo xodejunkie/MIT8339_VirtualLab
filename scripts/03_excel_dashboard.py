@@ -2,7 +2,7 @@
 """
 MIT 8339 Virtual Lab - Task 4: Two-page Excel BI Dashboard
 Page 1: Executive Overview   Page 2: Customer Retention Analysis
-Self-contained openpyxl build (no external skills/xlsx dependency).
+Built with openpyxl; colours, fonts and chart helpers come from xlsx_style.py.
 """
 import sys
 from pathlib import Path
@@ -464,9 +464,7 @@ money_cols = {
 for j, cn in enumerate(cols):
     col_letter = get_column_letter(2 + j)
     if cn in money_cols:
-        for r_idx in range(5, 5 + min(N, 50)):  # format sample for template; Excel inherits on open
-            pass
-        # Apply number format to whole column range via first data cell pattern
+        # Number formats are set on the first data row only
         for r_idx in (5,):
             cell = dsh.cell(row=r_idx, column=2 + j)
             cell.number_format = "#,##0" if cn == "Total_Trans_Amt" else "#,##0.00"
@@ -509,10 +507,10 @@ derived = [
     ("Age_Band", "26-34 / 35-44 / 45-54 / 55-64 / 65+ bands from Customer_Age"),
     ("Income_Segment", "Ordinal segments from Income_Category; 'Unknown' mapped to 'Not Declared'"),
     ("Utilisation_Band", "0% (Non-revolver) / 0-10% / 10-30% / 30-50% / >50% from Avg_Utilization_Ratio"),
-    ("Transaction_Frequency", "Low (<45) / Moderate (45-67) / High (68-81) / Very High (>81) — aligned with risk rules"),
+    ("Transaction_Frequency", "Low (<45) / Moderate (45-67) / High (68-81) / Very High (>81); same cut-offs as risk rule R3"),
     ("Customer_Value_Class", "Composite tercile score of Total_Trans_Amt + Credit_Limit + products: Bronze / Silver / Gold / Platinum"),
     ("Risk_Score (0-12)", "Historical retention-priority score: 6 rules x 0-2 points (dormancy, inactivity, txn, momentum, products, contacts)"),
-    ("Churn_Risk_Band", "Low (<=4) / Medium (5-7) / High (>=8) — retrospective priority bands, not live prediction"),
+    ("Churn_Risk_Band", "Low (<=4) / Medium (5-7) / High (>=8); historical priority bands, not a forecast"),
 ]
 rr = r2 + 1
 for j, hd in enumerate(["Field", "Definition / rule"]):

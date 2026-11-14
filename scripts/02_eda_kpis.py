@@ -51,7 +51,7 @@ def attrition_table(group_col, order=None):
 
 
 # ------------------------------------------------------------ 1. KPIs
-# Engaged = High + Very High transaction-frequency bands (aligned with report / dashboard)
+# Engaged = customers in the High or Very High transaction-frequency band
 engaged_mask = df["Transaction_Frequency"].isin(["High", "Very High"])
 engaged_ratio = float(engaged_mask.mean())
 dormant_ratio = float((df["Avg_Utilization_Ratio"] == 0).mean())
@@ -251,7 +251,7 @@ proba = model.predict_proba(scaler.transform(X_te))[:, 1]
 y_pred = (proba >= 0.5).astype(int)
 auc = roc_auc_score(y_te, proba)
 acc = accuracy_score(y_te, y_pred)
-# Attrited class (=1) metrics — accuracy alone is weak under class imbalance
+# Metrics for the attrited class (1). Only about 16% of customers leave, so accuracy alone misleads.
 prec = precision_score(y_te, y_pred, pos_label=1, zero_division=0)
 rec = recall_score(y_te, y_pred, pos_label=1, zero_division=0)
 f1 = f1_score(y_te, y_pred, pos_label=1, zero_division=0)
@@ -259,7 +259,7 @@ cm = confusion_matrix(y_te, y_pred, labels=[0, 1])
 tn, fp, fn, tp = (int(x) for x in cm.ravel())
 coefs = pd.Series(model.coef_[0], index=feat)
 odds = np.exp(coefs)
-print("\n=== Logistic regression (30% stratified holdout — internal validation only) ===")
+print("\n=== Logistic regression (30% stratified holdout, internal validation only) ===")
 print(f"AUC={auc:.3f}  accuracy={acc:.3f}")
 print(f"Attrited class: precision={prec:.3f}  recall={rec:.3f}  F1={f1:.3f}")
 print("Confusion matrix [rows=actual Existing/Attrited; cols=pred Existing/Attrited]:")

@@ -1,11 +1,11 @@
-"""Self-contained Excel styling helpers (replaces missing skills/xlsx base module)."""
+"""Excel styling helpers (colours, fonts, borders, chart setup) used by 03_excel_dashboard.py."""
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.chart import BarChart, LineChart, Reference
 from openpyxl.chart.label import DataLabelList
 from openpyxl.chart.series import DataPoint
 from openpyxl.utils import get_column_letter
 
-# Corporate blue palette
+# Blue palette
 PRIMARY = "1B2A4A"
 SECONDARY = "2E5A88"
 ACCENT_POSITIVE = "2E8B57"

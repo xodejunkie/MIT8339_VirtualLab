@@ -115,9 +115,9 @@ def util_band(r):
 
 df["Utilisation_Band"] = df["Avg_Utilization_Ratio"].apply(util_band)
 
-# Align with risk rules and report narrative: Low = under 45 (<45),
-# Moderate = 45-67 inclusive, High = 68-81, Very High = above 81.
-# (Quartile reference points Q1/Q2/Q3 ≈ 45/67/81 on this dataset.)
+# Activity bands share the cut-offs used by risk rule R3: Low under 45,
+# Moderate 45-67, High 68-81, Very High above 81. On this dataset 45, 67 and 81
+# are also the quartiles of Total_Trans_Ct.
 q1, q2, q3 = df["Total_Trans_Ct"].quantile([0.25, 0.5, 0.75])
 
 
